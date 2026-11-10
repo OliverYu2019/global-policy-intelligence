@@ -92,11 +92,14 @@ jobs:
         run: cp data.json data.before.json 2>/dev/null || echo '{"items":[]}' > data.before.json
 
       - name: Collect and analyse
-        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.send_test_email == true) }}
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          MAX_NEW_PER_SOURCE: "1"
+          MAX_ANALYSIS_PER_RUN: "1"
+          MAX_AGE_DAYS: "30"
+          FORCE_REANALYZE: "false"
         run: python collector.py
 
       - name: Detect new important items
