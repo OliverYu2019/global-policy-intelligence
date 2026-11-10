@@ -1,8 +1,406 @@
 {
- "generatedAt": "2026-11-10T05:45:43.235233+00:00",
- "count": 9,
- "errors": [],
+ "generatedAt": "2026-11-10T06:02:00.476566+00:00",
+ "count": 72,
+ "errors": [
+  {
+   "source": "香港会计师公会",
+   "error": "文章读取失败 https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regula: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded wi"
+  },
+  {
+   "source": "欧盟委员会气候行动总司",
+   "error": "文章读取失败 https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/pr"
+  },
+  {
+   "source": "欧盟委员会气候行动总司",
+   "error": "文章读取失败 https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publi: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/pr"
+  },
+  {
+   "source": "欧盟理事会",
+   "error": "403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/"
+  },
+  {
+   "source": "美国司法部反垄断司",
+   "error": "403 Client Error: Forbidden for url: https://www.justice.gov/atr/press-room"
+  },
+  {
+   "source": "美国联邦贸易委员会",
+   "error": "404 Client Error: Not Found for url: https://www.ftc.gov/news-events/news/press-releases"
+  },
+  {
+   "source": "PwC中国",
+   "error": "403 Client Error: Forbidden for url: https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-"
+  }
+ ],
  "items": [
+  {
+   "id": "1508520f8e672113",
+   "title": "Commissioner Roswall discusses action plan to digitalise European water sector",
+   "datePublished": "2026-11-09",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "征求意见/提案",
+   "impactLevel": "高",
+   "originalUrl": "https://environment.ec.europa.eu/news/commissioner-roswall-discusses-action-plan-digitalise-european-water-sector-2026-11-09_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Jessika Roswall, Commissioner for Environment, Water Resilience and a Competitive Circular Economy, will host a stakehol",
+   "keyPoints": [
+    "” The EU water sector already generates EUR 111.",
+    "7 billion in value added and supports 1.",
+    "6 million jobs, yet the water sector lags behind other public services in digitalisation.",
+    "EUR 140 billion has been spent under the Recovery and Resilience Facility on digitalisation."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项征求意见/提案，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "842fef49cadbc9fc",
+   "title": "Kiara Worth | UN Climate Change 09 Nov 2026 \"Health belongs at the heart of climate action\" UN Climate Chief at COP31 health day ministerial UN Climate Speech",
+   "datePublished": "2026-11-09",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "水",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/health-belongs-at-the-heart-of-climate-action-un-climate-chief-at-cop31-health-day-ministerial",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The following is a transcript of remarks delivered by UN Climate Change Executive Secretary Simon Stiell during the Heal",
+   "keyPoints": [
+    "We must drive the transition away from fossil fuels, fast and fairly, tripling renewables and doubling energy efficiency."
+   ],
+   "professionalAnalysis": "水环境政策的约束手段主要包括排污许可、总量控制、流域专项整治、环评审批以及数字化/非现场执法。流域性方案往往先以行动方案形式出台，再通过地方实施细则、排放标准和执法检查落地，对沿河沿江重点行业形成持续合规压力。",
+   "plainLanguage": "简单说：这是全球在“水”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "对港股公司的影响主要体现在：生产基地位于重点流域的化工、制药、造纸、纺织、食品及港口企业，可能面临提标改造资本开支、限产整改或处罚；公用事业（水务、污水处理）则可能受益于投资需求增加。财务上需关注环境整治准备金/预计负债确认、或有负债披露及相关资产减值迹象。",
+   "industries": [
+    "化工",
+    "制药",
+    "造纸",
+    "纺织印染",
+    "食品饮料",
+    "水务公用事业",
+    "港口物流"
+   ],
+   "actions": [
+    "盘点位于重点流域的生产基地及排污许可证状况",
+    "评估提标改造资本开支和工期",
+    "检查在线监测数据质量（非现场执法依据）",
+    "评估是否需要确认环境整治相关预计负债"
+   ],
+   "watchItems": [
+    "地方实施方案与排放标准",
+    "专项执法检查通报",
+    "生态环境损害赔偿案例"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "cf7b8c48361ad9ab",
+   "title": "lefteye81 | Pixabay 09 Nov 2026 Yearbook of Global Climate Action 2026 provides new evidence that climate action is delivering results and driving implementation Article",
+   "datePublished": "2026-11-09",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/yearbook-of-global-climate-action-2026-provides-new-evidence-that-climate-action-is-delivering",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "UN Climate Change News, 9 November 2026 – Climate action by cities, regions, businesses and civil society continues to d",
+   "keyPoints": [
+    "This is one of the key findings of the 2026 Yearbook of Global Climate Action , launched by UN Climate Change today.",
+    "“But we can and must go much further, faster.",
+    "COP 31 must help scale up solutions, mobilize finance and bring the benefits of climate action to many more people.",
+    "This year, the Yearbook is launched in a new online format, and will be updated to reflect key outcomes on Global Climate Action at COP31."
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是全球在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "f23f2c5adba69419",
+   "title": "Kiara Worth | UN Climate Change 09 Nov 2026 UN Climate Chief: \"climate crisis is now a global health crisis of pandemic proportions\" UN Climate Speech",
+   "datePublished": "2026-11-09",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/un-climate-chief-climate-crisis-is-now-a-global-health-crisis-of-pandemic-proportions",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Please find below a transcript of the opening remarks of UN Climate Change Executive Secretary Simon Stiell at a press c",
+   "keyPoints": [
+    "Heatwaves in the northern summer smashed temperature records, and killed an estimated 50,000 people across Europe.",
+    "Health will again be central at this COP, under Türkiye and Australia’s guidance, and building on vital progress made at COP30 in Belém.",
+    "That includes through the Climate & Health Funders Coalition, which has already awarded more than $200 million.",
+    "The World Meteorological Organization is today releasing its State of the Climate Update 2026 ."
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是全球在“气候”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "4fe7c76c116fde6f",
+   "title": "Kiara Worth | UN Climate Change 09 Nov 2026 “COP31 must supercharge solutions” UN Climate Chief on opening day of COP31 UN Climate Speech",
+   "datePublished": "2026-11-09",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/cop31-must-supercharge-solutions-un-climate-chief-on-opening-day-of-cop31",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "UN Climate Change Executive Secretary, Simon Stiell COP31 Opening Statement Excellencies, colleagues, friends, In this n",
+   "keyPoints": [
+    "The 31st UN Climate Change Conference (COP31) gets underway today in Antalya, Türkiye.",
+    "90% of large renewable projects are now cheaper than fossil fuel alternatives.",
+    "So, as well as sending signals, COP31 must supercharge solutions.",
+    "Solutions to triple global renewables capacity by 2030."
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是全球在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "4af3a3adfe440449",
+   "title": "生态环境部部长黄润秋会见几内亚环境与可持续发展部部长法苏·泰亚",
+   "datePublished": "2026-11-08",
+   "jurisdiction": "中国",
+   "authority": "生态环境部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "生物多样性",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261108_1185724.shtml",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "11月6日，生态环境部部长黄润秋在京会见几内亚环境与可持续发展部部长法苏·泰亚。",
+    "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号 网站标识码：bm17000009 | 京公网安备 11040102700072号"
+   ],
+   "professionalAnalysis": "生物多样性/自然议题目前以国际框架（昆明—蒙特利尔全球生物多样性框架）、国家战略和自愿性披露（如TNFD、ISSB自然相关披露项目）为主，正逐步向补贴改革、融资要求和强制披露过渡。关键在于识别企业对自然的依赖与影响，以及敏感区域的选址风险。",
+   "plainLanguage": "简单说：这是中国在“生物多样性”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "矿业、农业、食品、林产品、地产和基础设施类港股公司，项目选址若涉及生态敏感区，可能面临审批、融资和声誉风险；金融机构需开始在授信与投资中纳入自然风险。ISSB自然相关披露一旦落地，港股可持续披露（HKFRS S1框架）可能随之扩展。",
+   "industries": [
+    "矿业",
+    "农业及食品",
+    "林业纸业",
+    "地产",
+    "基础设施",
+    "银行保险"
+   ],
+   "actions": [
+    "识别位于或邻近生态敏感区的资产和项目",
+    "评估业务对水、土地、森林等自然资源的依赖度",
+    "跟进TNFD框架做试点披露",
+    "在融资和保险安排中评估自然相关条款"
+   ],
+   "watchItems": [
+    "ISSB自然相关披露征求意见进展",
+    "国家生物多样性战略更新",
+    "有害补贴改革动向"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "588575c263b512b2",
+   "title": "Commission initiates safeguard investigation into imports of PET resin chemicals",
+   "datePublished": "2026-11-06",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://policy.trade.ec.europa.eu/news/commission-initiates-safeguard-investigation-imports-pet-resin-chemicals-2026-11-06_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Today, the Commission initiated a safeguard investigation to assess whether safeguard measures are needed to protect EU ",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "183308313abefd15",
+   "title": "Kiara Worth | UN Climate Change 05 Nov 2026 COP31 preview - comments from UN Climate Change Executive Secretary Simon Stiell, COP31 President Designate Murat Kurum, President of COP31 Negotiations Chris Bowen UN Climate Statement",
+   "datePublished": "2026-11-05",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/cop31-preview-comments-from-un-climate-change-executive-secretary-simon-stiell-cop31-president",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Comments from UN Climate Change Executive Secretary Simon Stiell ahead of COP31. No embargo. “No single COP is a silver ",
+   "keyPoints": [
+    "Comments from UN Climate Change Executive Secretary Simon Stiell ahead of COP31.",
+    "COP31 in Antalya will, too.",
+    "COP31 can help bolster practical solutions.",
+    "Finance must reach people faster, with less red tape."
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是全球在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
   {
    "id": "cb-pause-oct-2026",
    "title": "全球主要央行10月集体暂停加息，但紧缩周期未必结束（Reuters）",
@@ -184,6 +582,538 @@
    "pinned": true
   },
   {
+   "id": "e32cae255517d178",
+   "title": "EU and Canada conclude negotiations on a digital trade agreement",
+   "datePublished": "2026-10-30",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "供应链安全",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://policy.trade.ec.europa.eu/news/eu-and-canada-conclude-negotiations-digital-trade-agreement-2026-10-30_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Today, the European Union and Canada concluded negotiations on a landmark Digital Trade Agreement (DTA) at the EU-Canada",
+   "keyPoints": [
+    "From 2016 to 2025, bilateral trade in goods and services between the EU and Canada grew by 80%, from €72.",
+    "1 billion in 2016 to more than €130 billion in 2025."
+   ],
+   "professionalAnalysis": "供应链安全政策通过出口管制、关键原材料清单、外国投资审查、制裁和经济安全工具实施，目标是降低对单一来源的依赖。其影响往往具有突发性，需要持续监测清单更新。",
+   "plainLanguage": "简单说：这是欧盟在“供应链安全”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "半导体、新能源、关键矿产和高端制造港股企业可能受到出口许可、实体清单和投资审查影响；需评估单一来源依赖和替代供应商成本。",
+   "industries": [
+    "半导体",
+    "新能源",
+    "关键矿产",
+    "高端制造",
+    "物流航运"
+   ],
+   "actions": [
+    "识别受管控物项与单一来源供应商",
+    "建立制裁/实体清单筛查流程",
+    "评估替代供应来源与库存策略",
+    "在合同中加入制裁与出口管制条款"
+   ],
+   "watchItems": [
+    "出口管制清单更新",
+    "关键原材料政策",
+    "外国投资审查案例"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "802ea686d44e637e",
+   "title": "UN Climate Change 30 Oct 2026 Panama consolidates national roadmap for carbon markets after years of building the foundations Article",
+   "datePublished": "2026-10-30",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "征求意见/提案",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/panama-consolidates-national-roadmap-for-carbon-markets-after-years-of-building-the-foundations",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "UN Climate Change News, 30 October 2026 – Panama has consolidated a national roadmap for carbon markets, bringing years ",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是全球在“气候”领域的一项征求意见/提案，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "8fc81ac21b7cb2d0",
+   "title": "HKFRS 18 Navigator Issue 8: Navigating IFRS agenda decisions on HKFRS 18",
+   "datePublished": "2026-10-28",
+   "jurisdiction": "香港",
+   "authority": "香港会计师公会",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "财务准则",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "高",
+   "originalUrl": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/hkfrs18/8navig18.pdf",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "HKFRS 18 Navigator Issue 8: Navigating IFRS agenda decisions on HKFRS 18",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "准则动态需区分已发布准则、修订、解释委员会议程决定和征求意见稿，重点关注生效日期、过渡安排和对报表科目及披露的影响。",
+   "plainLanguage": "简单说：这是香港在“财务准则”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需评估对利润表列报、关键业绩指标、系统和比较信息的影响，并与审计师及审计委员会提前沟通。",
+   "industries": [
+    "全行业"
+   ],
+   "actions": [
+    "开展差距评估",
+    "评估系统和数据改造",
+    "与审计师沟通过渡安排"
+   ],
+   "watchItems": [
+    "实施指引",
+    "议程决定",
+    "香港本地采纳进度"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "97f38f58119c7102",
+   "title": "EU launches Friends of Credits for Nature and Biodiversity",
+   "datePublished": "2026-10-28",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "生物多样性",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://environment.ec.europa.eu/news/eu-launches-friends-credits-nature-and-biodiversity-2026-10-28_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The initiative aims to build international support for nature credits and strengthen cooperation on biodiversity finance",
+   "keyPoints": [
+    "Examples of EU biodiversity financing include the NaturAfrica initiative, which supports biodiversity conservation in Africa with €1.",
+    "It was launched in 2022 at the CBD COP15, as part of the EU Biodiversity Strategy for 2030 ."
+   ],
+   "professionalAnalysis": "生物多样性/自然议题目前以国际框架（昆明—蒙特利尔全球生物多样性框架）、国家战略和自愿性披露（如TNFD、ISSB自然相关披露项目）为主，正逐步向补贴改革、融资要求和强制披露过渡。关键在于识别企业对自然的依赖与影响，以及敏感区域的选址风险。",
+   "plainLanguage": "简单说：这是欧盟在“生物多样性”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "矿业、农业、食品、林产品、地产和基础设施类港股公司，项目选址若涉及生态敏感区，可能面临审批、融资和声誉风险；金融机构需开始在授信与投资中纳入自然风险。ISSB自然相关披露一旦落地，港股可持续披露（HKFRS S1框架）可能随之扩展。",
+   "industries": [
+    "矿业",
+    "农业及食品",
+    "林业纸业",
+    "地产",
+    "基础设施",
+    "银行保险"
+   ],
+   "actions": [
+    "识别位于或邻近生态敏感区的资产和项目",
+    "评估业务对水、土地、森林等自然资源的依赖度",
+    "跟进TNFD框架做试点披露",
+    "在融资和保险安排中评估自然相关条款"
+   ],
+   "watchItems": [
+    "ISSB自然相关披露征求意见进展",
+    "国家生物多样性战略更新",
+    "有害补贴改革动向"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "e6cddafbc914b48b",
+   "title": "Polluting ‘forever chemicals’ build up differently across continents, finds study of global freshwater reservoirs",
+   "datePublished": "2026-10-27",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "水",
+   "legalStatus": "已通过/发布",
+   "impactLevel": "高",
+   "originalUrl": "https://environment.ec.europa.eu/news/polluting-forever-chemicals-build-differently-across-continents-finds-study-global-freshwater-2026-10-27_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Freshwater reservoirs are contaminated by persistent ‘forever chemicals’. A new study reveals how chemicals build up in ",
+   "keyPoints": [
+    "Issue 641 : Freshwater reservoirs are contaminated by persistent ‘forever chemicals’.",
+    "The Chemicals Industry Action Plan (adopted in 2025) aims to support a transition away from PFAS where alternatives are available.",
+    "and some African reservoirs had comparatively high concentrations of the 14 most frequently reported PFAS."
+   ],
+   "professionalAnalysis": "水环境政策的约束手段主要包括排污许可、总量控制、流域专项整治、环评审批以及数字化/非现场执法。流域性方案往往先以行动方案形式出台，再通过地方实施细则、排放标准和执法检查落地，对沿河沿江重点行业形成持续合规压力。",
+   "plainLanguage": "简单说：这是欧盟在“水”领域的一项已通过/发布，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "对港股公司的影响主要体现在：生产基地位于重点流域的化工、制药、造纸、纺织、食品及港口企业，可能面临提标改造资本开支、限产整改或处罚；公用事业（水务、污水处理）则可能受益于投资需求增加。财务上需关注环境整治准备金/预计负债确认、或有负债披露及相关资产减值迹象。",
+   "industries": [
+    "化工",
+    "制药",
+    "造纸",
+    "纺织印染",
+    "食品饮料",
+    "水务公用事业",
+    "港口物流"
+   ],
+   "actions": [
+    "盘点位于重点流域的生产基地及排污许可证状况",
+    "评估提标改造资本开支和工期",
+    "检查在线监测数据质量（非现场执法依据）",
+    "评估是否需要确认环境整治相关预计负债"
+   ],
+   "watchItems": [
+    "地方实施方案与排放标准",
+    "专项执法检查通报",
+    "生态环境损害赔偿案例"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "1df542574374de61",
+   "title": "Plants and microbes pair up to remove pollutants from wastewater in human-made wetlands",
+   "datePublished": "2026-10-27",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "生物多样性",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "高",
+   "originalUrl": "https://environment.ec.europa.eu/news/plants-and-microbes-pair-remove-pollutants-wastewater-human-made-wetlands-2026-10-27_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Microbes work to break down pollutants in constructed wetlands: a sustainable, nature-based solution for wastewater trea",
+   "keyPoints": [
+    "Issue 641 : Microbes work to break down pollutants in constructed wetlands: a sustainable, nature-based solution for wastewater treatment.",
+    "9% for pollutants such as nitrogen, phosphorus, heavy metals, antibiotics and PAH .",
+    "Microbial remediation plays a crucial role in CWs, accounting for 90.",
+    "5% of antibiotic removal and 60."
+   ],
+   "professionalAnalysis": "生物多样性/自然议题目前以国际框架（昆明—蒙特利尔全球生物多样性框架）、国家战略和自愿性披露（如TNFD、ISSB自然相关披露项目）为主，正逐步向补贴改革、融资要求和强制披露过渡。关键在于识别企业对自然的依赖与影响，以及敏感区域的选址风险。",
+   "plainLanguage": "简单说：这是欧盟在“生物多样性”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "矿业、农业、食品、林产品、地产和基础设施类港股公司，项目选址若涉及生态敏感区，可能面临审批、融资和声誉风险；金融机构需开始在授信与投资中纳入自然风险。ISSB自然相关披露一旦落地，港股可持续披露（HKFRS S1框架）可能随之扩展。",
+   "industries": [
+    "矿业",
+    "农业及食品",
+    "林业纸业",
+    "地产",
+    "基础设施",
+    "银行保险"
+   ],
+   "actions": [
+    "识别位于或邻近生态敏感区的资产和项目",
+    "评估业务对水、土地、森林等自然资源的依赖度",
+    "跟进TNFD框架做试点披露",
+    "在融资和保险安排中评估自然相关条款"
+   ],
+   "watchItems": [
+    "ISSB自然相关披露征求意见进展",
+    "国家生物多样性战略更新",
+    "有害补贴改革动向"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "9d4a70acfd2ee624",
+   "title": "Lamine Coulibaly | CIF Action 27 Oct 2026 UN Climate Change reports show Paris Agreement supporting whole-of-economy approaches, but progress still clearly insufficient; more implementation and acceleration needed UN Climate Press Release",
+   "datePublished": "2026-10-27",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/un-climate-change-reports-show-paris-agreement-supporting-whole-of-economy-approaches-but-progress",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "UN Climate Change News, 27 October 2026 – Three reports published by UN Climate Change show governments increasingly tak",
+   "keyPoints": [
+    "This year, COP31 will be held in Antalya, Türkiye, from 9-20 November.",
+    "Between 1 January 2024 and 31 August 2026, 127 new NDCs, representing 154 Parties to the Paris Agreement, were recorded in the NDC registry.",
+    "Together, they cover around 70 per cent of global greenhouse gas emissions.",
+    "Current pledges are expected to reduce global emissions by around 6 per cent by 2035 below 2019 levels."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是全球在“废弃物”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "0898a7df38f72768",
+   "title": "商务部 海关总署公告2026年第51号 公布优化调整挖泥船相关物项出口管制措施的决定",
+   "datePublished": "2026-10-26",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "供应链安全",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_f4ab31f0b7e94c159b357e39f5a12fc9.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "根据《中华人民共和国出口管制法》《中华人民共和国对外贸易法》《中华人民共和国海关法》《中华人民共和国两用物项出口管制条例》有关规定，为维护国家安全和利益，经国务院批准，决定优化调整挖泥船相关物项出口管制措施，对下列物项实施出口管制： （一）",
+   "keyPoints": [
+    "根据《中华人民共和国出口管制法》《中华人民共和国对外贸易法》《中华人民共和国海关法》《中华人民共和国两用物项出口管制条例》有关规定，为维护国家安全和利益，经国务院批准，决定优化调整挖泥船相关物项出口管制措施，对下列物项实施出口管制： （一）8A901.",
+    "a．具有以下两种特性的挖泥船泥泵（参考海关商品编号：8413709120、8413709980）： （二）8A901.",
+    "a项所管制物项的关键零部件： 1．泵壳内径大于等于1.",
+    "3 m的挖泥船泥泵泵壳，包括内、外泵壳（参考海关商品编号：8413910010）；"
+   ],
+   "professionalAnalysis": "供应链安全政策通过出口管制、关键原材料清单、外国投资审查、制裁和经济安全工具实施，目标是降低对单一来源的依赖。其影响往往具有突发性，需要持续监测清单更新。",
+   "plainLanguage": "简单说：这是中国在“供应链安全”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "半导体、新能源、关键矿产和高端制造港股企业可能受到出口许可、实体清单和投资审查影响；需评估单一来源依赖和替代供应商成本。",
+   "industries": [
+    "半导体",
+    "新能源",
+    "关键矿产",
+    "高端制造",
+    "物流航运"
+   ],
+   "actions": [
+    "识别受管控物项与单一来源供应商",
+    "建立制裁/实体清单筛查流程",
+    "评估替代供应来源与库存策略",
+    "在合同中加入制裁与出口管制条款"
+   ],
+   "watchItems": [
+    "出口管制清单更新",
+    "关键原材料政策",
+    "外国投资审查案例"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "270373d1eae4686d",
+   "title": "Monetary policy press conference",
+   "datePublished": "2026-10-26",
+   "jurisdiction": "欧盟",
+   "authority": "欧洲中央银行",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "中",
+   "originalUrl": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Webcasts of ECB press conferences",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是欧盟在“央行与市场”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "13c051175b9a8c57",
+   "title": "UNDP Malawi 26 Oct 2026 Malawi puts delivery at the heart of its new climate plan Article",
+   "datePublished": "2026-10-26",
+   "jurisdiction": "全球",
+   "authority": "联合国气候变化框架公约",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://unfccc.int/news/malawi-puts-delivery-at-the-heart-of-its-new-climate-plan",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "UN Climate Change News, 26 October 2026 – Malawi has made getting ready for action a central part of its new national cl",
+   "keyPoints": [
+    "UN Climate Change News, 26 October 2026 – Malawi has made getting ready for action a central part of its new national climate plan.",
+    "The plan is estimated to require USD 7.",
+    "06 billion between 2025 and 2035.",
+    "Malawi, home to almost 23 million people, is already feeling the effects of climate change."
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是全球在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "1b4b438697f0c8cd",
+   "title": "Bio-based Alliance launches to drive sustainable solutions",
+   "datePublished": "2026-10-22",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://environment.ec.europa.eu/news/bio-based-alliance-launches-drive-sustainable-solutions-2026-10-22_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Alliance aims to provide clearer market signals, reduce investment uncertainty, and unlock the potential of Europe’s",
+   "keyPoints": [
+    "Over 100 stakeholders have already joined the Alliance.",
+    "Work will continue among members over the coming year, with the next plenary meeting planned in 2027 to advance the Group’s work."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "01aa964c665728ab",
+   "title": "EU plastic packaging waste hits 35.9 kg per capita",
+   "datePublished": "2026-10-22",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261022-1",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "ddn-20261022-1",
+   "keyPoints": [
+    "5 million tonnes of packaging waste were generated in the EU , or 181.",
+    "0 kg per inhabitant .",
+    "Packaging waste per capita increased by 3.",
+    "2 kg compared with 2023, and by 19."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
    "id": "cn-climate-2026",
    "title": "生态环境部发布《中国应对气候变化的政策与行动2026年度报告》",
    "datePublished": "2026-10-21",
@@ -232,6 +1162,359 @@
    "linkVerified": true,
    "analysisMethod": "人工复核",
    "pinned": true
+  },
+  {
+   "id": "28bc5d337714e0ab",
+   "title": "关于发布国家生态环境标准《难测试化学物质水生毒性测试技术指南》的公告",
+   "datePublished": "2026-10-21",
+   "jurisdiction": "中国",
+   "authority": "生态环境部政策文件",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202610/t20261023_1184566.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "《难测试化学物质水生毒性测试技术指南》（HJ 1492-2026） 。",
+    "生态环境部固体废物与化学品司有关负责人就《难测试化学物质水生毒性测试技术指南》答记者问 版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号 网站标识码：bm17000009 | 京公网安备 11040102700072号"
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是中国在“废弃物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "e42371c718245818",
+   "title": "关于公示2026年羊毛、毛条进口关税配额再分配拟分配企业名单的通知",
+   "datePublished": "2026-10-21",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_8a27916efc684d8fa8b0958ba076d51e.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "现将 202 6 年羊毛、毛条进口关税配额再分配拟分配企业名单进行公示。",
+   "keyPoints": [
+    "现将 202 6 年羊毛、毛条进口关税配额再分配拟分配企业名单进行公示。",
+    "公示期为 202 6 年 10 月 2 1 日— 1 0 月 2 7 日。",
+    "附件： 2026年羊毛、毛条进口关税配额拟再分配企业名单."
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是中国在“全球与贸易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "578ad746059e4fd7",
+   "title": "Commission opens consultation on bio-based plastic packaging",
+   "datePublished": "2026-10-21",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会环境总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "征求意见/提案",
+   "impactLevel": "高",
+   "originalUrl": "https://environment.ec.europa.eu/news/commission-opens-consultation-bio-based-plastic-packaging-2026-10-21_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The results will inform an assessment of the technological development and environmental performance of bio-based plasti",
+   "keyPoints": [
+    "The feedback process will remain open until 13 January 2027.",
+    "The consultation will remain open until 13 January 2027."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项征求意见/提案，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "86587b73a2fd09b0",
+   "title": "商务部 海关总署公告2026年第52号 公布进一步优化两用物项出口管制质疑和鉴别工作有关事项",
+   "datePublished": "2026-10-20",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "供应链安全",
+   "legalStatus": "已生效/即将生效",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_531d1a665fab4dafb810927f37788e24.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "二、出口货物发货人申报出口时，如未向海关交验由商务部颁发的出口许可证件，海关有证据表明出口货物可能属于两用物项出口管制范围的，应当向出口货物发货人提出质疑，并制发《两用物项出口管制海关质疑通知书》（附件1）。",
+   "keyPoints": [
+    "二、出口货物发货人申报出口时，如未向海关交验由商务部颁发的出口许可证件，海关有证据表明出口货物可能属于两用物项出口管制范围的，应当向出口货物发货人提出质疑，并制发《两用物项出口管制海关质疑通知书》（附件1）。",
+    "三、出口货物发货人应当自收到《两用物项出口管制海关质疑通知书》之日起7个工作日内按要求提供下列材料，材料需加盖公章，材料为外文的，同时提供中文翻译件： （二）情况说明（包括但不限于载明货物的性能指标、主要用途以及认为不属于出口管制范围的法律依据和事实理由等）；",
+    "四、收到出口货物发货人提供的材料后，海关进行判别，可根据需要由海关总署向商务部提出组织鉴别，按照下列情形分别依法处置，并制发《两用物项出口管制海关质疑结果告知书》（附件2）。",
+    "七、海关自收到货物发货人提供的全部材料之日起15个工作日内完成质疑判别或向商务部提出组织鉴别。"
+   ],
+   "professionalAnalysis": "供应链安全政策通过出口管制、关键原材料清单、外国投资审查、制裁和经济安全工具实施，目标是降低对单一来源的依赖。其影响往往具有突发性，需要持续监测清单更新。",
+   "plainLanguage": "简单说：这是中国在“供应链安全”领域的一项已生效/即将生效，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "半导体、新能源、关键矿产和高端制造港股企业可能受到出口许可、实体清单和投资审查影响；需评估单一来源依赖和替代供应商成本。",
+   "industries": [
+    "半导体",
+    "新能源",
+    "关键矿产",
+    "高端制造",
+    "物流航运"
+   ],
+   "actions": [
+    "识别受管控物项与单一来源供应商",
+    "建立制裁/实体清单筛查流程",
+    "评估替代供应来源与库存策略",
+    "在合同中加入制裁与出口管制条款"
+   ],
+   "watchItems": [
+    "出口管制清单更新",
+    "关键原材料政策",
+    "外国投资审查案例"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "82e9e0b11906d7e8",
+   "title": "2026年10月16日，商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》（以下简称《目录》）公开征求意见，并对相关技术实施出口前登记的临时管理措施。日前，商务部新闻发言人就有关问题回答了记者提问。问：《目录》修订的背景是什么？答：根据《中华人民共和国对外贸易法》第二十条，国务院对外贸易主管部门会同国务院其他有关部门，制定...",
+   "datePublished": "2026-10-16",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "征求意见/提案",
+   "impactLevel": "中高",
+   "originalUrl": "https://www.mofcom.gov.cn/zcjd/dwmy/art/2026/art_c8712c94f11f49de96c190f876777e44.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-16 16:00 2026年10月16日，商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》（以下简称《目录》）公开征求意见，并对相关技术实施出口",
+   "keyPoints": [
+    "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-16 16:00 2026年10月16日，商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》（以下简称《目录》）公开征求意见，并对相关技术实施出口前登记的临时管理措施。",
+    "自2001年以来，商务部会同科技部多次调整修订《目录》，有进有出，有管有放，已形成工作惯例。",
+    "答：此次公开征求意见涉及拟增列的人工智能、生物医药、光伏三个领域40项关键技术。",
+    "其中，拟禁止出口技术14项，包括：人工智能驱动的恶意代码生成与变异技术、具有自主知识产权的细胞和基因治疗技术工艺平台、钙钛矿及叠层电池组件生产技术等；"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是中国在“全球与贸易”领域的一项征求意见/提案，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "a4c93eeb94eb41f2",
+   "title": "Commission hosts a high-level policy dialogue on the role of forest-based value chains in the EU’s climate transition",
+   "datePublished": "2026-10-15",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "征求意见/提案",
+   "impactLevel": "高",
+   "originalUrl": "https://climate.ec.europa.eu/news-other-reads/news/commission-hosts-high-level-policy-dialogue-role-forest-based-value-chains-eus-climate-transition-2026-10-15_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Today, Commissioner for Climate, Net Zero and Clean Growth, Wopke Hoekstra brought together representatives of forest ow",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项征求意见/提案，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "68f5a81dddd10c39",
+   "title": "Apply now to be a European Climate Pact Ambassador!",
+   "datePublished": "2026-10-15",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://commission.europa.eu/news-and-media/news/apply-now-be-european-climate-pact-ambassador-2026-10-15_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Applications to become a European Climate Pact Ambassador are now open. Find out more about what’s involved and how to a",
+   "keyPoints": [
+    "You have until 31 October 2026 to submit your European Climate Pact Ambassador application .",
+    "Launched by the European Commission, it supports the EU's goal to become climate-neutral by 2050.",
+    "You will become part of a growing and diverse community of over 1,000 Climate Pact Ambassadors and dozens of partner organisations."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "8d819d4e8a2c4b42",
+   "title": "EU local leaders and authorities gather to discuss affordable energy, housing and climate resilience",
+   "datePublished": "2026-10-14",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://energy.ec.europa.eu/news/eu-local-leaders-and-authorities-gather-discuss-affordable-energy-housing-and-climate-resilience-2026-10-14_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Tomorrow, hundreds of mayors, local and regional leaders and representatives from across Europe will come together in Br",
+   "keyPoints": [
+    "EU Covenant of Mayors Ceremony 2026 (web streamed) European Week of Regions and Cities 2026"
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
   },
   {
    "id": "eu-council-env-ets-2026",
@@ -324,6 +1607,179 @@
    "pinned": true
   },
   {
+   "id": "748d8d9e5f8ca5ab",
+   "title": "碳排放权交易管理暂行条例",
+   "datePublished": "2026-10-10",
+   "jurisdiction": "中国",
+   "authority": "生态环境部政策文件",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mee.gov.cn/zcwj/gwywj/202610/t20261010_1175967.shtml",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号 网站标识码：bm17000009 | 京公网安备 11040102700072号"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是中国在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "00918fa8d5485294",
+   "title": "10月8-9日，中国商务部部长王文涛与欧盟委员会贸易和经济安全委员马罗什·谢夫乔维奇在北京共同主持召开中欧贸易投资磋商机制（以下简称机制）第二次例会。双方围绕贸易和投资平衡、出口管制、知识产权、世贸组织改革等议题开展对等、专业、建设性的会谈，全面盘点了机制首次会议以来的磋商情况及各项进展，并形成了成果共识。商务部欧洲司负责人就相关成果进行解读。一、关于中欧经贸关系...",
+   "datePublished": "2026-10-10",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "供应链安全",
+   "legalStatus": "已通过/发布",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mofcom.gov.cn/zcjd/tzhz/art/2026/art_2d87e6b9a32742a4945f4ecfcc5e88cc.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-10 13:15 10月8-9日，中国商务部部长王文涛与欧盟委员会贸易和经济安全委员马罗什·谢夫乔维奇在北京共同主持召开中欧贸易投资磋商机制（以下简称机制）第二次例会。",
+   "keyPoints": [
+    "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-10 13:15 10月8-9日，中国商务部部长王文涛与欧盟委员会贸易和经济安全委员马罗什·谢夫乔维奇在北京共同主持召开中欧贸易投资磋商机制（以下简称机制）第二次例会。",
+    "双方认为，有必要设定阶段性目标，并继续发挥好中欧知识产权工作组的主渠道作用，深化合作并监督进展。",
+    "双方还商定，将于2027年3月召开机制第三次例会，在此之前双方各层级将保持密切沟通，包括1月举行部长级视频会议。"
+   ],
+   "professionalAnalysis": "供应链安全政策通过出口管制、关键原材料清单、外国投资审查、制裁和经济安全工具实施，目标是降低对单一来源的依赖。其影响往往具有突发性，需要持续监测清单更新。",
+   "plainLanguage": "简单说：这是中国在“供应链安全”领域的一项已通过/发布，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "半导体、新能源、关键矿产和高端制造港股企业可能受到出口许可、实体清单和投资审查影响；需评估单一来源依赖和替代供应商成本。",
+   "industries": [
+    "半导体",
+    "新能源",
+    "关键矿产",
+    "高端制造",
+    "物流航运"
+   ],
+   "actions": [
+    "识别受管控物项与单一来源供应商",
+    "建立制裁/实体清单筛查流程",
+    "评估替代供应来源与库存策略",
+    "在合同中加入制裁与出口管制条款"
+   ],
+   "watchItems": [
+    "出口管制清单更新",
+    "关键原材料政策",
+    "外国投资审查案例"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "add214519ce09d76",
+   "title": "南水北调工程供用水管理条例",
+   "datePublished": "2026-10-09",
+   "jurisdiction": "中国",
+   "authority": "生态环境部政策文件",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.mee.gov.cn/zcwj/gwywj/202610/t20261009_1175909.shtml",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号 网站标识码：bm17000009 | 京公网安备 11040102700072号"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是中国在“全球与贸易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "8f517c333a2970e7",
+   "title": "规模再升级！AI点亮数字贸易未来",
+   "datePublished": "2026-10-09",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.mofcom.gov.cn/tj/qttj/art/2026/art_d8a48219ff0d430d8fc379a7f0615e42.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "来源：中华人民共和国商务部 类型：原创 分类：其它 2026-09-29 13:51",
+   "keyPoints": [
+    "来源：中华人民共和国商务部 类型：原创 分类：其它 2026-09-29 13:51"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是中国在“全球与贸易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
    "id": "wto-outlook-oct-2026",
    "title": "世贸组织上调2026年全球货物贸易增长预测至3.9%",
    "datePublished": "2026-10-08",
@@ -369,6 +1825,266 @@
    "pinned": true
   },
   {
+   "id": "45c4bdc718b4de03",
+   "title": "9月20日至23日，中美经贸团队在美国纽约和华盛顿举行经贸磋商，取得积极共识，为两国元首会晤贡献了经贸领域的成果。商务部美大司负责人就有关经贸磋商成果进行解读。一、关于贸易理事会 经过磋商，中美双方同意在中美经贸磋商机制项下建立中美贸易理事会，主要任务是优化双边贸易。双方经贸团队已就理事会的任务、架构、职责、磋商安排等达成共识，将后续公布。贸易理事会将首先就...",
+   "datePublished": "2026-09-29",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "已通过/发布",
+   "impactLevel": "中",
+   "originalUrl": "https://www.mofcom.gov.cn/zcjd/dwmy/art/2026/art_c68e66e26aae44278b2a7f1845857270.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-09-28 09:00 9 月 20 日至 23 日，中美经贸团队在美国纽约和华盛顿举行经贸磋商，取得 积极共识， 为两国元首会晤贡献了经贸领域的成果。",
+   "keyPoints": [
+    "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-09-28 09:00 9 月 20 日至 23 日，中美经贸团队在美国纽约和华盛顿举行经贸磋商，取得 积极共识， 为两国元首会晤贡献了经贸领域的成果。",
+    "贸易理事会将首先就“300亿对300亿”对等降税框架进行讨论，以期达成共识。",
+    "为落实两国元首会晤重要共识，中美双方基于相互尊重、平等协商，在贸易理事会框架下就300亿美元对等降税安排举行多轮磋商，现已达成共识。",
+    "双方同意以对等方式降低自对方进口的规模约300亿美元产品的关税，其中各自约90%产品的关税将降至最惠国税率水平。"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是中国在“全球与贸易”领域的一项已通过/发布，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "5e78a296b07f3517",
+   "title": "Update 350 relates to Amendments to AG 5 (Revised) Merger Accounting for Common Control Combinations",
+   "datePublished": "2026-09-29",
+   "jurisdiction": "香港",
+   "authority": "香港会计师公会",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "并购交易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/updates/Update350.pdf",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Update 350 relates to Amendments to AG 5 (Revised) Merger Accounting for Common Control Combinations",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "并购动态需关注交易结构、估值、融资条件和监管审批。高利率环境下，杠杆收购成本上升，监管审查周期也可能拉长。",
+   "plainLanguage": "简单说：这是香港在“并购交易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司参与并购时需评估融资成本、商誉减值风险和监管审批时间；作为标的方需关注私有化与收购守则要求。",
+   "industries": [
+    "全行业"
+   ],
+   "actions": [
+    "评估交易融资成本和利率敏感性",
+    "预估监管审批路径和时间",
+    "评估商誉与无形资产减值风险"
+   ],
+   "watchItems": [
+    "同行业交易估值倍数",
+    "监管审查结果",
+    "融资市场条件"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "1ba8bf69a68549b4",
+   "title": "关于发布国家噪声排放标准《城市轨道交通噪声排放标准（第一阶段）》的公告",
+   "datePublished": "2026-09-28",
+   "jurisdiction": "中国",
+   "authority": "生态环境部政策文件",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "已生效/即将生效",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202610/t20261009_1175819.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "《城市轨道交通噪声排放标准（第一阶段）》（GB 48334-2026） 。",
+    "以上标准自2027年1月1日起实施。",
+    "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号 网站标识码：bm17000009 | 京公网安备 11040102700072号"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是中国在“气候”领域的一项已生效/即将生效，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "9f295aaca5294337",
+   "title": "关于修改和废止部分规章的决定",
+   "datePublished": "2026-09-22",
+   "jurisdiction": "中国",
+   "authority": "生态环境部政策文件",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "已生效/即将生效",
+   "impactLevel": "中",
+   "originalUrl": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202609/t20260922_1170492.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "索 引 号 000014672/2026-00320 分　　类 其他生态环境管理业务信息 《关于修改和废止部分规章的决定》已于2026年9月3日由生态环境部2026年第3次部务会议审议通过，现予公布，自公布之日起施行。",
+    "经过清理，生态环境部决定： 生态环境部发布的其他规章，与《中华人民共和国生态环境法典》原则、精神、要求不一致的，依法适用《中华人民共和国生态环境法典》有关规定。",
+    "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号 网站标识码：bm17000009 | 京公网安备 11040102700072号"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是中国在“全球与贸易”领域的一项已生效/即将生效，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "ce4331c5fae00ae6",
+   "title": "关于推进机动车排放检验机构监管改革提升排放检验质量的意见",
+   "datePublished": "2026-09-18",
+   "jurisdiction": "中国",
+   "authority": "生态环境部政策文件",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "大气污染物",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/t20260918_1166789.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "中华人民共和国生态环境部",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "大气污染物监管主要针对SO₂、NOx、颗粒物、VOCs、消耗臭氧层物质（ODS/HFC）等，通过排放标准、超低排放改造、配额管理和重污染天气应急管控实施。需与温室气体（碳）监管区分。",
+   "plainLanguage": "简单说：这是中国在“大气污染物”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "火电、钢铁、建材、石化和非道路机械相关港股企业可能面临超低排放改造投入、限产管控对产能利用率的影响，以及HFC配额对制冷剂相关业务的影响。需评估环保设备投资对折旧和现金流的影响。",
+   "industries": [
+    "火电",
+    "钢铁",
+    "建材",
+    "石化化工",
+    "工程机械",
+    "制冷设备"
+   ],
+   "actions": [
+    "核查主要排放口是否满足最新排放标准",
+    "评估超低排放改造资本开支",
+    "梳理重污染天气应急减排清单对产量的影响",
+    "确认HFC/ODS配额使用情况"
+   ],
+   "watchItems": [
+    "排放标准修订",
+    "重点区域管控通报",
+    "HFC配额分配方案"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "df8b2cf7173adf73",
+   "title": "近日，商务部会同国家发展改革委、工业和信息化部、民政部、财政部、自然资源部、住房城乡建设部、市场监管总局等部门印发《促进智能家居消费行动方案》（以下简称《行动方案》）。商务部消费促进司负责人就《行动方案》相关内容进行解读。一、出台背景家居消费规模体量大、涵盖领域广、产业链条长，是居民消费的重要组成部分，也是将惠民生与促消费相结合的重要领域。近年来，随着技术加快迭代升级...",
+   "datePublished": "2026-09-15",
+   "jurisdiction": "中国",
+   "authority": "商务部",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "已通过/发布",
+   "impactLevel": "高",
+   "originalUrl": "https://www.mofcom.gov.cn/zcjd/gnmy/art/2026/art_55f2255bfa3f4cb68750966f7b447889.html",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-09-14 15:03 近日，商务部会同国家发展改革委、工业和信息化部、民政部、财政部、自然资源部、住房城乡建设部、市场监管总局等部门印发《促进智能家居消费行动方案》（以下简称《行动",
+   "keyPoints": [
+    "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-09-14 15:03 近日，商务部会同国家发展改革委、工业和信息化部、民政部、财政部、自然资源部、住房城乡建设部、市场监管总局等部门印发《促进智能家居消费行动方案》（以下简称《行动方案》）。",
+    "《行动方案》坚持目标导向、问题导向，针对智能家居消费的增长点及存在的堵点卡点，提出扩大优质智能家居供给、完善智能家居标准体系、优化社区便民服务等七条举措，重点突出以下四个方面：一是坚持供需协同发力。"
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是中国在“废弃物”领域的一项已通过/发布，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
    "id": "hkex-climate-2026",
    "title": "港交所ESG守则D部分气候规定：恒生综合大型股指数成份股进入强制汇报阶段",
    "datePublished": "2026-01-01",
@@ -408,6 +2124,1070 @@
    "linkVerified": true,
    "analysisMethod": "人工复核",
    "pinned": true
+  },
+  {
+   "id": "16ea3e5ca6957f39",
+   "title": "EU emissions continue to fall as clean energy gains ground",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2343",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission has today published the 2026 EU Climate Action Progress Report and Carbon Market Report, showing",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是欧盟在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "483e6092ec4c9049",
+   "title": "EU to push for accelerated global climate action at COP31",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "高",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2342",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "At the COP31 UN Climate Change Conference in Antalya, Türkiye, from 9-20 November, the European Union will work with int",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是欧盟在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "da72cf7ecc7fa48f",
+   "title": "Commission presents Climate Resilience Framework for a better prepared and protected Europe",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2244",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission today presented an EU Framework for Climate Resilience to strengthen Europe\\'s ability to antici",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是欧盟在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "d93a5f9ff39b722a",
+   "title": "Commission welcomes political agreement on rules enhancing stability and long-term resilience of EU carbon market",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2206",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission welcomes the provisional political agreement reached by the European Parliament and the Council ",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是欧盟在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "ae54679752a49285",
+   "title": "Mayors meet with EU leaders in Brussels to advance affordable energy and climate resilience",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会气候行动总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://eu-mayors.ec.europa.eu/en/news/mayors-meet-eu-leaders-brussels-advance-affordable-energy-and-climate-resilience",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Against a backdrop of rising energy costs and growing climate risks, hundreds of mayors gathered in Brussels for the ann",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是欧盟在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "0cd17f31800829d2",
+   "title": "Directorate-General for Competition",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会竞争总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "高",
+   "originalUrl": "https://commission.europa.eu/about/departments-and-executive-agencies/competition_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Directorate-General for Competition develops and implements EU policy on competition, and enforces EU competition ru",
+   "keyPoints": [
+    "49 KB - PDF) Download français (840."
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "a874a08af53a4272",
+   "title": "Commission opens investigation into possible anticompetitive conduct by Omya in the supply of calcium carbonates to the paper industry",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会竞争总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "气候",
+   "legalStatus": "动态",
+   "impactLevel": "中高",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2232",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission has opened a formal antitrust investigation to assess whether Omya has breached EU competition r",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "气候类政策通常通过三条路径影响企业：一是排放总量/强度约束与碳市场配额（直接成本）；二是产品碳足迹、碳边境调节等贸易规则（出口成本与准入）；三是强制性气候信息披露（治理、数据与审计要求）。需重点判断：适用行业和门槛、生效时间、配额分配方式（免费/有偿）、核算方法学和处罚机制。",
+   "plainLanguage": "简单说：这是欧盟在“气候”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司需关注三点：①纳入全国碳市场行业（电力、钢铁、水泥、铝等）的配额缺口会直接进入营业成本，须评估碳价情景对毛利率的敏感性；②港交所ESG守则D部分气候规定已对恒生综合大型股指数成份股强制适用，转型计划、范围1/2排放与情景分析须与财务报表假设（减值测试、使用寿命、资本开支）保持一致；③对欧出口企业需同步管理CBAM与产品碳足迹数据。",
+   "industries": [
+    "电力",
+    "钢铁",
+    "水泥",
+    "有色金属",
+    "化工",
+    "航运航空",
+    "出口制造"
+   ],
+   "actions": [
+    "测算碳价情景（如每吨50/100/200元）对毛利和现金流的敏感性",
+    "核对排放数据边界与碳市场核查口径是否一致",
+    "把气候假设同步到资产减值测试和资本开支计划",
+    "梳理对欧出口产品清单及CBAM申报数据来源"
+   ],
+   "watchItems": [
+    "配额分配方案与有偿分配比例",
+    "行业扩围时间表",
+    "产品碳足迹核算标准发布",
+    "交易所气候披露执行检查结果"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "3f3750b132b3763f",
+   "title": "Commission sends Statement of Objections to KKR for providing incorrect or misleading information during merger investigation",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会竞争总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "并购交易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2178",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission has informed KKR & Co. Inc. (\\'KKR\\') of its preliminary view that the company provided incorrec",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "并购动态需关注交易结构、估值、融资条件和监管审批。高利率环境下，杠杆收购成本上升，监管审查周期也可能拉长。",
+   "plainLanguage": "简单说：这是欧盟在“并购交易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司参与并购时需评估融资成本、商誉减值风险和监管审批时间；作为标的方需关注私有化与收购守则要求。",
+   "industries": [
+    "全行业"
+   ],
+   "actions": [
+    "评估交易融资成本和利率敏感性",
+    "预估监管审批路径和时间",
+    "评估商誉与无形资产减值风险"
+   ],
+   "watchItems": [
+    "同行业交易估值倍数",
+    "监管审查结果",
+    "融资市场条件"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "7cb61afbdaf8dc1c",
+   "title": "Commission approves Kimberly-Clark's acquisition of Kenvue, subject to conditions",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会竞争总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "并购交易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2137",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission has approved, under the EU Merger Regulation, the proposed acquisition by Kimberly-Clark Corpora",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "并购动态需关注交易结构、估值、融资条件和监管审批。高利率环境下，杠杆收购成本上升，监管审查周期也可能拉长。",
+   "plainLanguage": "简单说：这是欧盟在“并购交易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司参与并购时需评估融资成本、商誉减值风险和监管审批时间；作为标的方需关注私有化与收购守则要求。",
+   "industries": [
+    "全行业"
+   ],
+   "actions": [
+    "评估交易融资成本和利率敏感性",
+    "预估监管审批路径和时间",
+    "评估商誉与无形资产减值风险"
+   ],
+   "watchItems": [
+    "同行业交易估值倍数",
+    "监管审查结果",
+    "融资市场条件"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "c45d4b5f8d91ddad",
+   "title": "Commission opens in-depth investigation into XXXLutz's proposed acquisition of Porta",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会竞争总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "并购交易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2126",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission has opened an in-depth investigation to assess XXXLutz\\'s proposed acquisition of Porta, under t",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "并购动态需关注交易结构、估值、融资条件和监管审批。高利率环境下，杠杆收购成本上升，监管审查周期也可能拉长。",
+   "plainLanguage": "简单说：这是欧盟在“并购交易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司参与并购时需评估融资成本、商誉减值风险和监管审批时间；作为标的方需关注私有化与收购守则要求。",
+   "industries": [
+    "全行业"
+   ],
+   "actions": [
+    "评估交易融资成本和利率敏感性",
+    "预估监管审批路径和时间",
+    "评估商誉与无形资产减值风险"
+   ],
+   "watchItems": [
+    "同行业交易估值倍数",
+    "监管审查结果",
+    "融资市场条件"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "33dfc6cd33d9b077",
+   "title": "Commission fines Kingspan €40 million for providing incorrect and misleading information during merger investigation",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会竞争总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "并购交易",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2084",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The European Commission has fined Kingspan €40 million for providing incorrect and misleading information during the 202",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "并购动态需关注交易结构、估值、融资条件和监管审批。高利率环境下，杠杆收购成本上升，监管审查周期也可能拉长。",
+   "plainLanguage": "简单说：这是欧盟在“并购交易”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港股公司参与并购时需评估融资成本、商誉减值风险和监管审批时间；作为标的方需关注私有化与收购守则要求。",
+   "industries": [
+    "全行业"
+   ],
+   "actions": [
+    "评估交易融资成本和利率敏感性",
+    "预估监管审批路径和时间",
+    "评估商誉与无形资产减值风险"
+   ],
+   "watchItems": [
+    "同行业交易估值倍数",
+    "监管审查结果",
+    "融资市场条件"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "99ebdebd8604bcdb",
+   "title": "Joint Statement at the second meeting of the EU-China Trade and Investment Consultations",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "征求意见/提案",
+   "impactLevel": "中高",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2122",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "On 8-9 October 2026, Wang Wentao, Minister of Commerce of China, and Maroš Šef\\u010Dovi\\u010D, Commissioner for Trade an",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是欧盟在“全球与贸易”领域的一项征求意见/提案，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "ed065732a5b7517e",
+   "title": "EU trade agreements continue to benefit European businesses",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1983",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The EU\\'s growing network of trade agreements helps European businesses to access new export markets and creates a more ",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是欧盟在“全球与贸易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "4c15ab90be76cc7c",
+   "title": "Substantial agreement on EU-Philippines trade deal",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1929",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Today, the EU and the Philippines reached substantial agreement in their negotiations for a Free Trade Agreement (FTA), ",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是欧盟在“全球与贸易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "b44433ae76d72c73",
+   "title": "EU Trade Newsletter - Subscribe",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://ec.europa.eu/newsroom/trade/user-subscriptions/230/create",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "EU Trade Newsletter - Subscribe",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是欧盟在“全球与贸易”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "b6fbf09152e86eca",
+   "title": "Directorate-General for Trade and Economic Security - Organisation, forecasts and achievements",
+   "datePublished": "",
+   "jurisdiction": "欧盟",
+   "authority": "欧盟委员会贸易总司",
+   "sourceType": "official",
+   "sourceTier": "S",
+   "section": "政策法规",
+   "topic": "废弃物",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "高",
+   "originalUrl": "https://commission.europa.eu/about/departments-and-executive-agencies/trade-and-economic-security_en",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "Read about what the European Commission's Directorate-General for Trade and Economic Security is doing, about its leader",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "废弃物与循环经济政策的核心工具是生产者责任延伸（EPR）、再生材料最低含量、可回收设计要求和处置费用分摊。其特点是把回收处置成本前移给生产者和品牌商，并要求可核验的材料数据。",
+   "plainLanguage": "简单说：这是欧盟在“废弃物”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "消费品、零售、包装、家电和汽车电池类港股公司需关注：EPR注册与费用将形成持续性经营成本；再生塑料等原材料可得性和价格波动影响采购成本；在欧盟销售的产品需满足包装设计与标签要求，否则可能面临市场准入问题。",
+   "industries": [
+    "消费品",
+    "包装材料",
+    "零售电商",
+    "家电电子",
+    "汽车及电池",
+    "塑料化工"
+   ],
+   "actions": [
+    "建立产品包装材料清单（材质、重量、再生含量）",
+    "测算主要市场EPR费用敞口",
+    "与供应商锁定再生材料长期供应",
+    "评估包装减量与可回收设计改造计划"
+   ],
+   "watchItems": [
+    "EPR费率与收费模型",
+    "再生材料市场价格",
+    "授权法案/实施细则发布"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "e647de0be9933b1a",
+   "title": "Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system.",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/default.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "Press Release - 11/9/2026 Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+    "economy and monetary policy Speech - 10/1/2026 Speech by Vice Chair Jefferson on the U."
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "dbb58d9e7381464c",
+   "title": "Monetary Policy",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/monetarypolicy.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "[F] toggles fullscreen on/off (Except IE 11);",
+    "18 FOMC Minutes Meeting of Oct.",
+    "8-9 FOMC Meeting Two-day meeting Press Conference Dec.",
+    "30 FOMC Minutes Meeting of Dec."
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "cdd5792b544972ab",
+   "title": "Monetary Policy Report",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/monetarypolicy/publications/mpr_default.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "634c36dbf222a2a7",
+   "title": "Regional Banks and Foreign Banks with U.S. Assets < $100 Billion",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/supervisionreg/regional-and-small-foreign-banks.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "footprints (less than $100 billion in U.",
+    "assets < $100 billion ."
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "0528fb2017bded0a",
+   "title": "Proactive Monitoring of Markets & Institutions",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/financial-stability/proactive-monitoring-of-markets-and-institutions.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "595e1680d7989126",
+   "title": "Aggregate Reserves of Depository Institutions and the Monetary Base - H.3",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/releases/h3/current/default.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "3 statistical release.",
+    "3 release items will be consolidated onto the H.",
+    "6 statistical release as of September 24, 2020.",
+    "For more information on the consolidation and related changes, please see the announcement posted on August 20, 2020."
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "9bba38f098582b36",
+   "title": "Assets and Liabilities of Commercial Banks in the U.S. - H.8",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "动态",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/releases/h8/current/default.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "8 Notes on the Data are generally used to make these adjustments.",
+    "gov/releases/h8/about.",
+    "8 release data have been benchmarked.",
+    "Small domestically chartered commercial banks are defined as all domestically chartered commercial banks not included in the top 25."
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项动态，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "2e6e890bdf6230c4",
+   "title": "Assets and Liabilities of U.S. Branches and Agencies of Foreign Banks",
+   "datePublished": "",
+   "jurisdiction": "美国",
+   "authority": "美联储",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "央行与市场",
+   "legalStatus": "已生效/即将生效",
+   "impactLevel": "中",
+   "originalUrl": "https://www.federalreserve.gov/data/assetliab/current.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+   "keyPoints": [
+    "` The form was first used for reporting data as of June 30, 1980, and was revised as of December 31, 1985.",
+    "From November 1972 through May 1980, U.",
+    "branches and agencies of foreign banks had filed a monthly FR 886a report.",
+    "11, last issued on July 10, 1980."
+   ],
+   "professionalAnalysis": "央行政策通过利率、资产负债表和前瞻指引影响融资成本、汇率与资产估值。需关注通胀（尤其能源价格）驱动下的政策路径变化。",
+   "plainLanguage": "简单说：这是美国在“央行与市场”领域的一项已生效/即将生效，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "港元与美元挂钩，美联储利率路径直接影响香港银行同业拆息（HIBOR）和港股公司融资成本；高负债的地产、公用事业和基建企业利息支出压力最大；同时影响减值测试中使用的折现率。",
+   "industries": [
+    "地产",
+    "公用事业",
+    "银行保险",
+    "基建",
+    "高负债企业"
+   ],
+   "actions": [
+    "测算利率上行100/200个基点对利息支出的影响",
+    "复核浮息债务比例和对冲安排",
+    "更新减值测试折现率假设",
+    "评估再融资时间表"
+   ],
+   "watchItems": [
+    "美联储与欧央行下次议息",
+    "能源价格与通胀数据",
+    "HIBOR走势"
+   ],
+   "analysisMethod": "规则生成"
+  },
+  {
+   "id": "11831b075ed57725",
+   "title": "Trade topics",
+   "datePublished": "",
+   "jurisdiction": "全球",
+   "authority": "世界贸易组织",
+   "sourceType": "official",
+   "sourceTier": "A",
+   "section": "热点新闻",
+   "topic": "全球与贸易",
+   "legalStatus": "执法/诉讼",
+   "impactLevel": "中",
+   "originalUrl": "https://www.wto.org/english/tratop_e/tratop_e.htm",
+   "linkVerified": true,
+   "collectedAt": "2026-11-10T06:02:00.476566+00:00",
+   "oneLiner": "The WTO is the only international body dealing with the rules of trade between nations. At its heart are the WTO agreeme",
+   "keyPoints": [
+    "原文要点待提取，请点击原文查看。"
+   ],
+   "professionalAnalysis": "贸易动态主要通过关税、贸易救济（反倾销、反补贴）、贸易协定与全球需求变化影响企业。需区分结构性趋势（如AI相关设备贸易增长）与短期冲击（航运、能源）。",
+   "plainLanguage": "简单说：这是全球在“全球与贸易”领域的一项执法/诉讼，可能改变相关企业的合规义务、经营成本或市场预期。",
+   "hkImpact": "出口占比高的港股制造企业需关注目标市场关税与贸易救济、汇率和航运成本；AI相关硬件链条受益于需求增长，而依赖欧洲需求的企业面临订单压力。",
+   "industries": [
+    "出口制造",
+    "电子与半导体",
+    "航运物流",
+    "大宗商品",
+    "零售"
+   ],
+   "actions": [
+    "按市场拆分收入并做关税/需求情景测试",
+    "复核航运合同和运费敞口",
+    "评估外汇对冲比例",
+    "跟踪主要客户所在市场的贸易救济调查"
+   ],
+   "watchItems": [
+    "关税和贸易救济调查",
+    "全球贸易预测修订",
+    "航运与能源价格"
+   ],
+   "analysisMethod": "规则生成"
   }
  ]
 }
