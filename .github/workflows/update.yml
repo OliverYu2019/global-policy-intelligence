@@ -2,7 +2,7 @@ name: Update Global Policy Dashboard
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       send_test_email:
@@ -96,8 +96,8 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          MAX_NEW_PER_SOURCE: "1"
-          MAX_ANALYSIS_PER_RUN: "1"
+          MAX_NEW_PER_SOURCE: "2"
+          MAX_ANALYSIS_PER_RUN: "8"
           MAX_AGE_DAYS: "30"
           FORCE_REANALYZE: "false"
         run: python collector.py
