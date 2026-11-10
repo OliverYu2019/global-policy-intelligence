@@ -5,13 +5,15 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: policy-dashboard
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -19,33 +21,39 @@ jobs:
         run: pip install -r requirements.txt
       - name: Keep previous data snapshot
         run: cp data.json data.before.json 2>/dev/null || echo '{"items":[]}' > data.before.json
-      - name: Collect latest intelligence
+      - name: Collect and analyse
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
         run: python collector.py
-      - name: Detect newly-added important items
+      - name: Detect new important items
         id: detect
         run: python detect_updates.py
-      - name: Build alert email
+      - name: Build mobile email
         if: steps.detect.outputs.notify_count != '0'
         env:
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
         run: python build_email.py
-      - name: Send email alert
+      - name: Send email
         if: steps.detect.outputs.notify_count != '0'
-        uses: dawidd6/action-send-mail@v6
-        with:
-          server_address: ${{ secrets.SMTP_SERVER }}
-          server_port: ${{ secrets.SMTP_PORT }}
-          secure: true
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: file://email_subject.txt
-          to: ${{ secrets.ALERT_EMAIL_TO }}
-          from: ${{ secrets.ALERT_EMAIL_FROM }}
-          html_body: file://email_body.html
-      - name: Commit updated data
+        env:
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: python send_email.py
+      - name: Commit data
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data.json
+          [ -f notified.json ] && git add notified.json
           git diff --cached --quiet || git commit -m "Hourly policy intelligence update"
+          git pull --rebase --autostash || true
           git push
