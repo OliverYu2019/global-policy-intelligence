@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-11-10T02:17:18.070365+00:00",
+  "count": 6,
+  "errors": [],
+  "items": [
+    {
+      "id": "pwc-nature-20261022",
+      "date": "2026-10-22",
+      "title": "ISSB发布关于自然相关披露的实务公告征求意见稿",
+      "url": "https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-news.html",
+      "summary": "公开意见征求期至2027年2月19日，旨在支持企业依据IFRS S1提供自然相关披露。",
+      "source": "PwC中国",
+      "topic": "可持续披露",
+      "impact": "中高",
+      "professional": "关注自然相关风险、机会、指标、情景分析及与IFRS S1连接信息要求。",
+      "plain": "继气候之后，自然资源依赖和生物多样性正进入投资者披露范围。",
+      "hkImpact": "农业、食品、地产、矿业和供应链密集型港股公司应建立自然风险清单。"
+    },
+    {
+      "id": "iasb-oct-2026",
+      "date": "2026-11-04",
+      "title": "October 2026 IASB Update and podcast now available",
+      "url": "https://www.ifrs.org/news-and-events/news/2026/11/october-2026-iasb-update-and-podcast-now-available/",
+      "summary": "IASB讨论摊余成本计量、IFRS for SMEs及工作计划，并发布IFRIC议程决定汇编。",
+      "source": "IASB",
+      "topic": "财务报告",
+      "impact": "中",
+      "professional": "跟踪IASB暂定决定及IFRIC议程决定对现有会计政策的解释影响。",
+      "plain": "即使准则文字没有立即修改，解释口径也可能影响具体交易处理。",
+      "hkImpact": "纳入季度会计政策扫描，并与审计师确认议程决定是否需及时实施。"
+    },
+    {
+      "id": "issb-nature-july",
+      "date": "2026-07-22",
+      "title": "ISSB July 2026 Update: Nature-related Disclosures",
+      "url": "https://www.ifrs.org/news-and-events/updates/issb/2026/issb-update-july-2026/",
+      "summary": "ISSB完成自然相关披露征求意见稿的应循程序讨论，并同意120天意见期。",
+      "source": "ISSB",
+      "topic": "可持续披露",
+      "impact": "中高",
+      "professional": "项目由研究进入正式征求意见阶段，需关注适用范围、比例原则和行业指标。",
+      "plain": "自然风险披露从讨论逐渐走向可执行规则。",
+      "hkImpact": "提前识别资产和业务活动对自然的依赖及影响，避免未来数据断层。"
+    },
+    {
+      "id": "hkicpa-2026-13",
+      "date": "2026-10-28",
+      "title": "HKFRS 18 Navigator Issue 8: Navigating IFRS agenda decisions on HKFRS 18",
+      "url": "https://www.hkicpa.org.hk/zh-CN/Standards-setting/Standards/Whats-News/2026",
+      "summary": "HKICPA发布HKFRS 18系列最新一期，聚焦与HKFRS 18相关的IFRS议程决定。",
+      "source": "HKICPA",
+      "topic": "香港本地",
+      "impact": "高",
+      "professional": "关注损益表分类、强制小计、费用分析以及管理层界定业绩指标。",
+      "plain": "香港公司需要重新检查利润表长相，以及“核心利润”等管理层指标如何解释。",
+      "hkImpact": "立即开展HKFRS 18 Gap Assessment，覆盖比较数据、科目映射、MPM和系统改造。"
+    },
+    {
+      "id": "hkex-climate-2026",
+      "date": "2026-01-01",
+      "title": "HKEX ESG Code Part D climate requirements",
+      "url": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+      "summary": "恒生综合大型股指数成份股自2026年1月1日或之后开始的财政年度强制按气候规定汇报。",
+      "source": "HKEX",
+      "topic": "香港本地",
+      "impact": "高",
+      "professional": "大型股发行人进入强制气候披露阶段，涵盖治理、战略、风险管理、指标与目标。",
+      "plain": "大型港股公司不能只解释为何不披露，必须建立可实际报告的气候数据和流程。",
+      "hkImpact": "董事会、财务和ESG团队需确定报告边界、温室气体数据、情景分析及财务影响连接。"
+    },
+    {
+      "id": "pwc-ifrs18-2027",
+      "date": "2026-10-01",
+      "title": "IFRS 18对外国私人发行人的影响",
+      "url": "https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-news.html",
+      "summary": "IFRS 18自2027年1月1日或之后开始的年度期间生效，允许提前采用。",
+      "source": "PwC中国",
+      "topic": "财务报告",
+      "impact": "高",
+      "professional": "重点关注过渡安排、管理层界定业绩指标及资本市场交易中的列报披露。",
+      "plain": "这不只是换报表格式，也会改变公司对利润和经营表现的讲法。",
+      "hkImpact": "港股公司应在2026年完成设计与试运行，确保2027生效和比较信息准备。"
+    }
+  ]
+}

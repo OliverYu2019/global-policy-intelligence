@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {"id":"pwc","name":"PwC中国","url":"https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-news.html","type":"pwc"},
+    {"id":"iasb","name":"IASB","url":"https://www.ifrs.org/news-and-events/updates/iasb/","type":"generic"},
+    {"id":"issb","name":"ISSB","url":"https://www.ifrs.org/news-and-events/updates/issb/","type":"generic"},
+    {"id":"hkicpa","name":"HKICPA","url":"https://www.hkicpa.org.hk/en/Standards-setting/Standards/Whats-News","type":"generic"},
+    {"id":"hkex","name":"HKEX","url":"https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK","type":"generic"}
+  ]
+}
