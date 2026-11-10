@@ -1,19 +1,46 @@
 {
-  "generatedAt": "2026-11-10T07:21:35.199428+00:00",
-  "count": 52,
-  "sourceCount": 72,
-  "removedInvalidCount": 20,
-  "languagePolicy": {
-    "englishSources": "中文标题+英文原标题；中文分析；关键事实含英文依据和中文释义",
-    "chineseSources": "保留中文，不重复翻译"
-  },
+  "generatedAt": "2026-11-10T09:02:51.782523+00:00",
+  "count": 64,
   "analysis": {
-    "mode": "historical-independent-bilingual-rewrite",
-    "completeCount": 52,
-    "pendingCount": 0,
-    "note": "基于现有data.json事实摘录进行结构化重写；未保留完整正文的条目已标注gaps。"
+    "mode": "independent-per-article",
+    "model": "qwen3.7-plus",
+    "analysedThisRun": 1,
+    "reanalysedThisRun": 0,
+    "addedThisRun": 12,
+    "pendingCount": 11
   },
-  "errors": [],
+  "errors": [
+    {
+      "source": "欧盟委员会气候行动总司",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/",
+      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press"
+    },
+    {
+      "source": "欧盟委员会气候行动总司",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-international-climate-finance-figures/",
+      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-international-climate-finance-figures/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-internatio"
+    },
+    {
+      "source": "欧盟理事会",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/"
+    },
+    {
+      "source": "美国司法部反垄断司",
+      "url": "https://www.justice.gov/atr/press-room",
+      "error": "Request failed after 3 attempts: https://www.justice.gov/atr/press-room: 403 Client Error: Forbidden for url: https://www.justice.gov/atr/press-room"
+    },
+    {
+      "source": "美国联邦贸易委员会",
+      "url": "https://www.ftc.gov/news-events/news/press-releases",
+      "error": "Request failed after 3 attempts: https://www.ftc.gov/news-events/news/press-releases: 404 Client Error: Not Found for url: https://www.ftc.gov/news-events/news/press-releases"
+    },
+    {
+      "source": "PwC中国",
+      "url": "https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-news.html",
+      "error": "Request failed after 3 attempts: https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-news.html: 403 Client Error: Forbidden for url: https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listi"
+    }
+  ],
   "items": [
     {
       "id": "1508520f8e672113",
@@ -277,6 +304,95 @@
           "action": "将关键假设纳入预算、资本开支和风险披露",
           "deliverable": "管理层决策及责任分工"
         }
+      ]
+    },
+    {
+      "id": "4af3a3adfe440449",
+      "title": "生态环境部部长黄润秋会见几内亚环境与可持续发展部部长法苏·泰亚",
+      "datePublished": "2026-11-08",
+      "jurisdiction": "中国",
+      "authority": "生态环境部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "生物多样性",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261108_1185724.shtml",
+      "linkVerified": true,
+      "contentHash": "2eee065d2b32fdc58b36aed44fa6215eaeb34c56df1b88ae6d8dce668710fed7",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "生态环境部部长会见几内亚环境部长，就气候变化、污染防治及生物多样性等议题进行交流。",
+      "eventType": "其他",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "生态环境部部长黄润秋会见几内亚环境与可持续发展部部长法苏·泰亚",
+          "evidence": "11月6日，生态环境部部长黄润秋在京会见几内亚环境与可持续发展部部长法苏·泰亚"
+        },
+        {
+          "fact": "双方围绕应对气候变化、环境污染防治、生态保护与修复、生物多样性保护、人员交流培训等议题进行深入交流",
+          "evidence": "双方围绕应对气候变化、环境污染防治、生态保护与修复、生物多样性保护、人员交流培训等议题进行深入交流"
+        }
+      ],
+      "professionalAnalysis": "本次会见属于中几两国在生态环境领域的双边外交与政策交流动态，尚未形成具有法律约束力的具体政策、法规或合作协议。会议探讨了气候变化、污染防治、生态修复及生物多样性等宏观议题，并提及人员交流培训。当前阶段仅为高层意向性沟通，未明确具体项目、资金安排或时间表。与既有规则无直接冲突或替代关系。主要不确定性在于双方后续是否会签署具体合作备忘录或落地实质性环保项目，以及这些合作是否会对在几内亚投资的中国企业提出新的环保合规要求。",
+      "plainLanguage": "中国生态环境部和几内亚环境部长在北京见面，聊了聊气候变化、污染治理、生态保护和生物多样性等环保话题，还提到了人员培训。这主要是两国在环保领域的友好交流，目前还没有出台具体的新规定或合作项目，对企业的直接影响不大，但未来可能会有相关的环保合作落地。",
+      "companyImpact": {
+        "financial": "不构成直接影响",
+        "compliance": "不构成直接影响",
+        "operations": "不构成直接影响",
+        "supplyChain": "不构成直接影响",
+        "disclosure": "不构成直接影响",
+        "strategy": "对于在几内亚有矿业或基建投资的企业，需关注未来中几环保合作可能带来的项目环保标准提升或ESG合规要求变化"
+      },
+      "affectedIndustries": [
+        "环保",
+        "矿业",
+        "基建"
+      ],
+      "affectedCompanyProfile": [
+        "在几内亚有矿业、基建或生态项目投资的企业",
+        "从事环保技术输出或生态修复业务的企业"
+      ],
+      "actions": [
+        "战略投资部/海外业务部｜2026年12月31日：梳理公司在几内亚的现有项目及未来投资计划，评估当地环保政策趋势及中几环保合作可能带来的合规标准变化；产出：几内亚业务环保合规与政策趋势评估报告"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "中几两国是否签署具体的生态环境合作备忘录或启动具体项目",
+          "whyItMatters": "若签署具体协议，可能会对在几内亚投资的中国企业提出更严格的环保、生态修复或生物多样性保护要求，增加合规成本"
+        }
+      ],
+      "analystJudgement": "分析师判断：此次高层会见释放了中几两国在生态环境领域加强合作的积极信号，但短期内不会转化为强制性监管要求。对于在几内亚开展业务（尤其是铝土矿等矿业开采及大型基建）的中资企业而言，需警惕未来双边合作框架下可能引入的中国环保标准或国际ESG要求，提前布局生态修复与生物多样性保护能力，以防范潜在的合规与声誉风险。",
+      "confidence": "高",
+      "gaps": [
+        "双方是否达成具体合作意向或签署备忘录",
+        "合作是否涉及对在几内亚中资企业的具体环保要求",
+        "人员交流培训的具体规模与对象"
+      ],
+      "sources": [
+        "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261108_1185724.shtml"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：不构成直接影响\n合规：不构成直接影响\n运营：不构成直接影响\n供应链：不构成直接影响\n披露：不构成直接影响\n战略：对于在几内亚有矿业或基建投资的企业，需关注未来中几环保合作可能带来的项目环保标准提升或ESG合规要求变化",
+      "industries": [
+        "环保",
+        "矿业",
+        "基建"
+      ],
+      "keyPoints": [
+        "生态环境部部长黄润秋会见几内亚环境与可持续发展部部长法苏·泰亚",
+        "双方围绕应对气候变化、环境污染防治、生态保护与修复、生物多样性保护、人员交流培训等议题进行深入交流"
+      ],
+      "actionsLegacy": [
+        "战略投资部/海外业务部｜2026年12月31日：梳理公司在几内亚的现有项目及未来投资计划，评估当地环保政策趋势及中几环保合作可能带来的合规标准变化；产出：几内亚业务环保合规与政策趋势评估报告"
+      ],
+      "watchItems": [
+        "待定：中几两国是否签署具体的生态环境合作备忘录或启动具体项目（若签署具体协议，可能会对在几内亚投资的中国企业提出更严格的环保、生态修复或生物多样性保护要求，增加合规成本）"
       ]
     },
     {
@@ -1124,6 +1240,127 @@
       ]
     },
     {
+      "id": "7024f446fe60c5eb",
+      "title": "Sanctions updates",
+      "datePublished": "2026-10-30",
+      "jurisdiction": "香港",
+      "authority": "香港会计师公会",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "供应链安全",
+      "legalStatus": "已通过/发布",
+      "originalUrl": "https://www.hkicpa.org.hk/en/Standards-setting/Anti-money-laundering/Anti-money-laundering",
+      "linkVerified": true,
+      "contentHash": "322a9068bf661b228a546665d09e715d74cb039e75f7f611f6567da07829f317",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "Anti-money laundering (AML) notices and news",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "2833 (2026) Extending the mandate of the United Nations Verification Mission in Colombia until 31 October 2027.",
+          "evidence": "2833 (2026) Extending the mandate of the United Nations Verification M"
+        },
+        {
+          "fact": "2834 (2026) Renewing the authorization of the European Union-led multinational stabilization force (EUFOR-Althea) in Bosnia and Herzegovina for 12 mon",
+          "evidence": "2834 (2026) Renewing the authorization of the European Union-led multi"
+        },
+        {
+          "fact": "2835 (2026) Extending the mandate of the United Nations Support Mission in Libya (UNSMIL) until 31 October 2027.",
+          "evidence": "2835 (2026) Extending the mandate of the United Nations Support Missio"
+        },
+        {
+          "fact": "List of individuals, groups, undertakings and entities published under section 25 of the United Nations Sanctions (Afghanistan) Regulation 2022 (Cap.",
+          "evidence": "List of individuals, groups, undertakings and entities published under"
+        },
+        {
+          "fact": "537AE)\nGazettal of the United Nations Sanctions (Central African Re",
+          "evidence": "537AE)\nGazettal of the United Nations Sanctions (Central African Re"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "2833 (2026) Extending the mandate of the United Nations Verification Mission in Colombia until 31 October 2027.",
+        "2834 (2026) Renewing the authorization of the European Union-led multinational stabilization force (EUFOR-Althea) in Bosnia and Herzegovina for 12 mon",
+        "2835 (2026) Extending the mandate of the United Nations Support Mission in Libya (UNSMIL) until 31 October 2027.",
+        "List of individuals, groups, undertakings and entities published under section 25 of the United Nations Sanctions (Afghanistan) Regulation 2022 (Cap.",
+        "537AE)\nGazettal of the United Nations Sanctions (Central African Re"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "37793ffcae8c51c3",
+      "title": "商务部 国家发展改革委 生态环境部 海关总署关于进一步提高海南自由贸易港贸易自由化便利化水平的通知",
+      "datePublished": "2026-10-29",
+      "jurisdiction": "中国",
+      "authority": "商务部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "热点新闻",
+      "topic": "全球与贸易",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_471f491432ad4e90bab894340fa78f9c.html",
+      "linkVerified": true,
+      "contentHash": "3e52824e7021539bd3f69eef52aaf21b663ad288664b4c47058f5891932089f0",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "已收录原文，独立专业分析待生成。",
+      "eventType": "其他",
+      "keyFacts": [],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
       "id": "8fc81ac21b7cb2d0",
       "title": "HKFRS 18导航第8期：解析与HKFRS 18有关的IFRS议程决定",
       "datePublished": "2026-10-28",
@@ -1347,6 +1584,70 @@
           "deliverable": "管理层决策及责任分工"
         }
       ]
+    },
+    {
+      "id": "b624fa627922e819",
+      "title": "Official interest rates",
+      "datePublished": "2026-10-28",
+      "jurisdiction": "欧盟",
+      "authority": "欧洲中央银行",
+      "sourceType": "official",
+      "sourceTier": "A",
+      "section": "热点新闻",
+      "topic": "央行与市场",
+      "legalStatus": "已生效/即将生效",
+      "originalUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+      "linkVerified": true,
+      "contentHash": "0376e5548cc10d8ffeb4704f532ffaa1fc6b04bb94829ba287e8abbe4928fed6",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "The three official interest rates the ECB sets every six weeks as part of its monetary policy to steer the provision of liquidity to the banking sector.",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "The Governing Council decided in March 2024 to continue to steer the monetary policy stance through this rate.",
+          "evidence": "The Governing Council decided in March 2024 to continue to steer the m"
+        },
+        {
+          "fact": "On 13 March 2024 the ECB announced changes to its operational framework for implementing monetary policy.",
+          "evidence": "On 13 March 2024 the ECB announced changes to its operational framewor"
+        },
+        {
+          "fact": "Effective 18 September 2024, the spread between the rate on the main refinancing operations and the deposit facility rate was reduced to 15 basis poin",
+          "evidence": "Effective 18 September 2024, the spread between the rate on the main r"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "The Governing Council decided in March 2024 to continue to steer the monetary policy stance through this rate.",
+        "On 13 March 2024 the ECB announced changes to its operational framework for implementing monetary policy.",
+        "Effective 18 September 2024, the spread between the rate on the main refinancing operations and the deposit facility rate was reduced to 15 basis poin"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
     },
     {
       "id": "e6cddafbc914b48b",
@@ -3016,6 +3317,65 @@
           "deliverable": "管理层决策及责任分工"
         }
       ]
+    },
+    {
+      "id": "f7fa62ae7fa56c5b",
+      "title": "关于印发2027年度消耗臭氧层物质和氢氟碳化物配额总量设定与分配方案的通知",
+      "datePublished": "2026-10-16",
+      "jurisdiction": "中国",
+      "authority": "生态环境部政策文件",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "大气污染物",
+      "legalStatus": "已通过/发布",
+      "originalUrl": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk05/202610/t20261019_1183257.html",
+      "linkVerified": true,
+      "contentHash": "7f7807ebb78c9d065503c696395d0357dc36432a8f8d22f9a77d7e5faab63688",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "中华人民共和国生态环境部",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "请按照消耗臭氧层物质生产、使用、进出口配额许可及进出口审批事项办理流程，于2026年10月31日前组织做好2027年度消耗臭氧层物质生产配额、内用生产配额和使用配额以及氢氟碳化物生产配额、内用生产配额和进口配额申请工作。",
+          "evidence": "请按照消耗臭氧层物质生产、使用、进出口配额许可及进出口审批事项办理流程，于2026年10月31日前组织做好2027年度消耗臭氧层物质生产配额"
+        },
+        {
+          "fact": "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号",
+          "evidence": "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 1"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "请按照消耗臭氧层物质生产、使用、进出口配额许可及进出口审批事项办理流程，于2026年10月31日前组织做好2027年度消耗臭氧层物质生产配额、内用生产配额和使用配额以及氢氟碳化物生产配额、内用生产配额和进口配额申请工作。",
+        "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
     },
     {
       "id": "a4c93eeb94eb41f2",
@@ -6196,6 +6556,401 @@
           "deliverable": "管理层决策及责任分工"
         }
       ]
+    },
+    {
+      "id": "ec8981267506b311",
+      "title": "Core Climate",
+      "datePublished": "",
+      "jurisdiction": "香港",
+      "authority": "香港交易所",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "气候",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.hkex.com.hk/Join-Our-Market/Sustainable-Finance/Core-Climate?sc_lang=zh-HK",
+      "linkVerified": true,
+      "contentHash": "22e37efa10c8b7a0643abb994450246a1ba5c1ae73d914ab23836609e60504e2",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "香港交易所全新碳市場",
+      "eventType": "其他",
+      "keyFacts": [],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "ae54679752a49285",
+      "title": "Mayors meet with EU leaders in Brussels to advance affordable energy and climate resilience",
+      "datePublished": "",
+      "jurisdiction": "欧盟",
+      "authority": "欧盟委员会气候行动总司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "气候",
+      "legalStatus": "动态",
+      "originalUrl": "https://eu-mayors.ec.europa.eu/en/news/mayors-meet-eu-leaders-brussels-advance-affordable-energy-and-climate-resilience",
+      "linkVerified": true,
+      "contentHash": "9bee235ef83458ee3c4add9ce58737ab8a413d65e681861e81508272ba087fb0",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "Against a backdrop of rising energy costs and growing climate risks, hundreds of mayors gathered in Brussels for the annual EU Covenant of Mayors Ceremony for a discussion with European leaders about how to make energy more affordable, strengthen resilience, and protect people's quality of life across Europe.",
+      "eventType": "其他",
+      "keyFacts": [],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "0cd17f31800829d2",
+      "title": "Competition",
+      "datePublished": "",
+      "jurisdiction": "欧盟",
+      "authority": "欧盟委员会竞争总司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "反垄断",
+      "legalStatus": "已通过/发布",
+      "originalUrl": "https://commission.europa.eu/about/departments-and-executive-agencies/competition_en",
+      "linkVerified": true,
+      "contentHash": "b9cd34ed405a2bf20086ce683c510294d47b13bb42abaeefdc2e0ae1356c923c",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "The Directorate-General for Competition develops and implements EU policy on competition, and enforces EU competition rules.",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "Leadership and organisation\nDeutsch (840.",
+          "evidence": "Leadership and organisation\nDeutsch (840."
+        },
+        {
+          "fact": "49 KB - PDF) Download\nfrançais (840.",
+          "evidence": "49 KB - PDF) Download\nfrançais (840."
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "Leadership and organisation\nDeutsch (840.",
+        "49 KB - PDF) Download\nfrançais (840."
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "b44433ae76d72c73",
+      "title": "Subscribe to EU Trade Newsletter",
+      "datePublished": "",
+      "jurisdiction": "欧盟",
+      "authority": "欧盟委员会贸易总司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "热点新闻",
+      "topic": "全球与贸易",
+      "legalStatus": "动态",
+      "originalUrl": "https://ec.europa.eu/newsroom/trade/user-subscriptions/230/create",
+      "linkVerified": true,
+      "contentHash": "4b98a43d26bd15429432c3c92f5bd9d92290a578a432aa8446abdade893ce227",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "已收录原文，独立专业分析待生成。",
+      "eventType": "其他",
+      "keyFacts": [],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "e647de0be9933b1a",
+      "title": "Home",
+      "datePublished": "",
+      "jurisdiction": "美国",
+      "authority": "美联储",
+      "sourceType": "official",
+      "sourceTier": "A",
+      "section": "热点新闻",
+      "topic": "央行与市场",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.federalreserve.gov/default.htm",
+      "linkVerified": true,
+      "contentHash": "8af670ec33c37476c6af5d25a03a6c7b54c4a8dcae2d760a54b0acc9436e913a",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "The Federal Reserve Board of Governors in Washington DC.",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "Press Release - 11/9/2026\nFederal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+          "evidence": "Press Release - 11/9/2026\nFederal Reserve Board announces approval of "
+        },
+        {
+          "fact": "Orders on Banking Applications - 11/9/2026\nFederal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancor",
+          "evidence": "Orders on Banking Applications - 11/9/2026\nFederal Reserve Board annou"
+        },
+        {
+          "fact": "economy and monetary policy Speech - 10/1/2026\nSpeech by Vice Chair Jefferson on the U.",
+          "evidence": "economy and monetary policy Speech - 10/1/2026\nSpeech by Vice Chair Je"
+        },
+        {
+          "fact": "[Right/Left Arrows] seeks the video forwards and back (5 sec );",
+          "evidence": "[Right/Left Arrows] seeks the video forwards and back (5 sec );"
+        },
+        {
+          "fact": "[F] toggles fullscreen on/off (Except IE 11);",
+          "evidence": "[F] toggles fullscreen on/off (Except IE 11);"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "Press Release - 11/9/2026\nFederal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+        "Orders on Banking Applications - 11/9/2026\nFederal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancor",
+        "economy and monetary policy Speech - 10/1/2026\nSpeech by Vice Chair Jefferson on the U.",
+        "[Right/Left Arrows] seeks the video forwards and back (5 sec );",
+        "[F] toggles fullscreen on/off (Except IE 11);"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "11831b075ed57725",
+      "title": "WORLD TRADE ORGANIZATION",
+      "datePublished": "",
+      "jurisdiction": "全球",
+      "authority": "世界贸易组织",
+      "sourceType": "official",
+      "sourceTier": "A",
+      "section": "热点新闻",
+      "topic": "全球与贸易",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.wto.org/english/tratop_e/tratop_e.htm",
+      "linkVerified": true,
+      "contentHash": "102276dab63913b60aafa77b2881d0cb7b8efeb047afd249d913b80b0671da5a",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "The WTO is the only international body dealing with the rules of trade between nations. At its heart are the WTO agreements, the legal ground-rules for international commerce and for trade policy.",
+      "eventType": "其他",
+      "keyFacts": [],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "7b81dbc7a00a5184",
+      "title": "Climate Technology",
+      "datePublished": "",
+      "jurisdiction": "全球",
+      "authority": "联合国气候变化框架公约",
+      "sourceType": "official",
+      "sourceTier": "A",
+      "section": "政策法规",
+      "topic": "气候",
+      "legalStatus": "已生效/即将生效",
+      "originalUrl": "https://unfccc.int/topics/climate-technology/what-is-technology-development-and-transfer",
+      "linkVerified": true,
+      "contentHash": "3bc696cfa1058cbc9bdbc6b9c2b95bb40e594755427f2b263fecdda3b92884b4",
+      "collectedAt": "2026-11-10T09:02:51.782523+00:00",
+      "oneLiner": "已收录原文，独立专业分析待生成。",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "The Convention notes that all Parties shall promote and cooperate in the development and transfer of technologies that reduce emissions of GHGs.",
+          "evidence": "The Convention notes that all Parties shall promote and cooperate in t"
+        },
+        {
+          "fact": "Adopted as part of the Belém Political Package, the Programme aims to help keep the 1.",
+          "evidence": "Adopted as part of the Belém Political Package, the Programme aims to "
+        },
+        {
+          "fact": "5°C goal within reach by strengthening support for the implementation of climate technology priorities identified by developing countries.",
+          "evidence": "5°C goal within reach by strengthening support for the implementation "
+        },
+        {
+          "fact": "Running at least until 2034, with the possibility of extension, this is the first implementation programme under the Paris Agreement.",
+          "evidence": "Running at least until 2034, with the possibility of extension, this i"
+        },
+        {
+          "fact": "and promote effective matchmaking to accelerate project implementation.",
+          "evidence": "and promote effective matchmaking to accelerate project implementation"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-10T09:02:51.782523+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "The Convention notes that all Parties shall promote and cooperate in the development and transfer of technologies that reduce emissions of GHGs.",
+        "Adopted as part of the Belém Political Package, the Programme aims to help keep the 1.",
+        "5°C goal within reach by strengthening support for the implementation of climate technology priorities identified by developing countries.",
+        "Running at least until 2034, with the possibility of extension, this is the first implementation programme under the Paris Agreement.",
+        "and promote effective matchmaking to accelerate project implementation."
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
     }
   ]
 }
