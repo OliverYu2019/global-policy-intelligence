@@ -1,9 +1,10 @@
 {
   "sources": [
     {"id":"cn_gov","name":"中国政府网","region":"中国","tier":"S","type":"official","url":"https://www.gov.cn/zhengce/zuixin/"},
-    {"id":"cn_mee","name":"生态环境部","region":"中国","tier":"S","type":"official","url":"https://www.mee.gov.cn/zcwj/"},
+    {"id":"cn_mee","name":"生态环境部","region":"中国","tier":"S","type":"official","url":"https://www.mee.gov.cn/ywdt/hjywnews/"},
+    {"id":"cn_mee_zc","name":"生态环境部政策文件","region":"中国","tier":"S","type":"official","url":"https://www.mee.gov.cn/zcwj/"},
     {"id":"cn_mofcom","name":"商务部","region":"中国","tier":"S","type":"official","url":"https://www.mofcom.gov.cn/zcfb/"},
-    {"id":"cn_samr","name":"市场监管总局","region":"中国","tier":"S","type":"official","url":"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fldzfys/"},
+    {"id":"cn_samr","name":"市场监管总局","region":"中国","tier":"S","type":"official","url":"https://www.samr.gov.cn/xw/zj/"},
     {"id":"hkex","name":"香港交易所","region":"香港","tier":"S","type":"official","url":"https://www.hkex.com.hk/News/Regulatory-Announcements?sc_lang=zh-HK"},
     {"id":"hkicpa","name":"香港会计师公会","region":"香港","tier":"S","type":"official","url":"https://www.hkicpa.org.hk/en/Standards-setting/Standards/Whats-News"},
     {"id":"eu_env","name":"欧盟委员会环境总司","region":"欧盟","tier":"S","type":"official","url":"https://environment.ec.europa.eu/news_en"},
@@ -12,16 +13,14 @@
     {"id":"eu_trade","name":"欧盟委员会贸易总司","region":"欧盟","tier":"S","type":"official","url":"https://policy.trade.ec.europa.eu/news_en"},
     {"id":"eu_council","name":"欧盟理事会","region":"欧盟","tier":"S","type":"official","url":"https://www.consilium.europa.eu/en/press/press-releases/"},
     {"id":"us_epa","name":"美国环保署","region":"美国","tier":"S","type":"official","url":"https://www.epa.gov/newsreleases/search"},
-    {"id":"us_federalregister","name":"美国联邦公报","region":"美国","tier":"S","type":"official","url":"https://www.federalregister.gov/agencies/environmental-protection-agency"},
     {"id":"us_doj","name":"美国司法部反垄断司","region":"美国","tier":"S","type":"official","url":"https://www.justice.gov/atr/press-room"},
     {"id":"us_ftc","name":"美国联邦贸易委员会","region":"美国","tier":"S","type":"official","url":"https://www.ftc.gov/news-events/news/press-releases"},
     {"id":"us_ustr","name":"美国贸易代表办公室","region":"美国","tier":"S","type":"official","url":"https://ustr.gov/about-us/policy-offices/press-office/press-releases"},
     {"id":"fed","name":"美联储","region":"美国","tier":"A","type":"official","url":"https://www.federalreserve.gov/newsevents/pressreleases.htm"},
-    {"id":"ecb","name":"欧洲中央银行","region":"欧盟","tier":"A","type":"official","url":"https://www.ecb.europa.eu/press/html/index.en.html"},
+    {"id":"ecb","name":"欧洲中央银行","region":"欧盟","tier":"A","type":"official","url":"https://www.ecb.europa.eu/press/pr/html/index.en.html"},
     {"id":"wto","name":"世界贸易组织","region":"全球","tier":"A","type":"official","url":"https://www.wto.org/english/news_e/news_e.htm"},
     {"id":"unfccc","name":"联合国气候变化框架公约","region":"全球","tier":"A","type":"official","url":"https://unfccc.int/news"},
-    {"id":"cbd","name":"生物多样性公约","region":"全球","tier":"A","type":"official","url":"https://www.cbd.int/article"},
-    {"id":"reuters","name":"Reuters","region":"全球","tier":"B","type":"news","url":"https://www.reuters.com/"},
+    {"id":"cbd","name":"生物多样性公约","region":"全球","tier":"A","type":"official","url":"https://www.cbd.int/press"},
     {"id":"pwc","name":"PwC中国","region":"全球","tier":"B","type":"professional","url":"https://www.pwccn.com/zh/services/audit-and-assurance/capabilities/publications/accounting-listing-rule-updates/ifrs-hkfrs-news.html"}
   ]
 }

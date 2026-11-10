@@ -1,17 +1,283 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Global Policy Intelligence</title><style>
-:root{--navy:#0d2438;--blue:#155f92;--bg:#f3f6f9;--line:#e2e8ef;--red:#b42318;--amber:#b54708;--green:#027a48}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#172b3a;font:14px/1.55 Arial,"Microsoft YaHei",sans-serif}.hide{display:none!important}#gate{min-height:100vh;display:grid;place-items:center;background:radial-gradient(circle at top right,#255f86,#0d2438 55%);padding:20px}.login{width:min(430px,100%);background:#fff;border-radius:18px;padding:32px;box-shadow:0 25px 80px #0005}.brand{font-size:12px;letter-spacing:1.5px;color:#607689}.login h1{font-size:25px;margin:8px 0}.login p{color:#6a7d8e}.login input{width:100%;padding:13px 14px;border:1px solid #cbd6df;border-radius:9px;font-size:16px}.login button{width:100%;margin-top:12px;padding:12px;border:0;border-radius:9px;background:#155f92;color:#fff;font-weight:700;cursor:pointer}.err{min-height:22px;margin-top:10px;color:#b42318}.small{font-size:12px;color:#738595;margin-top:15px}header{background:linear-gradient(120deg,#0d2438,#164d73);color:#fff;padding:22px 4%}.head,.wrap{max-width:1540px;margin:auto}.head{display:flex;justify-content:space-between;align-items:end;gap:20px}header h1{margin:0;font-size:27px}.subtitle{opacity:.82}.right{text-align:right;font-size:12px}.right button{margin-top:7px;border:1px solid #ffffff80;border-radius:7px;background:transparent;color:#fff;padding:5px 11px;cursor:pointer}.wrap{padding:18px}.nav{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}.nav button,.filters input,.filters select{border:1px solid #cdd7e1;background:#fff;border-radius:8px;padding:9px 12px}.nav button{cursor:pointer;font-weight:700}.nav button.active{background:#165f96;color:#fff;border-color:#165f96}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 2px 12px #102a4310}.kpi .n{font-size:28px;font-weight:700}.muted{color:#6b7f90;font-size:12px}.top{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-top:14px}.lead{padding:13px 0;border-bottom:1px solid var(--line)}.lead a,a{color:#104e7a;text-decoration:none}.matrix{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.topicCard{padding:12px;border:1px solid var(--line);border-radius:9px;background:#fbfcfe}.layout{display:grid;grid-template-columns:minmax(0,3fr) 310px;gap:14px;margin-top:14px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.filters input{min-width:230px}.table{overflow:auto;max-height:72vh}table{width:100%;border-collapse:collapse;min-width:1160px}th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{position:sticky;top:0;background:#f8fafc}.pill{display:inline-block;padding:3px 8px;border-radius:11px;font-weight:700;font-size:12px}.高{background:#fee4e2;color:var(--red)}.中高{background:#ffead5;color:var(--amber)}.中{background:#dcfae6;color:var(--green)}.source-row{padding:9px 0;border-bottom:1px solid var(--line)}@media(max-width:980px){.kpis{grid-template-columns:repeat(2,1fr)}.top,.layout{grid-template-columns:1fr}.matrix{grid-template-columns:repeat(2,1fr)}.head{display:block}.right{text-align:left;margin-top:8px}}
-</style></head><body>
-<div id="gate"><div class="login"><div class="brand">GLOBAL POLICY INTELLIGENCE</div><h1>全球政策与市场情报平台</h1><p>请输入访问密码进入看板。</p><input id="pwd" type="password" autocomplete="current-password" placeholder="访问密码" onkeydown="if(event.key==='Enter')login()"><button onclick="login()">进入看板</button><div id="err" class="err"></div><div class="small">登录状态将在当前设备保留 8 小时。</div></div></div>
-<div id="app" class="hide"><header><div class="head"><div><h1>全球政策、可持续发展与市场情报</h1><div class="subtitle">中国 · 香港 · 美国 · 欧盟 · 全球｜政策法规 · 热点新闻 · 交易与竞争 · 宏观与央行</div></div><div class="right">数据更新：<span id="updated">--</span><br>自动刷新：每小时<br><button onclick="logout()">退出</button></div></div></header><main class="wrap"><div class="kpis"><div class="card kpi"><span class="muted">近30天新增</span><div id="kNew" class="n">0</div></div><div class="card kpi"><span class="muted">高影响</span><div id="kHigh" class="n">0</div></div><div class="card kpi"><span class="muted">征求意见</span><div id="kConsult" class="n">0</div></div><div class="card kpi"><span class="muted">政策法规</span><div id="kPolicy" class="n">0</div></div><div class="card kpi"><span class="muted">热点新闻</span><div id="kNews" class="n">0</div></div><div class="card kpi"><span class="muted">覆盖来源</span><div id="kSources" class="n">0</div></div></div><div class="top"><div class="card"><h2>本期重点</h2><div id="leads"></div></div><div class="card"><h2>主题分布</h2><div id="topicCards" class="matrix"></div></div></div><div class="layout"><div class="card"><h2>情报库</h2><div class="filters"><input id="q" placeholder="搜索标题、机构或摘要" oninput="render()"><select id="region" onchange="render()"><option value="">全部地区</option></select><select id="topic" onchange="render()"><option value="">全部主题</option></select><select id="impact" onchange="render()"><option value="">全部影响</option><option>高</option><option>中高</option><option>中</option></select><select id="section" onchange="render()"><option value="">全部板块</option><option>政策法规</option><option>热点新闻</option></select></div><div id="mainTable"></div></div><aside class="card"><h3>来源覆盖</h3><div id="sourceList"></div></aside></div></main></div>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>全球政策与市场情报</title>
+<script src="config.js"></script>
+<style>
+:root{--navy:#0d2438;--blue:#155f92;--bg:#f3f6f9;--line:#e3e8ee;--txt:#1b2b39;--mut:#667788;--red:#b42318;--amber:#b54708;--green:#027a48}
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{background:var(--bg);color:var(--txt);font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",Arial,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--blue);text-decoration:none}
+.hide{display:none!important}
+p,li,div,span,a{overflow-wrap:anywhere;word-break:break-word}
+
+/* 登录 */
+#gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;background:radial-gradient(circle at top right,#255f86,#0d2438 60%)}
+.login{width:100%;max-width:400px;background:#fff;border-radius:16px;padding:28px 22px;box-shadow:0 20px 60px #0005}
+.login small{letter-spacing:1.5px;color:var(--mut);font-size:11px}
+.login h1{font-size:21px;margin:6px 0 4px}
+.login p{color:var(--mut);margin:0 0 16px;font-size:14px}
+.login input{width:100%;padding:13px;border:1px solid #cbd6df;border-radius:10px;font-size:16px}
+.login button{width:100%;margin-top:12px;padding:13px;border:0;border-radius:10px;background:var(--blue);color:#fff;font-size:16px;font-weight:700}
+.err{min-height:20px;margin-top:10px;color:var(--red);font-size:13px}
+
+/* 顶部 */
+header{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;padding:10px 14px calc(10px);box-shadow:0 2px 10px #0003}
+.hrow{display:flex;justify-content:space-between;align-items:center;gap:10px;max-width:1200px;margin:auto}
+.hrow h1{font-size:17px;margin:0;line-height:1.3}
+.hrow .upd{font-size:11px;opacity:.75}
+.hrow button{background:transparent;border:1px solid #ffffff70;color:#fff;border-radius:7px;padding:5px 10px;font-size:12px;flex-shrink:0}
+main{max-width:1200px;margin:auto;padding:12px 12px 90px}
+
+/* KPI */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.kpi{background:#fff;border-radius:12px;padding:10px;text-align:center;border:1px solid var(--line)}
+.kpi b{display:block;font-size:22px;line-height:1.2}
+.kpi span{font-size:11px;color:var(--mut)}
+
+/* 小结 */
+.brief{background:#fff;border-radius:12px;border:1px solid var(--line);padding:14px;margin-top:12px}
+.brief h2{font-size:16px;margin:0 0 8px}
+.brief ul{margin:0;padding-left:18px}
+.brief li{margin-bottom:6px;font-size:14px}
+
+/* 分段与筛选 */
+.seg{display:flex;background:#e6ecf2;border-radius:10px;padding:3px;margin:14px 0 10px}
+.seg button{flex:1;border:0;background:transparent;padding:8px 4px;border-radius:8px;font-size:14px;color:var(--txt)}
+.seg button.on{background:#fff;font-weight:700;box-shadow:0 1px 4px #0001}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid #cdd7e1;background:#fff;border-radius:16px;padding:5px 12px;font-size:13px;white-space:nowrap}
+.chip.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.tools{display:flex;gap:8px;margin:8px 0 12px}
+.tools input{flex:1;min-width:0;padding:10px 12px;border:1px solid #cdd7e1;border-radius:10px;font-size:15px}
+.tools select{padding:9px 6px;border:1px solid #cdd7e1;border-radius:10px;font-size:14px;background:#fff;max-width:34%}
+.count{font-size:12px;color:var(--mut);margin:0 2px 8px}
+
+/* 卡片 */
+.list{display:grid;grid-template-columns:1fr;gap:10px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;scroll-margin-top:70px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:7px}
+.tag{font-size:11px;padding:2px 8px;border-radius:10px;background:#eef2f6;color:#3d5266}
+.tag.高{background:#fee4e2;color:var(--red);font-weight:700}
+.tag.中高{background:#ffead5;color:var(--amber);font-weight:700}
+.tag.中{background:#dcfae6;color:var(--green);font-weight:700}
+.card h3{font-size:16px;line-height:1.45;margin:0 0 4px}
+.meta{font-size:12px;color:var(--mut)}
+.one{margin-top:8px;font-size:14px;background:#f3f7fb;border-left:3px solid var(--blue);padding:7px 10px;border-radius:0 6px 6px 0}
+.more{margin-top:10px;width:100%;border:1px solid #cdd7e1;background:#fff;border-radius:9px;padding:8px;font-size:14px;color:var(--blue)}
+.detail{margin-top:12px;border-top:1px dashed var(--line);padding-top:10px}
+.detail h4{font-size:14px;margin:12px 0 4px;color:var(--navy)}
+.detail p{margin:0;font-size:14px}
+.detail ul{margin:0;padding-left:18px;font-size:14px}
+.detail li{margin-bottom:4px}
+.ind{display:flex;flex-wrap:wrap;gap:5px}
+.ind span{font-size:12px;background:#eef4fa;color:#174a7c;border-radius:10px;padding:2px 8px}
+.src{display:flex;flex-direction:column;gap:6px;margin-top:14px}
+.src a.btn{display:block;text-align:center;background:var(--blue);color:#fff;border-radius:9px;padding:10px;font-weight:700;font-size:14px}
+.src .dom{font-size:11px;color:var(--mut);text-align:center}
+.method{font-size:11px;color:var(--mut);margin-top:8px}
+
+/* 底部导航（手机） */
+nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);display:flex;padding-bottom:env(safe-area-inset-bottom)}
+nav.bottom button{flex:1;border:0;background:none;padding:9px 0 8px;font-size:12px;color:var(--mut)}
+nav.bottom button b{display:block;font-size:17px;line-height:1.1}
+nav.bottom button.on{color:var(--blue);font-weight:700}
+.top{position:fixed;right:14px;bottom:76px;z-index:25;background:var(--navy);color:#fff;border:0;border-radius:50%;width:40px;height:40px;font-size:18px;opacity:.85}
+.foot{font-size:11px;color:var(--mut);text-align:center;margin:20px 0}
+
+/* 桌面 */
+@media(min-width:900px){
+  .kpis{grid-template-columns:repeat(6,1fr)}
+  .list{grid-template-columns:1fr 1fr;align-items:start}
+  nav.bottom{display:none}
+  main{padding-bottom:30px}
+  .hrow h1{font-size:20px}
+  .top{bottom:24px}
+}
+</style>
+</head>
+<body>
+
+<div id="gate">
+  <div class="login">
+    <small>GLOBAL POLICY INTELLIGENCE</small>
+    <h1>全球政策与市场情报</h1>
+    <p>请输入访问密码</p>
+    <input id="pwd" type="password" autocomplete="current-password" placeholder="访问密码" onkeydown="if(event.key==='Enter')login()">
+    <button onclick="login()">进入</button>
+    <div id="err" class="err"></div>
+  </div>
+</div>
+
+<div id="app" class="hide">
+  <header>
+    <div class="hrow">
+      <div><h1>全球政策与市场情报</h1><div class="upd">更新于 <span id="updated">--</span></div></div>
+      <button onclick="logout()">退出</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="kpis">
+      <div class="kpi"><b id="kNew">0</b><span>近30天</span></div>
+      <div class="kpi"><b id="kHigh">0</b><span>高影响</span></div>
+      <div class="kpi"><b id="kConsult">0</b><span>征求意见</span></div>
+      <div class="kpi"><b id="kPolicy">0</b><span>政策法规</span></div>
+      <div class="kpi"><b id="kNews">0</b><span>热点新闻</span></div>
+      <div class="kpi"><b id="kRegion">0</b><span>覆盖地区</span></div>
+    </section>
+
+    <section class="brief" id="briefBox">
+      <h2>本期小结</h2>
+      <ul id="brief"></ul>
+    </section>
+
+    <div class="seg" id="seg">
+      <button data-s="" class="on">全部</button>
+      <button data-s="政策法规">政策法规</button>
+      <button data-s="热点新闻">热点新闻</button>
+    </div>
+
+    <div class="chips" id="chips"></div>
+
+    <div class="tools">
+      <input id="q" type="search" placeholder="搜索标题、机构、关键词" oninput="render()">
+      <select id="region" onchange="render()"><option value="">全部地区</option></select>
+      <select id="impact" onchange="render()"><option value="">全部影响</option><option>高</option><option>中高</option><option>中</option></select>
+    </div>
+    <div class="count" id="count"></div>
+    <div class="list" id="list"></div>
+    <div class="foot">解读仅供内部参考，不构成法律或会计意见；正式判断请以原文为准。</div>
+  </main>
+
+  <button class="top hide" id="topBtn" onclick="scrollTo({top:0,behavior:'smooth'})">↑</button>
+  <nav class="bottom" id="bnav">
+    <button data-s="" class="on"><b>◎</b>全部</button>
+    <button data-s="政策法规"><b>§</b>政策</button>
+    <button data-s="热点新闻"><b>◆</b>新闻</button>
+    <button data-search="1"><b>⌕</b>搜索</button>
+  </nav>
+</div>
+
 <script>
-/* IMPORTANT: replace PASS_HASH with SHA-256 of your chosen password. The included default password is ChangeMe-2026! */
-const PASS_HASH='5d24268841ab5872546813fa6bd99d3a6df697619e7f9962ebca11cfced58ba7'; const HOURS=8, MAX_FAILS=5, LOCK_MIN=5; let items=[],meta={};
-async function hash(s){let b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
-async function login(){let lock=+localStorage.getItem('gp_lock')||0;if(Date.now()<lock){err.textContent='尝试次数过多，请稍后再试。';return}if(await hash(pwd.value)===PASS_HASH){localStorage.setItem('gp_auth_until',Date.now()+HOURS*3600000);localStorage.removeItem('gp_fails');localStorage.removeItem('gp_lock');showApp()}else{let n=(+localStorage.getItem('gp_fails')||0)+1;localStorage.setItem('gp_fails',n);if(n>=MAX_FAILS){localStorage.setItem('gp_lock',Date.now()+LOCK_MIN*60000);localStorage.setItem('gp_fails',0);err.textContent='错误次数过多，已临时锁定 5 分钟。'}else err.textContent=`访问密码错误，还可尝试 ${MAX_FAILS-n} 次。`}}
-function logout(){localStorage.removeItem('gp_auth_until');location.reload()}function showApp(){gate.classList.add('hide');app.classList.remove('hide');loadData()}if(Date.now()<+localStorage.getItem('gp_auth_until'))showApp();
-const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function loadData(){fetch('data.json?'+Date.now()).then(r=>r.json()).then(j=>{meta=j;items=j.items||[];init()}).catch(()=>mainTable.innerHTML='<p>数据暂时无法读取，请稍后刷新。</p>')}
-function init(){updated.textContent=new Date(meta.generatedAt).toLocaleString();let src=[...new Set(items.map(x=>x.authority))],regs=[...new Set(items.map(x=>x.jurisdiction))],tops=[...new Set(items.map(x=>x.topic))];region.innerHTML+=regs.map(x=>`<option>${esc(x)}</option>`).join('');topic.innerHTML+=tops.map(x=>`<option>${esc(x)}</option>`).join('');kNew.textContent=items.filter(x=>x.datePublished&&Date.now()-new Date(x.datePublished)<30*864e5).length;kHigh.textContent=items.filter(x=>x.impactLevel==='高').length;kConsult.textContent=items.filter(x=>String(x.legalStatus).includes('征求')).length;kPolicy.textContent=items.filter(x=>x.section==='政策法规').length;kNews.textContent=items.filter(x=>x.section==='热点新闻').length;kSources.textContent=src.length;leads.innerHTML=items.filter(x=>x.impactLevel==='高').slice(0,6).map(x=>`<div class="lead"><a href="${esc(x.originalUrl)}" target="_blank"><b>${esc(x.title)}</b></a><br><span class="muted">${esc(x.jurisdiction)} · ${esc(x.topic)} · ${esc(x.authority)}</span></div>`).join('');topicCards.innerHTML=tops.slice(0,16).map(t=>`<div class="topicCard"><b>${esc(t)}</b><br><span class="muted">${items.filter(x=>x.topic===t).length} 条</span></div>`).join('');sourceList.innerHTML=src.map(s=>`<div class="source-row"><b>${esc(s)}</b><br><span class="muted">${items.filter(x=>x.authority===s).length} 条</span></div>`).join('');render()}
-function table(d){return `<div class="table"><table><thead><tr><th>日期与动态</th><th>地区/机构</th><th>板块</th><th>影响</th><th>专业解读</th><th>企业影响</th></tr></thead><tbody>${d.map(x=>`<tr><td><span class="muted">${esc(x.datePublished||'日期待核')}</span><br><a href="${esc(x.originalUrl)}" target="_blank"><b>${esc(x.title)}</b></a><br><span class="muted">${esc((x.summary||'').slice(0,180))}</span></td><td>${esc(x.jurisdiction)}<br>${esc(x.authority)}</td><td>${esc(x.section)}<br><b>${esc(x.topic)}</b></td><td><span class="pill ${esc(x.impactLevel)}">${esc(x.impactLevel)}</span><br><span class="muted">${esc(x.legalStatus)}</span></td><td>${esc(x.professionalSummary)}</td><td>${esc(x.companyImpact)}</td></tr>`).join('')}</tbody></table></div>`}
-function render(){let z=q.value.toLowerCase(),r=region.value,t=topic.value,i=impact.value,s=section.value,d=items.filter(x=>(!z||JSON.stringify(x).toLowerCase().includes(z))&&(!r||x.jurisdiction===r)&&(!t||x.topic===t)&&(!i||x.impactLevel===i)&&(!s||x.section===s));mainTable.innerHTML=table(d)}setTimeout(()=>{if(!app.classList.contains('hide'))location.reload()},3600000);
-</script></body></html>
+const PASS = window.PASS_HASH || '3cf79ed5a07bc737e7392f93288ea704a3352ee16988f73e5b528d9f4ff69af1';
+const HOURS = 8, MAX_FAILS = 5, LOCK_MIN = 5;
+let items = [], meta = {}, state = {section: '', topic: ''};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+async function sha(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+async function login(){
+  const lock=+localStorage.getItem('gp_lock')||0;
+  if(Date.now()<lock){$('err').textContent='尝试次数过多，请稍后再试。';return}
+  if(await sha($('pwd').value)===PASS){localStorage.setItem('gp_until',Date.now()+HOURS*36e5);localStorage.removeItem('gp_fails');show()}
+  else{const n=(+localStorage.getItem('gp_fails')||0)+1;localStorage.setItem('gp_fails',n);
+    if(n>=MAX_FAILS){localStorage.setItem('gp_lock',Date.now()+LOCK_MIN*6e4);localStorage.setItem('gp_fails',0);$('err').textContent='错误次数过多，已锁定5分钟。'}
+    else $('err').textContent=`密码错误，还可尝试 ${MAX_FAILS-n} 次。`}
+}
+function logout(){localStorage.removeItem('gp_until');location.hash='';location.reload()}
+function show(){$('gate').classList.add('hide');$('app').classList.remove('hide');load()}
+if(Date.now()<(+localStorage.getItem('gp_until')||0)) show();
+
+function load(){
+  fetch('data.json?'+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=>{meta=j;items=(j.items||[]).filter(x=>x.title);init()})
+  .catch(()=>{$('list').innerHTML='<div class="card">数据暂时无法读取，请稍后刷新。</div>'});
+}
+const recent = x => x.datePublished && (Date.now()-new Date(x.datePublished))<30*864e5;
+const domain = u => {try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return ''}};
+
+function init(){
+  $('updated').textContent = meta.generatedAt ? new Date(meta.generatedAt).toLocaleString('zh-CN',{hour12:false}) : '--';
+  $('kNew').textContent = items.filter(recent).length;
+  $('kHigh').textContent = items.filter(x=>x.impactLevel==='高').length;
+  $('kConsult').textContent = items.filter(x=>/征求|提案/.test(x.legalStatus||'')).length;
+  $('kPolicy').textContent = items.filter(x=>x.section==='政策法规').length;
+  $('kNews').textContent = items.filter(x=>x.section==='热点新闻').length;
+  const regs=[...new Set(items.map(x=>x.jurisdiction).filter(Boolean))];
+  $('kRegion').textContent = regs.length;
+  $('region').innerHTML = '<option value="">全部地区</option>'+regs.map(r=>`<option>${esc(r)}</option>`).join('');
+  buildBrief(); buildChips(); render(); openHash();
+}
+
+function buildBrief(){
+  const pool = items.filter(recent).length ? items.filter(recent) : items;
+  const high = pool.filter(x=>x.impactLevel==='高');
+  const cnt = {}; pool.forEach(x=>cnt[x.topic]=(cnt[x.topic]||0)+1);
+  const topT = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k,v])=>`${k}（${v}）`).join('、');
+  const lines = [`近30天收录 ${pool.length} 条，其中高影响 ${high.length} 条；主要集中在 ${topT}。`];
+  (high.length?high:pool).slice(0,4).forEach(x=>lines.push(`<a href="#${esc(x.id)}" onclick="jump('${esc(x.id)}');return false"><b>${esc(x.jurisdiction)}·${esc(x.topic)}</b></a>：${esc(x.oneLiner||x.title)}`));
+  $('brief').innerHTML = lines.map(l=>`<li>${l}</li>`).join('');
+}
+
+function buildChips(){
+  const pool = items.filter(x=>!state.section||x.section===state.section);
+  const cnt = {}; pool.forEach(x=>cnt[x.topic]=(cnt[x.topic]||0)+1);
+  const order = ['气候','水','废弃物','大气污染物','生物多样性','零毁林','人权','反垄断','供应链安全','财务准则','全球与贸易','并购交易','央行与市场'];
+  const topics = Object.keys(cnt).sort((a,b)=>(order.indexOf(a)+99*(order.indexOf(a)<0))-(order.indexOf(b)+99*(order.indexOf(b)<0)));
+  if(state.topic && !cnt[state.topic]) state.topic='';
+  $('chips').innerHTML = `<button class="chip ${state.topic?'':'on'}" data-t="">全部主题</button>` +
+    topics.map(t=>`<button class="chip ${state.topic===t?'on':''}" data-t="${esc(t)}">${esc(t)} ${cnt[t]}</button>`).join('');
+  $('chips').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.topic=b.dataset.t;buildChips();render()});
+}
+
+function setSection(s){
+  state.section=s;
+  document.querySelectorAll('#seg button,#bnav button[data-s]').forEach(b=>b.classList.toggle('on',b.dataset.s===s));
+  buildChips(); render(); scrollTo({top:$('seg').offsetTop-60,behavior:'smooth'});
+}
+document.querySelectorAll('#seg button,#bnav button[data-s]').forEach(b=>b.onclick=()=>setSection(b.dataset.s));
+document.querySelector('#bnav button[data-search]').onclick=()=>{scrollTo({top:$('seg').offsetTop-60,behavior:'smooth'});setTimeout(()=>$('q').focus(),300)};
+
+const list = (arr, cls='') => (arr&&arr.length)?`<ul class="${cls}">${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';
+function card(x){
+  const d = domain(x.originalUrl);
+  return `<article class="card" id="${esc(x.id)}">
+  <div class="tags"><span class="tag ${esc(x.impactLevel)}">${esc(x.impactLevel)}影响</span><span class="tag">${esc(x.jurisdiction)}</span><span class="tag">${esc(x.topic)}</span><span class="tag">${esc(x.legalStatus)}</span></div>
+  <h3>${esc(x.title)}</h3>
+  <div class="meta">${esc(x.authority)} · ${esc(x.datePublished||'日期待核')}</div>
+  ${x.oneLiner?`<div class="one">${esc(x.oneLiner)}</div>`:''}
+  <button class="more" onclick="toggle('${esc(x.id)}',this)">展开完整解读 ▾</button>
+  <div class="detail hide">
+    ${x.keyPoints&&x.keyPoints.length?`<h4>关键要点</h4>${list(x.keyPoints)}`:''}
+    ${x.professionalAnalysis?`<h4>专业解读</h4><p>${esc(x.professionalAnalysis)}</p>`:''}
+    ${x.plainLanguage?`<h4>通俗解读</h4><p>${esc(x.plainLanguage)}</p>`:''}
+    ${x.hkImpact?`<h4>对港股/中资企业的影响</h4><p>${esc(x.hkImpact)}</p>`:''}
+    ${x.industries&&x.industries.length?`<h4>主要影响行业</h4><div class="ind">${x.industries.map(i=>`<span>${esc(i)}</span>`).join('')}</div>`:''}
+    ${x.actions&&x.actions.length?`<h4>建议动作</h4>${list(x.actions)}`:''}
+    ${x.watchItems&&x.watchItems.length?`<h4>后续关注</h4>${list(x.watchItems)}`:''}
+    <div class="src"><a class="btn" href="${esc(x.originalUrl)}" target="_blank" rel="noopener">阅读原文 ↗</a><span class="dom">来源：${esc(d)}${x.sourceType==='news'?'（新闻报道）':''}</span></div>
+    <div class="method">${x.analysisMethod==='AI生成'?'解读由AI基于原文生成，仅供参考':x.analysisMethod==='规则生成'?'解读为规则初筛，深度解读待补充':'解读已人工复核'}</div>
+  </div></article>`;
+}
+function toggle(id,btn){const d=$(id).querySelector('.detail');const open=d.classList.toggle('hide');btn.textContent=open?'展开完整解读 ▾':'收起 ▴'}
+
+function render(){
+  const q=$('q').value.trim().toLowerCase(), r=$('region').value, im=$('impact').value;
+  const rank={'高':0,'中高':1,'中':2};
+  const d = items.filter(x=>(!state.section||x.section===state.section)&&(!state.topic||x.topic===state.topic)&&(!r||x.jurisdiction===r)&&(!im||x.impactLevel===im)
+     &&(!q||[x.title,x.authority,x.oneLiner,x.topic,x.jurisdiction,(x.keyPoints||[]).join(' ')].join(' ').toLowerCase().includes(q)))
+    .sort((a,b)=>(b.datePublished||'').localeCompare(a.datePublished||'')||(rank[a.impactLevel]-rank[b.impactLevel]));
+  $('count').textContent = `共 ${d.length} 条`;
+  $('list').innerHTML = d.length ? d.map(card).join('') : '<div class="card">暂无符合条件的内容。</div>';
+}
+
+function jump(id){
+  state.section='';state.topic='';$('q').value='';$('region').value='';$('impact').value='';
+  document.querySelectorAll('#seg button,#bnav button[data-s]').forEach(b=>b.classList.toggle('on',b.dataset.s===''));
+  buildChips();render();
+  const el=$(id); if(!el) return;
+  const btn=el.querySelector('.more'); if(el.querySelector('.detail').classList.contains('hide')) toggle(id,btn);
+  el.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function openHash(){const id=decodeURIComponent(location.hash.slice(1)); if(id) setTimeout(()=>jump(id),150)}
+window.addEventListener('hashchange',openHash);
+window.addEventListener('scroll',()=>$('topBtn').classList.toggle('hide',scrollY<700),{passive:true});
+setInterval(()=>{if(!$('app').classList.contains('hide')) load()},36e5);
+</script>
+</body>
+</html>

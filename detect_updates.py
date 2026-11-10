@@ -1,16 +1,21 @@
+# -*- coding: utf-8 -*-
+"""对比采集前后的 data.json，找出真正新增、且未推送过的高/中高影响条目"""
 import json, os
 from pathlib import Path
-old_path=Path(os.getenv('OLD_DATA','data.before.json'))
-new_path=Path(os.getenv('NEW_DATA','data.json'))
-old=json.loads(old_path.read_text(encoding='utf-8')) if old_path.exists() else {'items':[]}
-new=json.loads(new_path.read_text(encoding='utf-8')) if new_path.exists() else {'items':[]}
-def key(x): return x.get('id') or x.get('originalUrl') or (x.get('title','')+'|'+x.get('datePublished',''))
-old_keys={key(x) for x in old.get('items',[])}
-added=[x for x in new.get('items',[]) if key(x) not in old_keys]
-order={'高':0,'中高':1,'中':2}
-added.sort(key=lambda x:(order.get(x.get('impactLevel'),9),x.get('datePublished','')), reverse=False)
-notify=[x for x in added if x.get('impactLevel') in ('高','中高')]
-Path('new_items.json').write_text(json.dumps({'items':added},ensure_ascii=False,indent=2),encoding='utf-8')
-Path('notify_items.json').write_text(json.dumps({'items':notify},ensure_ascii=False,indent=2),encoding='utf-8')
-with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
- f.write(f"new_count={len(added)}\nnotify_count={len(notify)}\nhigh_count={sum(x.get('impactLevel')=='高' for x in notify)}\n")
+load = lambda p: json.loads(Path(p).read_text(encoding='utf-8')) if Path(p).exists() else {}
+old, new = load('data.before.json'), load('data.json')
+sent = set(load('notified.json').get('ids', []))
+old_ids = {x['id'] for x in old.get('items', [])}
+added = [x for x in new.get('items', []) if x['id'] not in old_ids]
+rank = {'高': 0, '中高': 1, '中': 2}
+notify = sorted([x for x in added if x.get('impactLevel') in ('高', '中高') and x['id'] not in sent],
+                key=lambda x: (rank.get(x.get('impactLevel'), 9), -(int((x.get('datePublished') or '0').replace('-', '') or 0))))
+Path('notify_items.json').write_text(json.dumps({'items': notify}, ensure_ascii=False, indent=1), encoding='utf-8')
+if notify:
+    ids = (list(sent) + [x['id'] for x in notify])[-3000:]
+    Path('notified.json').write_text(json.dumps({'ids': ids}, ensure_ascii=False), encoding='utf-8')
+out = os.environ.get('GITHUB_OUTPUT')
+line = f"new_count={len(added)}\nnotify_count={len(notify)}\n"
+if out:
+    open(out, 'a', encoding='utf-8').write(line)
+print(line)
