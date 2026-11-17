@@ -1,29 +1,49 @@
 {
-  "generatedAt": "2026-11-16T04:00:34.682456+00:00",
-  "count": 86,
+  "generatedAt": "2026-11-17T05:53:32.262248+00:00",
+  "count": 91,
   "analysis": {
     "mode": "independent-per-article",
     "model": "qwen3.7-plus",
     "analysedThisRun": 8,
     "reanalysedThisRun": 8,
-    "addedThisRun": 4,
-    "pendingCount": 12
+    "addedThisRun": 5,
+    "pendingCount": 9
   },
   "errors": [
     {
-      "source": "欧盟委员会气候行动总司",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/",
-      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press"
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024 (Caused by ConnectTimeoutError(<HTT"
     },
     {
-      "source": "欧盟委员会气候行动总司",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-international-climate-finance-figures/",
-      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-international-climate-finance-figures/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-internatio"
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231129_BCGESGA2023 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
     },
     {
-      "source": "欧盟委员会气候行动总司",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/multilateralism-council-sets-eu-position-ahead-of-climate-change-and-biodiversity-summits/",
-      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/multilateralism-council-sets-eu-position-ahead-of-climate-change-and-biodiversity-summits/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/mult"
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231114_ESG-Assurance-Research-2023 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022 (Caused by ConnectTim"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement (Caused by ConnectT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hki"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Accountants-taking-on-climate-change (Caused by ConnectTimeoutError(<HTT"
     },
     {
       "source": "欧盟理事会",
@@ -47,6 +67,277 @@
     }
   ],
   "items": [
+    {
+      "id": "20d489c8e8786d72",
+      "title": "生态环境部部长黄润秋出席COP31甲烷与其他非二氧化碳温室气体峰会等活动并会见外方高级代表",
+      "datePublished": "2026-11-16",
+      "jurisdiction": "中国",
+      "authority": "生态环境部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "气候",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261117_1186703.shtml",
+      "linkVerified": true,
+      "contentHash": "cbfb569bb9489bf64e90a9295deafa769b86ca5bb136ef9ebb71ce2e508a2a03",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "oneLiner": "中华人民共和国生态环境部",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "生态环境部部长黄润秋出席COP31甲烷与其他非二氧化碳温室气体峰会等活动并会见外方高级代表\n版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号",
+          "evidence": "生态环境部部长黄润秋出席COP31甲烷与其他非二氧化碳温室气体峰会等活动并会见外方高级代表\n版权所有：中华人民共和国生态环境部 | ICP备"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "生态环境部部长黄润秋出席COP31甲烷与其他非二氧化碳温室气体峰会等活动并会见外方高级代表\n版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "3a66822d19563559",
+      "title": "商务部国际司负责人介绍中国—秘鲁自由贸易协定升级议定书生效实施相关情况",
+      "datePublished": "2026-11-16",
+      "jurisdiction": "中国",
+      "authority": "商务部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "供应链安全",
+      "legalStatus": "已生效/即将生效",
+      "originalUrl": "https://www.mofcom.gov.cn/zcjd/zhsw/art/2026/art_ac7d315999aa4f719948a7eef934c7a4.html",
+      "linkVerified": true,
+      "contentHash": "d80449dde46c7f457d03b731015e0e587032e51283e23b33bc9f0d3bfc394f96",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "oneLiner": "已收录原文，独立专业分析待生成。",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-11-01 10:59\n11月1日，《中华人民共和国政府和秘鲁共和国政府关于升级〈中华人民共和国政府与秘鲁共和国政府自由贸易协定的议定书〉》（以下简称《升级议定书》）正式生效。",
+          "evidence": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-11-01 10:59\n11月1日，《中华人民共和国政府和秘鲁共和国政府关于升级〈"
+        },
+        {
+          "fact": "商务部国际司负责人介绍了《升级议定书》生效有关情况。",
+          "evidence": "商务部国际司负责人介绍了《升级议定书》生效有关情况。"
+        },
+        {
+          "fact": "中秘自贸协定于2009年4月签署，2010年3月正式生效，是我国与拉美国家签署的首个全面的自贸协定。",
+          "evidence": "中秘自贸协定于2009年4月签署，2010年3月正式生效，是我国与拉美国家签署的首个全面的自贸协定。"
+        },
+        {
+          "fact": "协定的实施有力促进了双边经贸关系发展，2025年中秘双边贸易额达504亿美元，比2009年的64亿美元增长了近7倍。",
+          "evidence": "协定的实施有力促进了双边经贸关系发展，2025年中秘双边贸易额达504亿美元，比2009年的64亿美元增长了近7倍。"
+        },
+        {
+          "fact": "2018年11月，双方宣布启动中秘自贸协定升级谈判。",
+          "evidence": "2018年11月，双方宣布启动中秘自贸协定升级谈判。"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-11-01 10:59\n11月1日，《中华人民共和国政府和秘鲁共和国政府关于升级〈中华人民共和国政府与秘鲁共和国政府自由贸易协定的议定书〉》（以下简称《升级议定书》）正式生效。",
+        "商务部国际司负责人介绍了《升级议定书》生效有关情况。",
+        "中秘自贸协定于2009年4月签署，2010年3月正式生效，是我国与拉美国家签署的首个全面的自贸协定。",
+        "协定的实施有力促进了双边经贸关系发展，2025年中秘双边贸易额达504亿美元，比2009年的64亿美元增长了近7倍。",
+        "2018年11月，双方宣布启动中秘自贸协定升级谈判。"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "addb9cbb65dee077",
+      "title": "商务部国际司负责人解读中国—瑞士自由贸易协定升级议定书",
+      "datePublished": "2026-11-16",
+      "jurisdiction": "中国",
+      "authority": "商务部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "供应链安全",
+      "legalStatus": "已通过/发布",
+      "originalUrl": "https://www.mofcom.gov.cn/zcjd/zhsw/art/2026/art_88b2f0d208f641239817061f5126db27.html",
+      "linkVerified": true,
+      "contentHash": "fe85c152dea9776c75cee00b03e8c9670c37516c7dfadc3da986d2e98c5a47f5",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "oneLiner": "已收录原文，独立专业分析待生成。",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-30 21:52\n10月30日，在习近平主席和瑞士联邦主席帕姆兰的共同见证下，商务部部长王文涛与瑞士联邦经济、教研部国务秘书兼经济总局局长布德里格在京签署中瑞自贸协定升级议定书（以下简称《议定书》）。",
+          "evidence": "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-30 21:52\n10月30日，在习近平主席和瑞士联邦主席帕姆兰的共同见证下"
+        },
+        {
+          "fact": "2013年，中瑞双方签署自贸协定，这是中国与欧洲大陆国家签署的第一个自贸协定。",
+          "evidence": "2013年，中瑞双方签署自贸协定，这是中国与欧洲大陆国家签署的第一个自贸协定。"
+        },
+        {
+          "fact": "2026年是中瑞建立创新战略伙伴关系10周年，也是中国“十五五”规划开局之年。",
+          "evidence": "2026年是中瑞建立创新战略伙伴关系10周年，也是中国“十五五”规划开局之年。"
+        },
+        {
+          "fact": "《议定书》对原自贸协定进行升级，进一步完善了货物贸易、原产地规则和实施程序、海关程序与贸易便利化、技术性贸易壁垒、服务贸易、投资、竞争、经济技术合作等8个协定原有章节，并在原有协定基础上新增了数字贸易、贸易与可持续发展等2个章节。",
+          "evidence": "《议定书》对原自贸协定进行升级，进一步完善了货物贸易、原产地规则和实施程序、海关程序与贸易便利化、技术性贸易壁垒、服务贸易、投资、竞争、经济"
+        },
+        {
+          "fact": "根据最新关税减让安排，中瑞双方将在原协定基础上，分别对近300个税目进一步降低关税水平，最终实施零关税的产品覆盖双方超过99%的贸易额。",
+          "evidence": "根据最新关税减让安排，中瑞双方将在原协定基础上，分别对近300个税目进一步降低关税水平，最终实施零关税的产品覆盖双方超过99%的贸易额。"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "来源：商务部新闻办公室 类型：原创 分类：新闻 2026-10-30 21:52\n10月30日，在习近平主席和瑞士联邦主席帕姆兰的共同见证下，商务部部长王文涛与瑞士联邦经济、教研部国务秘书兼经济总局局长布德里格在京签署中瑞自贸协定升级议定书（以下简称《议定书》）。",
+        "2013年，中瑞双方签署自贸协定，这是中国与欧洲大陆国家签署的第一个自贸协定。",
+        "2026年是中瑞建立创新战略伙伴关系10周年，也是中国“十五五”规划开局之年。",
+        "《议定书》对原自贸协定进行升级，进一步完善了货物贸易、原产地规则和实施程序、海关程序与贸易便利化、技术性贸易壁垒、服务贸易、投资、竞争、经济技术合作等8个协定原有章节，并在原有协定基础上新增了数字贸易、贸易与可持续发展等2个章节。",
+        "根据最新关税减让安排，中瑞双方将在原协定基础上，分别对近300个税目进一步降低关税水平，最终实施零关税的产品覆盖双方超过99%的贸易额。"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "4013866ed3043124",
+      "title": "Open Coalition on Compliance Carbon Markets adopts COP31 Declaration and launches its Working Groups to advance carbon pricing for emission cuts and investment",
+      "datePublished": "2026-11-16",
+      "jurisdiction": "欧盟",
+      "authority": "欧盟委员会气候行动总司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "废弃物",
+      "legalStatus": "征求意见/提案",
+      "originalUrl": "https://climate.ec.europa.eu/news-other-reads/news/open-coalition-compliance-carbon-markets-adopts-cop31-declaration-and-launches-its-working-groups-2026-11-16_en",
+      "linkVerified": true,
+      "contentHash": "e50712633a48070d65338fe0485f77b2b71b12a63487cbe9944b42d97f21c5b9",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "oneLiner": "High-level representatives of the Open Coalition on Compliance Carbon Markets (OCCCM) today adopted the OCCCM COP31 Declaration at a meeting in Antalya.",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "One year later, our growing Coalition counts 13 Members and 34 Observers and begins the implementation of its work programme.",
+          "evidence": "One year later, our growing Coalition counts 13 Members and 34 Observe"
+        },
+        {
+          "fact": "”\nThe Open Coalition on Compliance Carbon Markets is a voluntary, member-led initiative launched at COP30 in Belém.",
+          "evidence": "”\nThe Open Coalition on Compliance Carbon Markets is a voluntary, memb"
+        },
+        {
+          "fact": "As of 16 November 2026, it counts 13 Members and 34 Observers.",
+          "evidence": "As of 16 November 2026, it counts 13 Members and 34 Observers."
+        },
+        {
+          "fact": "Read the OCCCM COP31 Declaration.",
+          "evidence": "Read the OCCCM COP31 Declaration."
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "One year later, our growing Coalition counts 13 Members and 34 Observers and begins the implementation of its work programme.",
+        "”\nThe Open Coalition on Compliance Carbon Markets is a voluntary, member-led initiative launched at COP30 in Belém.",
+        "As of 16 November 2026, it counts 13 Members and 34 Observers.",
+        "Read the OCCCM COP31 Declaration."
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
     {
       "id": "3ad77a87953e322f",
       "title": "EU actions improving access to climate finance",
@@ -280,6 +571,60 @@
       ]
     },
     {
+      "id": "f96ea0400aed0cdc",
+      "title": "Commission launches first global alliance on climate and health research funding at COP31",
+      "datePublished": "2026-11-13",
+      "jurisdiction": "欧盟",
+      "authority": "欧盟委员会气候行动总司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "大气污染物",
+      "legalStatus": "动态",
+      "originalUrl": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/commission-launches-first-global-alliance-climate-and-health-research-funding-cop31-2026-11-13_en",
+      "linkVerified": true,
+      "contentHash": "d8822b6460a3b243aee7fd1a7d0cf0c37d64cb0f93847f72afe2454fc0a3a41f",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "oneLiner": "Research and innovation news alert: The European Commission has launched the search for the next President of the European Research Council (ERC), inviting nominations for a scientific leader to champion frontier research and represent European science on the world stage.",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "The European Commission is funding a dedicated secretariat for the multilateral initiative, which will begin operating in January 2027.",
+          "evidence": "The European Commission is funding a dedicated secretariat for the mul"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Reached MAX_ANALYSIS_PER_RUN"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "The European Commission is funding a dedicated secretariat for the multilateral initiative, which will begin operating in January 2027."
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
       "id": "10c416fbdfc61790",
       "title": "2.3 million tonnes of textile waste generated in 2024",
       "datePublished": "2026-11-12",
@@ -409,47 +754,76 @@
       "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261111_1186164.shtml",
       "linkVerified": true,
       "contentHash": "862fd064627176e91f71450d525c6531a9db8d73f9bcbd849704207857e6d490",
-      "collectedAt": "2026-11-16T04:00:34.682456+00:00",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
       "pinned": false,
-      "oneLiner": "中华人民共和国生态环境部",
-      "eventType": "其他",
+      "oneLiner": "生态环境部发文表示将为全球气候治理注入更多确定性，但原文未披露具体政策细节。",
+      "eventType": "动态",
+      "impactLevel": "中",
       "keyFacts": [
         {
-          "fact": "生态环境部：将为全球气候治理注入更多确定性（中新社）\n版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号",
-          "evidence": "生态环境部：将为全球气候治理注入更多确定性（中新社）\n版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号"
+          "fact": "生态环境部表态将为全球气候治理注入更多确定性",
+          "evidence": "标题：生态环境部：将为全球气候治理注入更多确定性（中新社）"
+        },
+        {
+          "fact": "新闻发布日期为2026年11月11日",
+          "evidence": "publishedDate: 2026-11-11"
         }
       ],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "professionalAnalysis": "本文仅为生态环境部关于全球气候治理的宏观表态新闻标题及版权信息，原文未披露任何具体的政策条款、实施机制、适用范围或时间表。从政策性质来看，这属于官方宏观导向的宣示，当前阶段仅为新闻动态，尚未转化为具体的法规或指令。由于缺乏核心机制和关键时间等实质性内容，无法评估其与既有规则的具体关系及主要不确定性。企业需等待后续具体配套政策的出台才能明确合规与运营要求。",
+      "plainLanguage": "生态环境部发布了关于全球气候治理的积极表态，旨在向外界传递中国在气候领域的政策确定性。但由于提供的原文仅有新闻标题和网站版权信息，缺乏具体的政策细节、实施路径和约束条款，目前无法确定该表态对企业的具体合规要求和实际业务影响。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "原文未披露具体政策细节，暂不构成直接影响。",
+        "compliance": "原文未披露具体政策细节，暂不构成直接影响。",
+        "operations": "原文未披露具体政策细节，暂不构成直接影响。",
+        "supplyChain": "原文未披露具体政策细节，暂不构成直接影响。",
+        "disclosure": "原文未披露具体政策细节，暂不构成直接影响。",
+        "strategy": "原文未披露具体政策细节，暂不构成直接影响。"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
+      "affectedIndustries": [
+        "环保",
+        "能源"
+      ],
+      "affectedCompanyProfile": [
+        "涉及碳排放、气候治理或能源转型相关业务的企业"
+      ],
+      "actions": [
+        "战略发展部/合规部｜2026-12-31：跟踪生态环境部后续发布的具体气候治理政策文件及实施细则；产出：气候治理政策跟踪简报"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "生态环境部发布全球气候治理具体政策文件或实施细则",
+          "whyItMatters": "明确具体的减排目标、合规要求和时间表，直接影响企业战略与运营"
+        }
+      ],
+      "analystJudgement": "分析师判断：本次发布仅为宏观层面的新闻表态，旨在展示中国在全球气候治理中的积极姿态与政策连续性。由于原文缺失实质性政策条款、约束指标及执行机制，当前不具备直接的法律约束力。企业短期内无需进行紧急合规调整，但应将其视为长期气候政策趋严的信号，提前布局碳资产管理与低碳转型。",
       "confidence": "低",
       "gaps": [
-        "Independent analysis failed: impactLevel must be 高/中高/中"
+        "具体的气候治理政策条款与实施机制",
+        "适用的行业范围与覆盖对象",
+        "具体的减排目标与时间表",
+        "相关的奖惩措施与合规要求"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-16T04:00:34.682456+00:00",
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "impactLevel": "中",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [
-        "生态环境部：将为全球气候治理注入更多确定性（中新社）\n版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号"
+      "analysisStatus": "complete",
+      "hkImpact": "财务：原文未披露具体政策细节，暂不构成直接影响。\n合规：原文未披露具体政策细节，暂不构成直接影响。\n运营：原文未披露具体政策细节，暂不构成直接影响。\n供应链：原文未披露具体政策细节，暂不构成直接影响。\n披露：原文未披露具体政策细节，暂不构成直接影响。\n战略：原文未披露具体政策细节，暂不构成直接影响。",
+      "industries": [
+        "环保",
+        "能源"
       ],
-      "actionsLegacy": [],
-      "watchItems": []
+      "keyPoints": [
+        "生态环境部表态将为全球气候治理注入更多确定性",
+        "新闻发布日期为2026年11月11日"
+      ],
+      "actionsLegacy": [
+        "战略发展部/合规部｜2026-12-31：跟踪生态环境部后续发布的具体气候治理政策文件及实施细则；产出：气候治理政策跟踪简报"
+      ],
+      "watchItems": [
+        "待定：生态环境部发布全球气候治理具体政策文件或实施细则（明确具体的减排目标、合规要求和时间表，直接影响企业战略与运营）"
+      ]
     },
     {
       "id": "fed0ddf2d2375239",
@@ -578,69 +952,109 @@
       "sourceTier": "S",
       "section": "政策法规",
       "topic": "废弃物",
-      "legalStatus": "已生效/即将生效",
+      "legalStatus": "动态",
       "originalUrl": "https://environment.ec.europa.eu/news/remediation-landfill-leachate-study-looks-microbiomes-break-down-toxic-chemicals-municipal-waste-2026-11-11_en",
       "linkVerified": true,
       "contentHash": "5141727a122c8fea760a2a50022a692d71382bb0eadc03086baf812339f84e35",
-      "collectedAt": "2026-11-16T04:00:34.682456+00:00",
-      "oneLiner": "Leachate from landfill sites can be detoxified by microbes, including any that are found within. New research explores the factors that influence the composition of these microbiomes, with a view to optimising them as a treatment solution.",
-      "eventType": "其他",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "欧盟环境总司发布垃圾填埋场渗滤液微生物组研究，探讨利用微生物降解PFAS等有毒物质以优化处理方案。",
+      "eventType": "政策文件",
+      "impactLevel": "中",
       "keyFacts": [
         {
-          "fact": "Issue 642: Leachate from landfill sites can be detoxified by microbes, including any that are found within.",
-          "evidence": "Issue 642: Leachate from landfill sites can be detoxified by microbes,"
+          "fact": "欧盟《垃圾填埋指令》(1999)及2018年修正案设定2035年城市垃圾填埋量不超过10%的目标。",
+          "evidence": "a 2018 amendment setting a target for a maximum of 10% of municipal waste sent to landfill by 2035."
         },
         {
-          "fact": "This is also the case globally, with around 95% being disposed of in landfill sites.",
-          "evidence": "This is also the case globally, with around 95% being disposed of in l"
+          "fact": "2023年欧盟委员会报告指出13个成员国面临无法实现2035年填埋目标的风险。",
+          "evidence": "a 2023 report from the European Commission identified 13 Member States that were at risk of failing to meet the 2035 goal."
         },
         {
-          "fact": "However, a 2023 report from the European Commission identified 13 Member States that were at risk of failing to meet the 2035 goal.",
-          "evidence": "However, a 2023 report from the European Commission identified 13 Memb"
+          "fact": "中国研究团队分析了来自亚洲、北美和欧洲的151个垃圾填埋场渗滤液样本的微生物群落。",
+          "evidence": "a Chinese research team studied the microbial communities in 151 leachate samples from Asia, North America and Europe."
         },
         {
-          "fact": "Effective management of leachate therefore remains a serious policy issue across the EU, and around the globe.",
-          "evidence": "Effective management of leachate therefore remains a serious policy is"
+          "fact": "欧洲样本中含有高水平的拟杆菌门和假单胞菌属，能有效降解塑料、PFAS和内分泌干扰物。",
+          "evidence": "European samples contained high levels of bacteria in the genus Bacteroidetes... breaking down plastics, PFAS... and Pseudomonas, which has been shown to degrade plastics, PFAS and endocrine disruptors."
         },
         {
-          "fact": "(2026) Global biogeographic patterns and assembly processes of landfill leachate microbiomes.",
-          "evidence": "(2026) Global biogeographic patterns and assembly processes of landfil"
+          "fact": "土壤密度、降雨量和国家经济发展水平（GDP）是影响渗滤液微生物群落多样性的关键因素。",
+          "evidence": "The density of the surface soil... increased moisture from high rainfall... Higher diversity was also associated with economic development (higher national GDP)."
         }
       ],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "professionalAnalysis": "本文性质为欧盟环境总司发布的科学政策简报，旨在总结一项关于垃圾填埋场渗滤液微生物组的国际研究。当前阶段为科研成果发布，尚未转化为具体法规。适用范围涵盖欧盟及全球的垃圾填埋场渗滤液处理。核心机制是通过优化微生物群落（如拟杆菌门和假单胞菌属）来降解PFAS和塑料等有毒物质。关键时间节点为2035年欧盟城市垃圾填埋量降至10%的目标。与既有规则（如1999年《垃圾填埋指令》）的关系在于，该研究为现有法规下的渗滤液管理提供了生物技术支撑。主要不确定性在于该研究仅为科学发现，距离工程化应用及纳入官方监管指南仍有距离，未创设新合规义务。",
+      "plainLanguage": "欧盟环境总司发布垃圾填埋场渗滤液处理新研究。发现特定微生物能有效分解PFAS和塑料等有毒物质，且其多样性受土壤、降雨和经济水平影响。该研究为利用生物技术处理渗滤液、实现欧盟2035年垃圾填埋减量目标提供了科学基础。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "不构成直接影响。短期内无直接财务影响，长期若生物技术成熟，可能降低渗滤液处理的合规成本或催生新的环保技术服务收入。",
+        "compliance": "不构成直接影响。本研究未创设新的合规义务，但提示企业需关注未来可能基于此类研究更新的渗滤液处理标准（特别是针对PFAS等持久性化学物质）。",
+        "operations": "垃圾填埋场运营方及渗滤液处理企业可关注微生物组优化技术，未来可能应用于提升现有处理设施的降解效率，特别是针对PFAS和塑料微粒。",
+        "supplyChain": "不构成直接影响。",
+        "disclosure": "不构成直接影响。",
+        "strategy": "环保技术企业、生物技术公司及大型废弃物管理企业可关注该领域的研发动态，评估投资微生物修复技术的战略可行性，以布局未来的渗滤液处理市场。"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
-      "confidence": "低",
+      "affectedIndustries": [
+        "废弃物管理",
+        "环保技术与服务",
+        "生物技术"
+      ],
+      "affectedCompanyProfile": [
+        "在欧盟或全球运营垃圾填埋场的企业",
+        "提供垃圾渗滤液处理及环保技术服务的企业",
+        "研发环境微生物修复技术的生物技术公司"
+      ],
+      "actions": [
+        "环保/废弃物管理部门｜2027-06-30：评估现有垃圾填埋场渗滤液处理工艺对PFAS及持久性有机污染物的去除效率，并调研微生物修复技术的工程化应用前景。；产出：渗滤液处理技术升级可行性评估报告",
+        "战略/研发部门｜2027-12-31：跟踪欧盟及全球关于垃圾渗滤液微生物组研究的后续政策转化及标准制定动态，寻找潜在的生物技术合作或投资标的。；产出：微生物修复技术行业跟踪与投资机会分析报告"
+      ],
+      "monitoring": [
+        {
+          "date": "2035",
+          "milestone": "欧盟城市垃圾填埋量降至10%以下的目标节点",
+          "whyItMatters": "决定欧盟成员国及垃圾填埋场运营方在渗滤液处理和垃圾减量方面的最终合规压力与技术需求。"
+        },
+        {
+          "date": "待定",
+          "milestone": "欧盟委员会或相关机构基于该研究发布渗滤液微生物处理技术指南或修订《垃圾填埋指令》相关标准",
+          "whyItMatters": "将科学研究转化为实际合规要求，直接影响企业的处理工艺选择和运营成本。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本事件为科学简报而非立法，短期不改变法定合规义务。但研究指出了PFAS在渗滤液中的威胁及微生物降解潜力。鉴于欧盟对PFAS监管正全面收紧，该研究为未来可能出台的更严格渗滤液排放限值提供了科学背书。废弃物企业应提前布局相关技术，防范未来合规风险。",
+      "confidence": "高",
       "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+        "原文未披露该研究成果转化为具体监管标准或技术指南的时间表",
+        "原文未披露微生物修复技术目前的工程化成本及经济可行性",
+        "原文未披露针对PFAS等特定污染物的具体排放限值或监管阈值"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-16T04:00:34.682456+00:00",
+      "sources": [
+        "https://environment.ec.europa.eu/news/remediation-landfill-leachate-study-looks-microbiomes-break-down-toxic-chemicals-municipal-waste-2026-11-11_en"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [
-        "Issue 642: Leachate from landfill sites can be detoxified by microbes, including any that are found within.",
-        "This is also the case globally, with around 95% being disposed of in landfill sites.",
-        "However, a 2023 report from the European Commission identified 13 Member States that were at risk of failing to meet the 2035 goal.",
-        "Effective management of leachate therefore remains a serious policy issue across the EU, and around the globe.",
-        "(2026) Global biogeographic patterns and assembly processes of landfill leachate microbiomes."
+      "analysisStatus": "complete",
+      "hkImpact": "财务：不构成直接影响。短期内无直接财务影响，长期若生物技术成熟，可能降低渗滤液处理的合规成本或催生新的环保技术服务收入。\n合规：不构成直接影响。本研究未创设新的合规义务，但提示企业需关注未来可能基于此类研究更新的渗滤液处理标准（特别是针对PFAS等持久性化学物质）。\n运营：垃圾填埋场运营方及渗滤液处理企业可关注微生物组优化技术，未来可能应用于提升现有处理设施的降解效率，特别是针对PFAS和塑料微粒。\n供应链：不构成直接影响。\n披露：不构成直接影响。\n战略：环保技术企业、生物技术公司及大型废弃物管理企业可关注该领域的研发动态，评估投资微生物修复技术的战略可行性，以布局未来的渗滤液处理市场。",
+      "industries": [
+        "废弃物管理",
+        "环保技术与服务",
+        "生物技术"
       ],
-      "actionsLegacy": [],
-      "watchItems": []
+      "keyPoints": [
+        "欧盟《垃圾填埋指令》(1999)及2018年修正案设定2035年城市垃圾填埋量不超过10%的目标。",
+        "2023年欧盟委员会报告指出13个成员国面临无法实现2035年填埋目标的风险。",
+        "中国研究团队分析了来自亚洲、北美和欧洲的151个垃圾填埋场渗滤液样本的微生物群落。",
+        "欧洲样本中含有高水平的拟杆菌门和假单胞菌属，能有效降解塑料、PFAS和内分泌干扰物。",
+        "土壤密度、降雨量和国家经济发展水平（GDP）是影响渗滤液微生物群落多样性的关键因素。"
+      ],
+      "actionsLegacy": [
+        "环保/废弃物管理部门｜2027-06-30：评估现有垃圾填埋场渗滤液处理工艺对PFAS及持久性有机污染物的去除效率，并调研微生物修复技术的工程化应用前景。；产出：渗滤液处理技术升级可行性评估报告",
+        "战略/研发部门｜2027-12-31：跟踪欧盟及全球关于垃圾渗滤液微生物组研究的后续政策转化及标准制定动态，寻找潜在的生物技术合作或投资标的。；产出：微生物修复技术行业跟踪与投资机会分析报告"
+      ],
+      "watchItems": [
+        "2035：欧盟城市垃圾填埋量降至10%以下的目标节点（决定欧盟成员国及垃圾填埋场运营方在渗滤液处理和垃圾减量方面的最终合规压力与技术需求。）",
+        "待定：欧盟委员会或相关机构基于该研究发布渗滤液微生物处理技术指南或修订《垃圾填埋指令》相关标准（将科学研究转化为实际合规要求，直接影响企业的处理工艺选择和运营成本。）"
+      ]
     },
     {
       "id": "1508520f8e672113",
@@ -2611,45 +3025,82 @@
       "originalUrl": "https://www.mee.gov.cn/zcwj/zcjd/202610/t20261029_1184802.shtml",
       "linkVerified": true,
       "contentHash": "314c90a396f0c2c7896ee0ed88924c979a437a0b53e25216b3dbcd8523b1ad44",
-      "collectedAt": "2026-11-16T04:00:34.682456+00:00",
-      "oneLiner": "中华人民共和国生态环境部",
-      "eventType": "其他",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "生态环境部发布《生态环境监测“十五五”规划》系列解读第二篇，聚焦保障污染源自行监测数据真实准确全面。",
+      "eventType": "政策文件",
+      "impactLevel": "中",
       "keyFacts": [
         {
-          "fact": "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号",
-          "evidence": "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 1"
+          "fact": "生态环境部发布《生态环境监测“十五五”规划》系列解读第二篇。",
+          "evidence": "标题“《生态环境监测“十五五”规划》系列解读②”"
+        },
+        {
+          "fact": "解读主题为保障污染源自行监测数据真实准确全面。",
+          "evidence": "标题“保障污染源自行监测数据真实准确全面”"
+        },
+        {
+          "fact": "文件发布日期为2026年10月29日。",
+          "evidence": "publishedDate: \"2026-10-29\""
         }
       ],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "professionalAnalysis": "原文仅提供了《生态环境监测“十五五”规划》系列解读第二篇的标题及发布日期，未披露具体政策条款、实施机制、适用范围及时间表。从标题判断，该文件属于“十五五”规划的政策解读性质，旨在指导污染源自行监测数据的真实性与准确性。由于缺乏正文内容，无法评估其具体法律约束力、合规要求及与既有监测规则的差异。当前阶段仅为政策发布与解读动态，主要不确定性在于具体监测指标、数据造假处罚力度及企业合规成本等核心细节均未披露。",
+      "plainLanguage": "生态环境部发布了关于“十五五”生态环境监测规划的第二篇解读文章，主要强调要保证企业自己监测的污染源数据是真实、准确和全面的。不过目前提供的资料只有标题和页脚，具体的政策细节和合规要求还没有看到，需要等待完整正文发布。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "原文未披露",
+        "compliance": "原文未披露",
+        "operations": "原文未披露",
+        "supplyChain": "原文未披露",
+        "disclosure": "原文未披露",
+        "strategy": "原文未披露"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
+      "affectedIndustries": [
+        "原文未披露"
+      ],
+      "affectedCompanyProfile": [
+        "原文未披露"
+      ],
+      "actions": [
+        "环保合规部｜待定：获取并研读《生态环境监测“十五五”规划》系列解读②的完整正文内容，评估对污染源自行监测的具体要求。；产出：政策解读报告及合规差距分析"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "生态环境部发布《生态环境监测“十五五”规划》完整正文及后续配套细则",
+          "whyItMatters": "只有获取完整正文才能明确具体的监测要求、数据质量标准及违规处罚措施。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本文仅为网页元数据及标题，缺失核心正文。基于标题推测，生态环境部正强化“十五五”期间对污染源自行监测数据的监管力度，重点打击数据造假。企业需警惕未来可能出台的更严格的监测设备校验、数据联网及第三方运维审查要求，但具体合规成本与处罚阈值需待正文披露后方可准确评估。",
       "confidence": "低",
       "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+        "《生态环境监测“十五五”规划》系列解读②的完整正文内容",
+        "具体的污染源自行监测数据质量要求与标准",
+        "数据造假的法律责任与处罚措施",
+        "规划实施的具体时间表与阶段性目标"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-16T04:00:34.682456+00:00",
+      "sources": [
+        "https://www.mee.gov.cn/zcwj/zcjd/202610/t20261029_1184802.shtml"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [
-        "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号"
+      "analysisStatus": "complete",
+      "hkImpact": "财务：原文未披露\n合规：原文未披露\n运营：原文未披露\n供应链：原文未披露\n披露：原文未披露\n战略：原文未披露",
+      "industries": [
+        "原文未披露"
       ],
-      "actionsLegacy": [],
-      "watchItems": []
+      "keyPoints": [
+        "生态环境部发布《生态环境监测“十五五”规划》系列解读第二篇。",
+        "解读主题为保障污染源自行监测数据真实准确全面。",
+        "文件发布日期为2026年10月29日。"
+      ],
+      "actionsLegacy": [
+        "环保合规部｜待定：获取并研读《生态环境监测“十五五”规划》系列解读②的完整正文内容，评估对污染源自行监测的具体要求。；产出：政策解读报告及合规差距分析"
+      ],
+      "watchItems": [
+        "待定：生态环境部发布《生态环境监测“十五五”规划》完整正文及后续配套细则（只有获取完整正文才能明确具体的监测要求、数据质量标准及违规处罚措施。）"
+      ]
     },
     {
       "id": "8fc81ac21b7cb2d0",
@@ -8719,42 +9170,77 @@
       "sourceTier": "S",
       "section": "政策法规",
       "topic": "气候",
-      "legalStatus": "动态",
+      "legalStatus": "执法/诉讼",
       "originalUrl": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611032news?sc_lang=zh-HK",
       "linkVerified": true,
       "contentHash": "364bce3afbe310af6a20bfc3f360d6c149c4a628e0c9b60e04221af34644967d",
-      "collectedAt": "2026-11-11T03:56:26.003858+00:00",
-      "oneLiner": "聯交所對中國碳中和發展集團有限公司（股份代號：1372）及七名董事的紀律行動",
-      "eventType": "其他",
-      "keyFacts": [],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "联交所对中国碳中和发展集团（1372）及七名董事采取纪律行动。",
+      "eventType": "执法",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "联交所对中国碳中和发展集团及七名董事采取纪律行动。",
+          "evidence": "聯交所對中國碳中和發展集團有限公司（股份代號：1372）及七名董事的紀律行動"
+        }
+      ],
+      "professionalAnalysis": "本次事件为香港联交所对特定上市公司及其董事采取的纪律行动。由于原文未提供具体违规事实、处罚细节及生效时间，无法评估其具体法律性质与核心机制。通常此类纪律行动涉及违反《上市规则》中的董事责任、信息披露或公司治理规定。当前阶段为已公布的监管执法行动。适用范围仅限于中国碳中和发展集团（1372）及其涉事董事。与既有规则的关系在于联交所行使《上市规则》赋予的纪律处分权。主要不确定性在于具体的违规事由、处罚措施（如谴责、罚款、取消资格等）以及对公司后续合规和运营的实际影响，需等待联交所发布完整的纪律行动声明。",
+      "plainLanguage": "港交所对中国碳中和发展集团和7名董事进行了纪律处分。虽然原文未写明具体原因和处罚细节，但这明确说明公司或相关董事在合规、信息披露或内部管理上出现了问题，从而受到了监管机构的正式惩戒与问责。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "原文未披露具体财务影响，可能涉及罚款或相关诉讼费用。",
+        "compliance": "公司及涉事董事面临监管纪律处分，需整改违规事项，可能涉及董事资格限制或合规培训要求。",
+        "operations": "原文未披露，若董事被停职或取消资格可能影响公司日常治理与决策。",
+        "supplyChain": "不构成直接影响。",
+        "disclosure": "需按照联交所要求披露纪律行动的具体内容及整改计划，可能影响市场声誉。",
+        "strategy": "原文未披露，监管处罚可能影响公司后续资本运作或市场形象。"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
+      "affectedIndustries": [
+        "综合企业",
+        "环保及碳中和相关行业"
+      ],
+      "affectedCompanyProfile": [
+        "在港交所上市且涉及碳中和或环保业务的企业",
+        "公司治理或信息披露存在瑕疵的港股上市公司"
+      ],
+      "actions": [
+        "合规部/法务部｜公告发布后3个工作日内：获取并研读联交所关于此次纪律行动的完整声明，评估具体违规事项及处罚措施。；产出：纪律行动分析报告及初步应对策略"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "联交所发布完整纪律行动声明及公司后续整改公告",
+          "whyItMatters": "明确具体违规事实、处罚细节及公司需履行的整改义务，评估对公司治理和信披的实质影响。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本次纪律行动针对公司及多达七名董事，表明违规事件可能涉及公司层面的系统性治理缺陷或集体失职，而非单一董事的个别行为。由于原文缺失具体违规细节，无法准确评估处罚力度，但此类集体受罚通常会对公司声誉、董事会运作及后续合规监管评级产生负面溢出效应。",
       "confidence": "低",
       "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+        "具体的违规事实与违反的《上市规则》条款",
+        "具体的纪律处分措施（如谴责、罚款、取消资格等）",
+        "纪律行动的具体发布日期与生效时间",
+        "涉事七名董事的具体姓名及职务",
+        "公司的整改计划与回应"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-11T03:56:26.003858+00:00",
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [],
-      "actionsLegacy": [],
-      "watchItems": []
+      "analysisStatus": "complete",
+      "hkImpact": "财务：原文未披露具体财务影响，可能涉及罚款或相关诉讼费用。\n合规：公司及涉事董事面临监管纪律处分，需整改违规事项，可能涉及董事资格限制或合规培训要求。\n运营：原文未披露，若董事被停职或取消资格可能影响公司日常治理与决策。\n供应链：不构成直接影响。\n披露：需按照联交所要求披露纪律行动的具体内容及整改计划，可能影响市场声誉。\n战略：原文未披露，监管处罚可能影响公司后续资本运作或市场形象。",
+      "industries": [
+        "综合企业",
+        "环保及碳中和相关行业"
+      ],
+      "keyPoints": [
+        "联交所对中国碳中和发展集团及七名董事采取纪律行动。"
+      ],
+      "actionsLegacy": [
+        "合规部/法务部｜公告发布后3个工作日内：获取并研读联交所关于此次纪律行动的完整声明，评估具体违规事项及处罚措施。；产出：纪律行动分析报告及初步应对策略"
+      ],
+      "watchItems": [
+        "待定：联交所发布完整纪律行动声明及公司后续整改公告（明确具体违规事实、处罚细节及公司需履行的整改义务，评估对公司治理和信披的实质影响。）"
+      ]
     },
     {
       "id": "359aa8bed6612ee4",
@@ -8766,54 +9252,106 @@
       "sourceTier": "S",
       "section": "政策法规",
       "topic": "财务准则",
-      "legalStatus": "已生效/即将生效",
+      "legalStatus": "即将生效",
       "originalUrl": "https://www.hkicpa.org.hk/en/Standards-setting/Standards/New-and-major-standards/New-and-Major-Standards/HKFRS18",
       "linkVerified": true,
       "contentHash": "61dff6c63e36eb09208b951a15a6eaaecfe7d004da2bb53e255e5b34d4dc47e1",
-      "collectedAt": "2026-11-11T03:56:26.003858+00:00",
-      "oneLiner": "已收录原文，独立专业分析待生成。",
-      "eventType": "其他",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "香港会计师公会发布HKFRS 18，要求2027年起采用新损益表分类及管理层业绩指标披露规则，以提升财务业绩可比性。",
+      "eventType": "准则动态",
+      "impactLevel": "高",
       "keyFacts": [
         {
-          "fact": "Effective Date Financial periods beginning on or after 1 January 2027.",
-          "evidence": "Effective Date Financial periods beginning on or after 1 January 2027."
+          "fact": "生效日期为2027年1月1日或之后开始的财务期间，允许提前应用。",
+          "evidence": "Effective Date Financial periods beginning on or after 1 January 2027. Earlier application is permitted."
         },
         {
-          "fact": "HKFRS 18 introduces three new sets of requirements to improve how companies communicate their financial performance in the statement of profit or loss",
-          "evidence": "HKFRS 18 introduces three new sets of requirements to improve how comp"
+          "fact": "取代HKAS 1，并修订HKAS 7和HKAS 8等其他准则。",
+          "evidence": "Supersedes HKAS 1 Presentation of Financial Statements and amends several other standards, including HKAS 7 and HKAS 8."
+        },
+        {
+          "fact": "在损益表中引入三个定义类别和两个小计。",
+          "evidence": "Adding three defined categories and two subtotals to the statement of profit or loss."
+        },
+        {
+          "fact": "要求披露管理层定义的业绩指标信息。",
+          "evidence": "Requiring companies to disclose information about management-defined performance measures."
         }
       ],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "professionalAnalysis": "HKFRS 18是国际财务报告准则IFRS 18的本地化版本，旨在解决现行HKAS 1下损益表列报实务多样性问题。其核心机制包括：重构损益表结构，强制引入经营、投资和筹资三个类别及营业利润、税前利润两个小计；规范管理层定义业绩指标的披露，要求调节至法定准则小计并解释计算逻辑；明确主表与附注的披露边界。当前处于已发布即将生效阶段，适用于2027年1月1日及以后期间的港股上市公司。与既有规则相比，它大幅压缩了管理层在业绩指标定义和列报位置上的自由裁量权，主要不确定性在于管理层定义业绩指标的具体调节路径及新分类对特定复杂业务的适用性解释。",
+      "plainLanguage": "港交所上市公司从2027年起要用新格式写利润表。新规把利润分成经营、投资和筹资三类，并统一了营业利润等关键小计。公司自己发明的调整后利润等指标必须详细解释怎么算出来的，还要和标准利润对账，让投资者更容易看懂和对比各家公司的真实业绩。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "不直接影响实际现金流或利润金额，但改变利润表结构和关键财务指标的列报，可能影响基于特定指标计算的债务契约、管理层薪酬考核及估值模型。",
+        "compliance": "必须按照新规重构利润表，增加对管理层定义业绩指标的强制披露和调节表编制义务，违反列报和披露要求将导致审计保留意见或监管问询。",
+        "operations": "财务和报告团队需重新梳理收入、费用分类逻辑，更新财务结账和报告系统以支持新的科目映射和三类利润的自动计算。",
+        "supplyChain": "不构成直接影响。",
+        "disclosure": "年报财务报表格式发生重大变化，需重新设计附注披露结构，特别是管理层定义业绩指标的调节表和会计政策说明，需确保与历史财务数据的一致性衔接。",
+        "strategy": "促使管理层重新审视对外沟通的业绩指标体系，可能影响投资者关系策略和资本市场沟通方式，以在新规框架下有效传递公司核心价值。"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
-      "confidence": "低",
+      "affectedIndustries": [
+        "金融服务",
+        "投资控股",
+        "一般企业"
+      ],
+      "affectedCompanyProfile": [
+        "所有在香港上市并编制HKFRS财务报表的公司",
+        "拥有复杂业务模式或大量非经常性损益的金融及投资控股公司",
+        "在对外沟通中广泛使用非公认会计准则或自定义业绩指标的公司"
+      ],
+      "actions": [
+        "财务部｜2025年12月31日：评估HKFRS 18对现有利润表结构、关键财务指标及财务系统的影响，制定实施路线图。；产出：HKFRS 18影响评估报告及实施计划",
+        "财务部与投资者关系部｜2026年6月30日：梳理公司目前使用的所有管理层定义业绩指标，确定其在新准则下的分类及调节表编制逻辑。；产出：业绩指标清单及调节表草案",
+        "IT部与财务部｜2026年12月31日：升级或改造财务核算与合并报表系统，确保能够按经营、投资、筹资三类自动归集和计算损益。；产出：系统升级需求文档及测试报告"
+      ],
+      "monitoring": [
+        {
+          "date": "2027年1月1日",
+          "milestone": "HKFRS 18正式生效",
+          "whyItMatters": "上市公司必须在此日期或之后开始的财务期间应用新准则，提前应用需进行披露。"
+        },
+        {
+          "date": "待定",
+          "milestone": "HKICPA发布更多实施指南或问答",
+          "whyItMatters": "解决实务中关于特定交易分类和业绩指标披露的疑难问题，指导最终报表编制。"
+        }
+      ],
+      "analystJudgement": "分析师判断：HKFRS 18的实施将显著压缩港股上市公司在利润表美化上的操作空间。特别是管理层定义业绩指标的强制调节披露，将迫使公司提高非公认财务指标的透明度。预计初期会增加企业的合规与审计成本，但长期来看，统一的利润表结构将降低投资者的信息处理成本，提升港股市场整体的财务信息可比性和定价效率。",
+      "confidence": "高",
       "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+        "原文未披露HKFRS 18对特定行业具体科目分类的详细指引",
+        "原文未披露提前应用该准则的具体披露要求及过渡期豁免细节",
+        "原文未披露监管机构对违反披露要求的具体处罚措施"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-11T03:56:26.003858+00:00",
+      "sources": [
+        "https://www.hkicpa.org.hk/en/Standards-setting/Standards/New-and-major-standards/New-and-Major-Standards/HKFRS18"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [
-        "Effective Date Financial periods beginning on or after 1 January 2027.",
-        "HKFRS 18 introduces three new sets of requirements to improve how companies communicate their financial performance in the statement of profit or loss"
+      "analysisStatus": "complete",
+      "hkImpact": "财务：不直接影响实际现金流或利润金额，但改变利润表结构和关键财务指标的列报，可能影响基于特定指标计算的债务契约、管理层薪酬考核及估值模型。\n合规：必须按照新规重构利润表，增加对管理层定义业绩指标的强制披露和调节表编制义务，违反列报和披露要求将导致审计保留意见或监管问询。\n运营：财务和报告团队需重新梳理收入、费用分类逻辑，更新财务结账和报告系统以支持新的科目映射和三类利润的自动计算。\n供应链：不构成直接影响。\n披露：年报财务报表格式发生重大变化，需重新设计附注披露结构，特别是管理层定义业绩指标的调节表和会计政策说明，需确保与历史财务数据的一致性衔接。\n战略：促使管理层重新审视对外沟通的业绩指标体系，可能影响投资者关系策略和资本市场沟通方式，以在新规框架下有效传递公司核心价值。",
+      "industries": [
+        "金融服务",
+        "投资控股",
+        "一般企业"
       ],
-      "actionsLegacy": [],
-      "watchItems": []
+      "keyPoints": [
+        "生效日期为2027年1月1日或之后开始的财务期间，允许提前应用。",
+        "取代HKAS 1，并修订HKAS 7和HKAS 8等其他准则。",
+        "在损益表中引入三个定义类别和两个小计。",
+        "要求披露管理层定义的业绩指标信息。"
+      ],
+      "actionsLegacy": [
+        "财务部｜2025年12月31日：评估HKFRS 18对现有利润表结构、关键财务指标及财务系统的影响，制定实施路线图。；产出：HKFRS 18影响评估报告及实施计划",
+        "财务部与投资者关系部｜2026年6月30日：梳理公司目前使用的所有管理层定义业绩指标，确定其在新准则下的分类及调节表编制逻辑。；产出：业绩指标清单及调节表草案",
+        "IT部与财务部｜2026年12月31日：升级或改造财务核算与合并报表系统，确保能够按经营、投资、筹资三类自动归集和计算损益。；产出：系统升级需求文档及测试报告"
+      ],
+      "watchItems": [
+        "2027年1月1日：HKFRS 18正式生效（上市公司必须在此日期或之后开始的财务期间应用新准则，提前应用需进行披露。）",
+        "待定：HKICPA发布更多实施指南或问答（解决实务中关于特定交易分类和业绩指标披露的疑难问题，指导最终报表编制。）"
+      ]
     },
     {
       "id": "1fbc5d4ae3263a5b",
@@ -8825,69 +9363,109 @@
       "sourceTier": "S",
       "section": "热点新闻",
       "topic": "全球与贸易",
-      "legalStatus": "已通过/发布",
+      "legalStatus": "动态",
       "originalUrl": "https://www.hkicpa.org.hk/en/News/News-Release/20261105_BCGESGA-2026",
       "linkVerified": true,
       "contentHash": "a3e03685a2f0e4f04d886a838db01555bf6a15e0850ee72771aa5f691bdf968e",
-      "collectedAt": "2026-11-11T03:56:26.003858+00:00",
-      "oneLiner": "已收录原文，独立专业分析待生成。",
-      "eventType": "其他",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "HKICPA公布2026年最佳企业管治及ESG大奖结果，并发布AI时代数据治理指引，强调提升内控、网络安全及Scope 3披露质量。",
+      "eventType": "政策文件",
+      "impactLevel": "中",
       "keyFacts": [
         {
-          "fact": "The awardees comprise 12 Elite award winners, 20 other listed companies, including one newly listed company, and three public sector organizations.",
-          "evidence": "The awardees comprise 12 Elite award winners, 20 other listed companie"
+          "fact": "35家机构获2026年最佳企业管治及ESG大奖，含12家精英奖、20家其他上市公司及3家公共机构。",
+          "evidence": "present 35 awards in all this year... 12 Elite award winners, 20 other listed companies... and three public sector organizations"
         },
         {
-          "fact": "First launched in 2000, they have firmly established themselves as one of the most prestigious and sought-after accolades.",
-          "evidence": "First launched in 2000, they have firmly established themselves as one"
+          "fact": "HKICPA研究恒生综合指数大型股指数124家成分股年报，分析AI披露及治理安排，并发布AI数据管理实用指引。",
+          "evidence": "reviewed the annual reports of 124 constituent companies of the Hang Seng Composite LargeCap Index... practical guidance on AI data management"
         },
         {
-          "fact": "Currently, relatively few companies provide information on all 15 categories of Scope 3 emissions or explain their rationale for excluding specific ca",
-          "evidence": "Currently, relatively few companies provide information on all 15 cate"
+          "fact": "奖项评审首次使用AI初筛截至2025年12月31日港交所主板所有上市公司的约2400份年报和ESG报告。",
+          "evidence": "AI was used to conduct the preliminary screening of around 2,400 annual reports... covering all companies listed on the Main Board... as at 31 December 2025"
         },
         {
-          "fact": "This new standard applies to reporting periods beginning from December 15, 2026.",
-          "evidence": "This new standard applies to reporting periods beginning from December"
-        },
-        {
-          "fact": "Among the 124 selected companies, 92 companies stated explicitly that they have used AI, while 26 companies did not identify such use.",
-          "evidence": "Among the 124 selected companies, 92 companies stated explicitly that "
+          "fact": "《企业管治守则》修订要求独董最长任期9年且最多兼任6家上市公司董事，设有过渡期。",
+          "evidence": "implementation of a maximum tenure of nine years for INEDs... limiting INEDs to sitting on no more than six listed company boards... transition period"
         }
       ],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "professionalAnalysis": "本次事件为HKICPA发布年度CG与ESG奖项结果及AI数据治理指引，属行业最佳实践倡导与专业指导，非直接强制性法规。核心机制在于通过奖项评审和研究报告，明确市场对董事会独立性、风险管理及内控有效性、网络安全、AI治理及Scope 3排放披露的更高期望。当前阶段为指引已发布，相关《企业管治守则》修订处于过渡期。适用范围主要为港股主板上市公司及恒生综合指数大型股成分股。与既有规则关系上，它是对现行ESG及CG披露要求的深化与细化，特别是引入了AI数据治理和ISSA 5000鉴证标准的新趋势。主要不确定性在于Scope 3数据获取难度及AI治理框架的落地成本，企业需平衡合规期望与实操可行性。",
+      "plainLanguage": "香港会计师公会公布2026年企业管治和ESG大奖名单，并发布AI数据治理指引。评审团指出，上市公司需在独董独立性、内控有效性、网络安全、AI使用及Scope 3碳排放等方面提升披露质量，并鼓励引入第三方鉴证，以符合国际资本市场的更高期望。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "增加ESG数据收集、AI治理系统建设及第三方鉴证（如ISSA 5000）的合规与运营成本；可能影响ESG评级及融资成本。",
+        "compliance": "需遵守《企业管治守则》关于独董任期（最长9年）和兼职（最多6家）的过渡期要求；需提升RM&IC、网络安全及AI数据治理的披露合规性。",
+        "operations": "需优化内部风险管理及内控流程，建立AI数据管理机制，加强网络安全控制及第三方风险管理，并将ESG融入日常运营。",
+        "supplyChain": "需加强与供应商互动以获取Scope 3排放数据，面临供应链碳足迹追溯和数据收集的压力。",
+        "disclosure": "需提升年报和ESG报告透明度，细化RM&IC有效性、董事会评估、网络安全、AI使用及Scope 3排放的披露，并考虑获取独立鉴证。",
+        "strategy": "需将CG和ESG真正融入企业文化和战略决策，优化董事会结构（多元化与独立性），提升长期竞争力和市场声誉。"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
-      "confidence": "低",
+      "affectedIndustries": [
+        "港股主板上市企业",
+        "恒生综合指数大型股成分股企业",
+        "专业审计与咨询服务"
+      ],
+      "affectedCompanyProfile": [
+        "在港交所主板上市的公司",
+        "恒生综合指数大型股指数成分股公司",
+        "面临董事会换届或独董任期届满的公司",
+        "供应链复杂或高碳排放的公司"
+      ],
+      "actions": [
+        "董事会/公司秘书｜《企业管治守则》过渡期届满前：审查现任独立非执行董事的任期及兼职情况，制定董事会刷新计划以确保符合独董最长9年任期及最多兼任6家公司的要求。；产出：董事会独立性审查报告及刷新计划",
+        "ESG/可持续发展部门｜下一财年ESG报告发布前：启动Scope 3排放数据收集机制，与供应商建立数据沟通渠道，并制定明确的减排中期目标。；产出：Scope 3排放核算报告及供应商数据收集SOP",
+        "IT/数字化与合规部门｜6个月内：评估公司AI应用现状，建立AI数据治理框架，完善网络安全控制及董事会问责机制披露。；产出：AI数据治理政策及网络安全披露草案",
+        "财务/内审部门｜年度审计前：评估风险管理及内部监控（RM&IC）系统的有效性，并考虑聘请合格机构对关键ESG指标进行独立鉴证。；产出：RM&IC有效性评估报告及ESG鉴证计划"
+      ],
+      "monitoring": [
+        {
+          "date": "原文未披露",
+          "milestone": "《企业管治守则》关于独董任期及兼职限制的过渡期届满",
+          "whyItMatters": "过渡期结束后，公司将面临严格的合规硬性要求，不合规可能导致监管问询或处罚。"
+        },
+        {
+          "date": "原文未披露",
+          "milestone": "ISSA 5000国际可持续发展鉴证准则的正式实施",
+          "whyItMatters": "将提升ESG鉴证的严谨性和国际标准一致性，影响企业选择鉴证机构和披露数据的可靠性要求。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本次指引虽非强制法规，但代表了监管机构对上市公司CG与ESG披露的演进方向。将AI数据治理和Scope 3纳入核心关注点，表明监管正从形式合规向实质治理转变。预计未来交易所可能将部分最佳实践转化为强制披露条文，企业应提前布局。",
+      "confidence": "高",
       "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+        "《企业管治守则》独董任期及兼职限制过渡期的具体截止日期",
+        "ISSA 5000准则的具体生效日期",
+        "HKICPA AI数据治理指引的具体强制或建议条款细节"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-11T03:56:26.003858+00:00",
+      "sources": [
+        "https://www.hkicpa.org.hk/en/News/News-Release/20261105_BCGESGA-2026"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [
-        "The awardees comprise 12 Elite award winners, 20 other listed companies, including one newly listed company, and three public sector organizations.",
-        "First launched in 2000, they have firmly established themselves as one of the most prestigious and sought-after accolades.",
-        "Currently, relatively few companies provide information on all 15 categories of Scope 3 emissions or explain their rationale for excluding specific ca",
-        "This new standard applies to reporting periods beginning from December 15, 2026.",
-        "Among the 124 selected companies, 92 companies stated explicitly that they have used AI, while 26 companies did not identify such use."
+      "analysisStatus": "complete",
+      "hkImpact": "财务：增加ESG数据收集、AI治理系统建设及第三方鉴证（如ISSA 5000）的合规与运营成本；可能影响ESG评级及融资成本。\n合规：需遵守《企业管治守则》关于独董任期（最长9年）和兼职（最多6家）的过渡期要求；需提升RM&IC、网络安全及AI数据治理的披露合规性。\n运营：需优化内部风险管理及内控流程，建立AI数据管理机制，加强网络安全控制及第三方风险管理，并将ESG融入日常运营。\n供应链：需加强与供应商互动以获取Scope 3排放数据，面临供应链碳足迹追溯和数据收集的压力。\n披露：需提升年报和ESG报告透明度，细化RM&IC有效性、董事会评估、网络安全、AI使用及Scope 3排放的披露，并考虑获取独立鉴证。\n战略：需将CG和ESG真正融入企业文化和战略决策，优化董事会结构（多元化与独立性），提升长期竞争力和市场声誉。",
+      "industries": [
+        "港股主板上市企业",
+        "恒生综合指数大型股成分股企业",
+        "专业审计与咨询服务"
       ],
-      "actionsLegacy": [],
-      "watchItems": []
+      "keyPoints": [
+        "35家机构获2026年最佳企业管治及ESG大奖，含12家精英奖、20家其他上市公司及3家公共机构。",
+        "HKICPA研究恒生综合指数大型股指数124家成分股年报，分析AI披露及治理安排，并发布AI数据管理实用指引。",
+        "奖项评审首次使用AI初筛截至2025年12月31日港交所主板所有上市公司的约2400份年报和ESG报告。",
+        "《企业管治守则》修订要求独董最长任期9年且最多兼任6家上市公司董事，设有过渡期。"
+      ],
+      "actionsLegacy": [
+        "董事会/公司秘书｜《企业管治守则》过渡期届满前：审查现任独立非执行董事的任期及兼职情况，制定董事会刷新计划以确保符合独董最长9年任期及最多兼任6家公司的要求。；产出：董事会独立性审查报告及刷新计划",
+        "ESG/可持续发展部门｜下一财年ESG报告发布前：启动Scope 3排放数据收集机制，与供应商建立数据沟通渠道，并制定明确的减排中期目标。；产出：Scope 3排放核算报告及供应商数据收集SOP",
+        "IT/数字化与合规部门｜6个月内：评估公司AI应用现状，建立AI数据治理框架，完善网络安全控制及董事会问责机制披露。；产出：AI数据治理政策及网络安全披露草案",
+        "财务/内审部门｜年度审计前：评估风险管理及内部监控（RM&IC）系统的有效性，并考虑聘请合格机构对关键ESG指标进行独立鉴证。；产出：RM&IC有效性评估报告及ESG鉴证计划"
+      ],
+      "watchItems": [
+        "原文未披露：《企业管治守则》关于独董任期及兼职限制的过渡期届满（过渡期结束后，公司将面临严格的合规硬性要求，不合规可能导致监管问询或处罚。）",
+        "原文未披露：ISSA 5000国际可持续发展鉴证准则的正式实施（将提升ESG鉴证的严谨性和国际标准一致性，影响企业选择鉴证机构和披露数据的可靠性要求。）"
+      ]
     },
     {
       "id": "b6fbf09152e86eca",
@@ -8899,42 +9477,85 @@
       "sourceTier": "S",
       "section": "政策法规",
       "topic": "废弃物",
-      "legalStatus": "执法/诉讼",
+      "legalStatus": "动态",
       "originalUrl": "https://commission.europa.eu/about/departments-and-executive-agencies/trade-and-economic-security_en",
       "linkVerified": true,
       "contentHash": "9919e5707412805533f01c5157cf8507b603d34a9ce5701c6d977ba87aad5226",
-      "collectedAt": "2026-11-11T03:56:26.003858+00:00",
-      "oneLiner": "Read about what the European Commission's Directorate-General for Trade and Economic Security is doing, about its leadership and how to get in touch",
-      "eventType": "其他",
-      "keyFacts": [],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
-      "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
-      },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
-      "confidence": "低",
-      "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "欧盟委员会贸易与经济安全总司发布部门介绍，明确其负责制定欧盟贸易政策以减少经济依赖并防范供应链中断风险。",
+      "eventType": "政策文件",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "DG TRADE负责制定欧盟贸易和经济安全政策及对外贸易关系。",
+          "evidence": "The Directorate-General for Trade and Economic Security (DG TRADE) develops and carries out the Commission's policies on trade and economic security."
+        },
+        {
+          "fact": "欧盟贸易政策旨在减少对非欧盟国家的经济依赖并防止供应链中断。",
+          "evidence": "The EU's trade policies help to reduce our economic dependencies on non-EU countries and to prevent disruption to global supply chains."
+        },
+        {
+          "fact": "委员会管理人员需公开与利益代表会议的信息和纪要。",
+          "evidence": "Commission staff holding management functions publish information on and minutes of all meetings they hold with interest representatives."
+        }
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-11T03:56:26.003858+00:00",
+      "professionalAnalysis": "本文本为欧盟委员会贸易与经济安全总司（DG TRADE）的官方部门介绍，并非具体的法规或执法文件。其核心在于阐述欧盟在贸易与经济安全领域的宏观政策导向，即通过贸易政策减少对非欧盟国家的经济依赖并防范供应链中断风险。当前阶段为政策方向宣示，尚未涉及具体行业的实施细则或强制性合规要求。适用范围涵盖所有与欧盟进行贸易的非欧盟国家实体。核心机制依赖于欧盟整体贸易政策的制定与执行。与既有规则的关系在于，该部门是欧盟贸易政策及经济安全工具的统筹执行机构。主要不确定性在于具体的经济安全审查标准、依赖度评估指标及后续可能出台的具体贸易限制措施尚未在此文本中披露。",
+      "plainLanguage": "这是欧盟委员会贸易与经济安全总司的官方介绍，说明该部门负责制定欧盟的贸易和经济安全政策。核心目标是促进公平贸易，减少欧盟对外部的经济依赖，防止全球供应链中断，提升经济安全。目前仅为宏观政策方向说明，无具体法律条文。",
+      "companyImpact": {
+        "financial": "不构成直接影响。",
+        "compliance": "不构成直接影响。",
+        "operations": "不构成直接影响。",
+        "supplyChain": "欧盟政策旨在防止供应链中断并减少经济依赖，可能间接影响供应链布局，但原文未披露具体机制。",
+        "disclosure": "不构成直接影响。",
+        "strategy": "欧盟强调减少经济依赖和提升经济安全，可能影响企业在欧盟的投资与市场准入战略，但原文未披露具体限制措施。"
+      },
+      "affectedIndustries": [
+        "国际贸易",
+        "供应链管理"
+      ],
+      "affectedCompanyProfile": [
+        "与欧盟国家有频繁进出口贸易业务的企业",
+        "在欧盟有重大投资或供应链布局的跨国企业"
+      ],
+      "actions": [
+        "战略与公共事务部｜持续跟进，每季度评估：跟踪欧盟DG TRADE发布的贸易政策、经济安全审查机制及供应链韧性相关立法动向，评估其对现有欧盟业务的潜在影响。；产出：欧盟贸易与经济安全政策动态跟踪及业务影响评估报告"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "欧盟委员会发布具体的贸易与经济安全政策实施细则或立法提案",
+          "whyItMatters": "将明确减少经济依赖和防范供应链中断的具体合规要求与审查标准，直接影响企业在欧盟的业务布局。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本文本仅为欧盟DG TRADE的部门职能介绍，未包含实质性的新规或监管要求。其强调的“减少经济依赖”和“防止供应链中断”是欧盟“经济安全”战略的核心基调。企业应将其视为宏观政策风向标，而非直接的合规触发事件。实际影响需等待后续具体贸易防御工具或供应链审查指令的落地。",
+      "confidence": "高",
+      "gaps": [
+        "原文未提及任何具体的法规名称、生效日期或适用行业",
+        "原文未说明“减少经济依赖”的具体评估标准和阈值",
+        "原文未披露“防止供应链中断”的具体审查机制或合规要求"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [],
-      "actionsLegacy": [],
-      "watchItems": []
+      "analysisStatus": "complete",
+      "hkImpact": "财务：不构成直接影响。\n合规：不构成直接影响。\n运营：不构成直接影响。\n供应链：欧盟政策旨在防止供应链中断并减少经济依赖，可能间接影响供应链布局，但原文未披露具体机制。\n披露：不构成直接影响。\n战略：欧盟强调减少经济依赖和提升经济安全，可能影响企业在欧盟的投资与市场准入战略，但原文未披露具体限制措施。",
+      "industries": [
+        "国际贸易",
+        "供应链管理"
+      ],
+      "keyPoints": [
+        "DG TRADE负责制定欧盟贸易和经济安全政策及对外贸易关系。",
+        "欧盟贸易政策旨在减少对非欧盟国家的经济依赖并防止供应链中断。",
+        "委员会管理人员需公开与利益代表会议的信息和纪要。"
+      ],
+      "actionsLegacy": [
+        "战略与公共事务部｜持续跟进，每季度评估：跟踪欧盟DG TRADE发布的贸易政策、经济安全审查机制及供应链韧性相关立法动向，评估其对现有欧盟业务的潜在影响。；产出：欧盟贸易与经济安全政策动态跟踪及业务影响评估报告"
+      ],
+      "watchItems": [
+        "待定：欧盟委员会发布具体的贸易与经济安全政策实施细则或立法提案（将明确减少经济依赖和防范供应链中断的具体合规要求与审查标准，直接影响企业在欧盟的业务布局。）"
+      ]
     },
     {
       "id": "5e0add045b8feba0",
@@ -8946,69 +9567,108 @@
       "sourceTier": "S",
       "section": "热点新闻",
       "topic": "全球与贸易",
-      "legalStatus": "已生效/即将生效",
+      "legalStatus": "动态",
       "originalUrl": "https://www.hkicpa.org.hk/en/News/News-Release/20261106_BCGESGA-2026-Presentation-Ceremony",
       "linkVerified": true,
       "contentHash": "8b2f6cf15f0e7827c7be11e6f2543d1c2f58b91af059889db6e1f22d16ae0f3c",
-      "collectedAt": "2026-11-15T04:01:38.615725+00:00",
-      "oneLiner": "已收录原文，独立专业分析待生成。",
+      "collectedAt": "2026-11-17T05:53:32.262248+00:00",
+      "pinned": false,
+      "oneLiner": "香港会计师公会举办2026年最佳企业管治及ESG大奖颁奖典礼，表彰35家在企业管治与ESG方面表现卓越的企业及机构。",
       "eventType": "其他",
+      "impactLevel": "中",
       "keyFacts": [
         {
-          "fact": "The Elite Past Winners Section is dedicated to companies that have won awards at least five times in the past 10 years.",
-          "evidence": "The Elite Past Winners Section is dedicated to companies that have won"
+          "fact": "HKICPA举办2026年最佳企业管治及ESG大奖颁奖典礼，共颁发35个奖项。",
+          "evidence": "presenting a total of 35 awards"
         },
         {
-          "fact": "A total of 30 companies and organizations received these awards, including 8 first-time awardees, namely Sunny Optical Technology (Group) Co.",
-          "evidence": "A total of 30 companies and organizations received these awards, inclu"
+          "fact": "奖项分为精英往届获奖者、主要类别和新上市公司三个部分。",
+          "evidence": "categorized into three sections this year: Elite Past Winners, Main Categories, and Newly-listed Companies"
         },
         {
-          "fact": "The HKICPA would like to express its appreciation for all this support and that of the Awards’ media sponsors (see Note 3).",
-          "evidence": "The HKICPA would like to express its appreciation for all this support"
+          "fact": "5家机构获得最可持续组织奖（MSO），包括保诚、港交所、中电控股、渣打和汇丰。",
+          "evidence": "A total of five companies and organizations received the highest accolade... the Most Sustainable Organizations (MSO) Awards"
         },
         {
-          "fact": "Ace Sustainability & Risk Advisors Ltd\n4.",
-          "evidence": "Ace Sustainability & Risk Advisors Ltd\n4."
+          "fact": "30家机构获得企业管治及ESG奖项或特别表扬，其中8家为首次获奖，美的集团为唯一获奖的新上市公司。",
+          "evidence": "A total of 30 companies and organizations received these awards, including 8 first-time awardees... Midea Group Co., Ltd was the only newly-listed company"
         },
         {
-          "fact": "Deloitte Touche Tohmatsu\n6.",
-          "evidence": "Deloitte Touche Tohmatsu\n6."
+          "fact": "评审团主席指出，企业管治已演变为企业战略、风险管理和投资者信心的重要基础。",
+          "evidence": "evolved into important foundations of corporate strategy, risk management, investor confidence and long-term resilience"
         }
       ],
-      "professionalAnalysis": "独立专业分析待生成。",
-      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "professionalAnalysis": "本事件为行业奖项颁发活动，非强制性法规或监管指令，属于市场引导与最佳实践推广性质。当前阶段为2026年度奖项已评选并颁发。适用范围涵盖在港上市及运营的企业与公共机构。核心机制是通过设立精英往届、主要类别及新上市公司分类，激励企业提升董事会效能、内部控制、资产估值及可持续发展保证标准。与既有规则的关系在于，它反映了监管合规要求向企业战略和长期韧性延伸的市场趋势。主要不确定性在于该奖项对未获奖企业的直接商业或监管约束力有限，更多体现为声誉激励与资本市场信号。",
+      "plainLanguage": "香港会计师公会颁发了2026年最佳企业管治和ESG大奖，共有35家企业和机构获奖。这说明良好的公司治理和ESG表现不仅是合规要求，更是吸引投资、提升企业战略和长期抗风险能力的关键。获奖企业如港交所、汇丰、美的等，为市场树立了标杆。",
       "companyImpact": {
-        "financial": "待分析",
-        "compliance": "待分析",
-        "operations": "待分析",
-        "supplyChain": "待分析",
-        "disclosure": "待分析",
-        "strategy": "待分析"
+        "financial": "获奖可能提升企业在资本市场的声誉，降低融资成本，吸引注重ESG的长期投资者，但不直接产生短期财务收益。",
+        "compliance": "奖项评审标准反映了市场对董事会效能、内部控制和ESG披露的高要求，提示企业需对标提升合规与披露质量，以应对日益严格的监管趋势。",
+        "operations": "促使企业将ESG和管治要求融入日常运营和企业文化，优化内部控制流程，提升资产估值标准。",
+        "supplyChain": "不构成直接影响",
+        "disclosure": "推动企业提升ESG报告和企业管治披露的质量与透明度，获取可持续发展保证，以满足投资者和评审的高标准。",
+        "strategy": "将ESG和管治从单纯的合规事项提升为企业战略核心，增强长期韧性和市场竞争力，巩固在国际金融中心的地位。"
       },
-      "affectedIndustries": [],
-      "affectedCompanyProfile": [],
-      "actions": [],
-      "monitoring": [],
-      "analystJudgement": "待分析",
-      "confidence": "低",
+      "affectedIndustries": [
+        "金融",
+        "房地产",
+        "医药",
+        "科技",
+        "制造业",
+        "公共事业"
+      ],
+      "affectedCompanyProfile": [
+        "在港上市且重视ESG与企业管治的企业",
+        "寻求提升资本市场声誉和吸引长期投资者的公司",
+        "新上市且希望建立良好ESG披露基础的企业"
+      ],
+      "actions": [
+        "董事会秘书/公司秘书部｜2026年12月31日：对标2026年获奖企业的ESG与企业管治实践，评估本公司在董事会效能、内部控制及ESG披露方面的差距。；产出：《企业管治与ESG对标分析及提升建议报告》",
+        "ESG/可持续发展部｜2026年12月31日：根据评审团主席关于提高资产估值标准和获取可持续发展保证的指引，制定引入第三方ESG鉴证的计划。；产出：《ESG数据鉴证与资产估值提升实施方案》",
+        "投资者关系部｜2026年11月30日：梳理本次获奖企业的ESG亮点，在后续投资者沟通中强化本公司在管治和ESG战略整合方面的信息传递。；产出：《投资者沟通材料（ESG与管治专项更新）》"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "HKICPA发布下一年度最佳企业管治及ESG大奖评选规则及提名通知",
+          "whyItMatters": "了解下一年度评审标准的变化，特别是关于可持续发展保证和资产估值的具体要求，以便提前准备。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本次颁奖典礼虽非强制性监管动作，但评审团主席的发言明确释放了监管与市场双重趋严的信号。企业管治与ESG披露正从合规底线向战略核心转变。未来，缺乏高质量ESG鉴证和实质性管治提升的企业，可能在资本市场估值和融资成本上面临劣势。建议企业尽早引入第三方鉴证并深化ESG战略整合。",
+      "confidence": "高",
       "gaps": [
-        "Reached MAX_ANALYSIS_PER_RUN"
+        "原文未披露具体的评审打分细则与权重",
+        "原文未披露未获奖企业面临的具体市场惩罚机制或监管后果",
+        "原文未披露AI技术在评审中的具体应用方式及数据要求"
       ],
-      "analysisMethod": "待分析",
-      "analysisStatus": "pending",
-      "analysisAt": "2026-11-15T04:01:38.615725+00:00",
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-17T05:53:32.262248+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
-      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
-      "industries": [],
-      "keyPoints": [
-        "The Elite Past Winners Section is dedicated to companies that have won awards at least five times in the past 10 years.",
-        "A total of 30 companies and organizations received these awards, including 8 first-time awardees, namely Sunny Optical Technology (Group) Co.",
-        "The HKICPA would like to express its appreciation for all this support and that of the Awards’ media sponsors (see Note 3).",
-        "Ace Sustainability & Risk Advisors Ltd\n4.",
-        "Deloitte Touche Tohmatsu\n6."
+      "analysisStatus": "complete",
+      "hkImpact": "财务：获奖可能提升企业在资本市场的声誉，降低融资成本，吸引注重ESG的长期投资者，但不直接产生短期财务收益。\n合规：奖项评审标准反映了市场对董事会效能、内部控制和ESG披露的高要求，提示企业需对标提升合规与披露质量，以应对日益严格的监管趋势。\n运营：促使企业将ESG和管治要求融入日常运营和企业文化，优化内部控制流程，提升资产估值标准。\n供应链：不构成直接影响\n披露：推动企业提升ESG报告和企业管治披露的质量与透明度，获取可持续发展保证，以满足投资者和评审的高标准。\n战略：将ESG和管治从单纯的合规事项提升为企业战略核心，增强长期韧性和市场竞争力，巩固在国际金融中心的地位。",
+      "industries": [
+        "金融",
+        "房地产",
+        "医药",
+        "科技",
+        "制造业",
+        "公共事业"
       ],
-      "actionsLegacy": [],
-      "watchItems": []
+      "keyPoints": [
+        "HKICPA举办2026年最佳企业管治及ESG大奖颁奖典礼，共颁发35个奖项。",
+        "奖项分为精英往届获奖者、主要类别和新上市公司三个部分。",
+        "5家机构获得最可持续组织奖（MSO），包括保诚、港交所、中电控股、渣打和汇丰。",
+        "30家机构获得企业管治及ESG奖项或特别表扬，其中8家为首次获奖，美的集团为唯一获奖的新上市公司。",
+        "评审团主席指出，企业管治已演变为企业战略、风险管理和投资者信心的重要基础。"
+      ],
+      "actionsLegacy": [
+        "董事会秘书/公司秘书部｜2026年12月31日：对标2026年获奖企业的ESG与企业管治实践，评估本公司在董事会效能、内部控制及ESG披露方面的差距。；产出：《企业管治与ESG对标分析及提升建议报告》",
+        "ESG/可持续发展部｜2026年12月31日：根据评审团主席关于提高资产估值标准和获取可持续发展保证的指引，制定引入第三方ESG鉴证的计划。；产出：《ESG数据鉴证与资产估值提升实施方案》",
+        "投资者关系部｜2026年11月30日：梳理本次获奖企业的ESG亮点，在后续投资者沟通中强化本公司在管治和ESG战略整合方面的信息传递。；产出：《投资者沟通材料（ESG与管治专项更新）》"
+      ],
+      "watchItems": [
+        "待定：HKICPA发布下一年度最佳企业管治及ESG大奖评选规则及提名通知（了解下一年度评审标准的变化，特别是关于可持续发展保证和资产估值的具体要求，以便提前准备。）"
+      ]
     },
     {
       "id": "840c70e8585e640c",
