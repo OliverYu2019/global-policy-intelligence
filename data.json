@@ -1,15 +1,65 @@
 {
-  "generatedAt": "2026-11-19T05:16:04.059185+00:00",
+  "generatedAt": "2026-11-20T05:02:17.023658+00:00",
   "count": 94,
   "analysis": {
     "mode": "independent-per-article",
     "model": "qwen3.7-plus",
-    "analysedThisRun": 5,
-    "reanalysedThisRun": 3,
-    "addedThisRun": 2,
+    "analysedThisRun": 0,
+    "reanalysedThisRun": 0,
+    "addedThisRun": 0,
     "pendingCount": 0
   },
   "errors": [
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/hkfrs18/1navig18.pdf?la=en&hash=55ECF423C6A76FABBA8CD47676EACA8E",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/hkfrs18/1navig18.pdf?la=en&hash=55ECF423C6A76FABBA8CD47676EACA8E: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /-"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/Thought-leadership/Corporate-governance-and-sustainability/Best-Corporate-Governance-and-ESG-Awards",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/Thought-leadership/Corporate-governance-and-sustainability/Best-Corporate-Governance-and-ESG-Awards: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/Thought-leadership/Corporate-governance-and-s"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20241212_HKFRS_S1_S2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231129_BCGESGA2023 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231114_ESG-Assurance-Research-2023 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022 (Caused by ConnectTim"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement (Caused by ConnectT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hki"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Accountants-taking-on-climate-change (Caused by ConnectTimeoutError(<HTT"
+    },
     {
       "source": "欧盟委员会气候行动总司",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/",
