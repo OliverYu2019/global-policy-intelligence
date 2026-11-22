@@ -1,69 +1,19 @@
 {
-  "generatedAt": "2026-11-21T04:57:23.121390+00:00",
-  "count": 97,
+  "generatedAt": "2026-11-22T04:19:12.166136+00:00",
+  "count": 99,
   "analysis": {
     "mode": "independent-per-article",
     "model": "qwen3.7-plus",
-    "analysedThisRun": 3,
+    "analysedThisRun": 2,
     "reanalysedThisRun": 0,
-    "addedThisRun": 3,
+    "addedThisRun": 2,
     "pendingCount": 0
   },
   "errors": [
     {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/hkfrs18/1navig18.pdf?la=en&hash=55ECF423C6A76FABBA8CD47676EACA8E",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/hkfrs18/1navig18.pdf?la=en&hash=55ECF423C6A76FABBA8CD47676EACA8E: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /-"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/03_Our-views/PCD/2026/ck_IASB_RMA/sub_IASB-RMA.pdf?la=en&hash=F41A3A39C4503E1555310F2C51B8C4EE",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/03_Our-views/PCD/2026/ck_IASB_RMA/sub_IASB-RMA.pdf?la=en&hash=F41A3A39C4503E1555310F2C51B8C4EE: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/Thought-leadership/Corporate-governance-and-sustainability/Best-Corporate-Governance-and-ESG-Awards",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/Thought-leadership/Corporate-governance-and-sustainability/Best-Corporate-Governance-and-ESG-Awards: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/Thought-leadership/Corporate-governance-and-s"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20241212_HKFRS_S1_S2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024 (Caused by ConnectTimeoutError(<HTT"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231129_BCGESGA2023 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231114_ESG-Assurance-Research-2023 (Caused by ConnectTimeoutError(<HTT"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022 (Caused by ConnectTim"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement (Caused by ConnectT"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hki"
-    },
-    {
-      "source": "香港会计师公会",
-      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change",
-      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Accountants-taking-on-climate-change (Caused by ConnectTimeoutError(<HTT"
+      "source": "欧盟委员会气候行动总司",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/",
+      "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press"
     },
     {
       "source": "欧盟理事会",
@@ -585,6 +535,96 @@
         "2026年12月10日：建筑碳储存认证方法学公众咨询截止（标志着草案意见收集结束，委员会将基于反馈修改并最终通过授权法案。）",
         "待定：委员会正式通过建筑碳储存认证方法学授权法案（方法学正式生效，企业可依据最终规则启动产品或建筑的碳储存认证程序。）",
         "待定：委员会完成对9个认证计划的认可评估（确定哪些第三方认证机构具备资质，企业需据此选择合规的认证服务商。）"
+      ]
+    },
+    {
+      "id": "e25f99a536008277",
+      "title": "IASB Exposure Draft - Risk Mitigation Accounting (Proposed amendments to IFRS 9 and IFRS 7)",
+      "datePublished": "2026-11-18",
+      "jurisdiction": "香港",
+      "authority": "香港会计师公会",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "财务准则",
+      "legalStatus": "征求意见/提案",
+      "originalUrl": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/03_Our-views/PCD/2026/ck_IASB_RMA/sub_IASB-RMA.pdf?la=en&hash=F41A3A39C4503E1555310F2C51B8C4EE",
+      "linkVerified": true,
+      "contentHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "collectedAt": "2026-11-22T04:19:12.166136+00:00",
+      "oneLiner": "香港会计师公会发布关于IASB风险缓释会计（IFRS 9和IFRS 7修订）征求意见稿的意见提交文件。",
+      "eventType": "征求意见",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "文件涉及IASB关于风险缓释会计的征求意见稿",
+          "evidence": "标题为IASB Exposure Draft - Risk Mitigation Accounting"
+        },
+        {
+          "fact": "文件由香港会计师公会发布",
+          "evidence": "authority字段显示为香港会计师公会"
+        },
+        {
+          "fact": "文件发布日期为2026年11月18日",
+          "evidence": "publishedDate字段显示为2026-11-18"
+        }
+      ],
+      "professionalAnalysis": "本文件为香港会计师公会（HKICPA）针对国际会计准则理事会（IASB）发布的《风险缓释会计》征求意见稿（拟修订IFRS 9和IFRS 7）所提交的意见反馈。该提案旨在解决现行IFRS 9下风险缓释活动可能导致的会计错配问题。当前处于征求意见阶段，尚未成为正式生效的会计准则。由于原文未提供具体修订条款、生效日期及过渡安排，其最终对财务报表的具体影响范围、核心机制及与既有规则的衔接方式存在较大不确定性。企业需等待最终准则发布以评估实际合规与财务影响。",
+      "plainLanguage": "国际会计准则理事会提议修改金融工具准则，以改进企业使用衍生品进行风险对冲时的会计处理。香港会计师公会就此征求意见稿提交了反馈意见。目前该提案仍在征求意见阶段，尚未正式生效，具体影响有待明确。",
+      "companyImpact": {
+        "financial": "原文未披露",
+        "compliance": "原文未披露",
+        "operations": "原文未披露",
+        "supplyChain": "不构成直接影响",
+        "disclosure": "原文未披露",
+        "strategy": "不构成直接影响"
+      },
+      "affectedIndustries": [
+        "金融工具及对冲会计相关行业"
+      ],
+      "affectedCompanyProfile": [
+        "业务涉及复杂金融工具、衍生品交易及风险对冲活动，且适用国际财务报告准则（IFRS）的港股上市公司"
+      ],
+      "actions": [
+        "财务部/会计政策部｜原文未披露具体截止日期，建议尽快：评估IASB风险缓释会计征求意见稿对公司现有对冲会计处理的潜在影响，并考虑是否向HKICPA或IASB提交反馈意见。；产出：影响评估备忘录及反馈草案"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "IASB发布最终修订准则",
+          "whyItMatters": "确定最终生效日期和具体会计处理要求，直接影响公司财务报表和对冲会计合规。"
+        }
+      ],
+      "analystJudgement": "分析师判断：本文件为HKICPA对IASB征求意见稿的反馈，核心在于解决IFRS 9下风险缓释活动的会计错配。由于缺乏正文细节，无法量化对具体企业的财务影响。建议适用IFRS的港股上市公司财务团队密切关注该提案的最终定稿，提前评估现有衍生品对冲业务的会计处理是否需要调整。",
+      "confidence": "低",
+      "gaps": [
+        "征求意见稿的具体修订条款和核心机制",
+        "拟议的生效日期和过渡安排",
+        "HKICPA反馈意见的核心观点和具体建议",
+        "对不同行业或企业的具体财务影响评估"
+      ],
+      "sources": [
+        "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/03_Our-views/PCD/2026/ck_IASB_RMA/sub_IASB-RMA.pdf?la=en&hash=F41A3A39C4503E1555310F2C51B8C4EE"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-22T04:19:12.166136+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：原文未披露\n合规：原文未披露\n运营：原文未披露\n供应链：不构成直接影响\n披露：原文未披露\n战略：不构成直接影响",
+      "industries": [
+        "金融工具及对冲会计相关行业"
+      ],
+      "keyPoints": [
+        "文件涉及IASB关于风险缓释会计的征求意见稿",
+        "文件由香港会计师公会发布",
+        "文件发布日期为2026年11月18日"
+      ],
+      "actionsLegacy": [
+        "财务部/会计政策部｜原文未披露具体截止日期，建议尽快：评估IASB风险缓释会计征求意见稿对公司现有对冲会计处理的潜在影响，并考虑是否向HKICPA或IASB提交反馈意见。；产出：影响评估备忘录及反馈草案"
+      ],
+      "watchItems": [
+        "待定：IASB发布最终修订准则（确定最终生效日期和具体会计处理要求，直接影响公司财务报表和对冲会计合规。）"
       ]
     },
     {
@@ -2912,6 +2952,123 @@
           "action": "销售与采购团队检查合同中的关税、许可和不可抗力条款",
           "deliverable": "管理层决策及责任分工"
         }
+      ]
+    },
+    {
+      "id": "2713eaa2038b517d",
+      "title": "Best Corporate Governance and ESG Awards",
+      "datePublished": "2026-11-06",
+      "jurisdiction": "香港",
+      "authority": "香港会计师公会",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "热点新闻",
+      "topic": "全球与贸易",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.hkicpa.org.hk/en/Thought-leadership/Corporate-governance-and-sustainability/Best-Corporate-Governance-and-ESG-Awards",
+      "linkVerified": true,
+      "contentHash": "b0c24a871c9c259104bc7a0aaaec718852ab280650a8dc5a47c686f708db33d6",
+      "collectedAt": "2026-11-22T04:19:12.166136+00:00",
+      "oneLiner": "香港会计师公会举办2026年最佳企业管治及ESG大奖，首次引入AI深度审查年报及ESG报告，并发布AI数据治理研究。",
+      "eventType": "其他",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "2026年最佳企业管治及ESG大奖于2026年11月6日举行颁奖典礼。",
+          "evidence": "held at the JW Marriott Hotel on 6 November 2026."
+        },
+        {
+          "fact": "共有35家公司和公共机构获奖，其中8家为首次获奖。",
+          "evidence": "In all, 35 companies and PSOs received awards this year, with 8 first ‑ time awardees."
+        },
+        {
+          "fact": "2026年评审首次使用AI进行深度审查，初步筛选覆盖约2400份年报和ESG报告。",
+          "evidence": "AI was also used in the next phase... covering around 2,400 annual reports and a similar number of ESG reports."
+        },
+        {
+          "fact": "配套研究审查了恒生综合大型股指数124家成分股的FY2025年报中AI应用和治理披露。",
+          "evidence": "reviewed the FY2025 annual reports of 124 constituent companies of the Hang Seng Composite LargeCap Index."
+        },
+        {
+          "fact": "2026年主要类别按行业分组进行同业对标，并按市值分类。",
+          "evidence": "companies were grouped into several key industry sectors... in addition to being categorized by market capitalization."
+        }
+      ],
+      "professionalAnalysis": "本事件为香港会计师公会（HKICPA）举办的年度行业奖项评选，非强制性法规，但代表了监管机构（如会财局）和市场对港股上市公司企业管治（CG）与ESG实践的最高期望。当前阶段为2026年度评选已落幕。适用范围涵盖港股主板上市公司及公共机构。核心机制在于2026年引入AI进行初步筛选与深度审查，覆盖约2400份报告，并按行业分组进行同业对标。该活动强调自愿采纳远超最低法定要求的标准。与既有规则的关系在于，它将CG和ESG从单纯的合规披露提升为企业战略、风险管理和长期韧性的基础。主要不确定性在于AI评审标准的透明度及其未来是否会被监管机构采纳为常规审查工具，以及企业如何平衡自愿性高标准与合规成本。",
+      "plainLanguage": "香港会计师公会颁发了2026年最佳企业管治和ESG大奖。今年最大的变化是首次用AI深度审查了约2400份年报和ESG报告，并按行业分组评比。这虽然不是强制法律，但代表了监管和市场对上市公司的最高期望，说明良好的管治和ESG表现已成为吸引资本和建立信任的关键。",
+      "companyImpact": {
+        "financial": "不直接产生财务收支影响，但获奖或高评级有助于提升投资者信心，可能降低股权融资成本并提升估值。",
+        "compliance": "虽非强制合规义务，但会财局等监管机构明确期望企业超越最低法定要求，在资产估值和可持续发展鉴证方面提高标准，以防范合规与声誉风险。",
+        "operations": "推动企业将CG和ESG融入日常运营与企业文化，特别是要求提升董事会效能、内部控制，以及规范AI应用和数据治理。",
+        "supplyChain": "不构成直接影响。",
+        "disclosure": "直接影响年报和ESG报告编制。AI审查的引入要求披露内容必须真实、严谨且超越法定最低要求，数据质量和一致性面临更高检验。",
+        "strategy": "促使企业将CG和ESG从合规负担转化为战略基础，通过行业对标提升竞争优势，巩固国际金融中心地位下的市场准入与品牌声誉。"
+      },
+      "affectedIndustries": [
+        "金融业",
+        "公用事业",
+        "医药生物",
+        "科技制造",
+        "房地产"
+      ],
+      "affectedCompanyProfile": [
+        "港股主板上市公司",
+        "恒生综合大型股指数成分股",
+        "注重ESG披露与数据治理的企业",
+        "新上市及寻求提升管治评级的企业"
+      ],
+      "actions": [
+        "董事会秘书/ESG委员会｜2027年年报及ESG报告发布前：评估并优化年报及ESG报告的数据质量与披露逻辑，以应对AI审查机制，确保内容超越最低法定要求。；产出：AI审查应对策略及报告质量提升方案",
+        "信息技术/数据治理部门｜2027年第一季度：参照HKICPA发布的AI与数据治理研究，建立或完善企业级AI应用政策、风险评估及董事会监督机制。；产出：企业AI应用与数据治理框架文件",
+        "战略/投资者关系部门｜2026年12月31日：分析2026年获奖企业（特别是同行业及首次获奖企业）的最佳实践，对标差距并制定下一年度参评及管治提升计划。；产出：同业CG与ESG最佳实践对标分析报告"
+      ],
+      "monitoring": [
+        {
+          "date": "2027年下半年",
+          "milestone": "HKICPA发布2027年度最佳企业管治及ESG大奖评审规则",
+          "whyItMatters": "关注AI审查机制的进一步优化及行业分组对标规则的调整，以提前调整披露策略。"
+        },
+        {
+          "date": "待定",
+          "milestone": "监管机构（如会财局或联交所）是否将AI审查或HKICPA的高标准纳入法定合规指引",
+          "whyItMatters": "若自愿性高标准转化为强制性监管要求，将显著增加企业的合规成本与披露压力。"
+        }
+      ],
+      "analystJudgement": "分析师判断：HKICPA全面引入AI审查报告，标志着港股ESG评估向“AI全量筛查”转变。虽奖项属自愿性质，但会财局致辞表明监管正释放强烈信号：重心将从“形式合规”转向“实质表现”。企业若仅满足最低披露要求，将在AI审查和同业对标中暴露劣势，进而影响资本市场表现与融资成本。",
+      "confidence": "高",
+      "gaps": [
+        "AI审查的具体算法逻辑、权重分配及判定标准",
+        "未获奖或表现不佳企业在AI审查中面临的具体反馈机制",
+        "监管机构是否会直接采纳HKICPA的AI审查结果作为执法依据"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-22T04:19:12.166136+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：不直接产生财务收支影响，但获奖或高评级有助于提升投资者信心，可能降低股权融资成本并提升估值。\n合规：虽非强制合规义务，但会财局等监管机构明确期望企业超越最低法定要求，在资产估值和可持续发展鉴证方面提高标准，以防范合规与声誉风险。\n运营：推动企业将CG和ESG融入日常运营与企业文化，特别是要求提升董事会效能、内部控制，以及规范AI应用和数据治理。\n供应链：不构成直接影响。\n披露：直接影响年报和ESG报告编制。AI审查的引入要求披露内容必须真实、严谨且超越法定最低要求，数据质量和一致性面临更高检验。\n战略：促使企业将CG和ESG从合规负担转化为战略基础，通过行业对标提升竞争优势，巩固国际金融中心地位下的市场准入与品牌声誉。",
+      "industries": [
+        "金融业",
+        "公用事业",
+        "医药生物",
+        "科技制造",
+        "房地产"
+      ],
+      "keyPoints": [
+        "2026年最佳企业管治及ESG大奖于2026年11月6日举行颁奖典礼。",
+        "共有35家公司和公共机构获奖，其中8家为首次获奖。",
+        "2026年评审首次使用AI进行深度审查，初步筛选覆盖约2400份年报和ESG报告。",
+        "配套研究审查了恒生综合大型股指数124家成分股的FY2025年报中AI应用和治理披露。",
+        "2026年主要类别按行业分组进行同业对标，并按市值分类。"
+      ],
+      "actionsLegacy": [
+        "董事会秘书/ESG委员会｜2027年年报及ESG报告发布前：评估并优化年报及ESG报告的数据质量与披露逻辑，以应对AI审查机制，确保内容超越最低法定要求。；产出：AI审查应对策略及报告质量提升方案",
+        "信息技术/数据治理部门｜2027年第一季度：参照HKICPA发布的AI与数据治理研究，建立或完善企业级AI应用政策、风险评估及董事会监督机制。；产出：企业AI应用与数据治理框架文件",
+        "战略/投资者关系部门｜2026年12月31日：分析2026年获奖企业（特别是同行业及首次获奖企业）的最佳实践，对标差距并制定下一年度参评及管治提升计划。；产出：同业CG与ESG最佳实践对标分析报告"
+      ],
+      "watchItems": [
+        "2027年下半年：HKICPA发布2027年度最佳企业管治及ESG大奖评审规则（关注AI审查机制的进一步优化及行业分组对标规则的调整，以提前调整披露策略。）",
+        "待定：监管机构（如会财局或联交所）是否将AI审查或HKICPA的高标准纳入法定合规指引（若自愿性高标准转化为强制性监管要求，将显著增加企业的合规成本与披露压力。）"
       ]
     },
     {
