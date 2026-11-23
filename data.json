@@ -1,15 +1,55 @@
 {
-  "generatedAt": "2026-11-22T04:19:12.166136+00:00",
-  "count": 99,
+  "generatedAt": "2026-11-23T04:56:49.591256+00:00",
+  "count": 101,
   "analysis": {
     "mode": "independent-per-article",
     "model": "qwen3.7-plus",
     "analysedThisRun": 2,
     "reanalysedThisRun": 0,
     "addedThisRun": 2,
-    "pendingCount": 0
+    "pendingCount": 1
   },
   "errors": [
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20241212_HKFRS_S1_S2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231129_BCGESGA2023 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231114_ESG-Assurance-Research-2023 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022 (Caused by ConnectTim"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement (Caused by ConnectT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hki"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Accountants-taking-on-climate-change (Caused by ConnectTimeoutError(<HTT"
+    },
     {
       "source": "欧盟委员会气候行动总司",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/cop31-eu-and-oacps-reaffirm-commitment-to-climate-action-focusing-on-turning-priorities-into-concrete-deliverables/",
@@ -37,6 +77,150 @@
     }
   ],
   "items": [
+    {
+      "id": "33e74dfaef28badd",
+      "title": "中国代表团出席联合国气候变化安塔利亚大会",
+      "datePublished": "2026-11-23",
+      "jurisdiction": "中国",
+      "authority": "生态环境部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "气候",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261123_1187193.shtml",
+      "linkVerified": true,
+      "contentHash": "6218447cfd417db8b4f13e5352db1588eeaf93c1d8e246f6e902309dfd241bf9",
+      "collectedAt": "2026-11-23T04:56:49.591256+00:00",
+      "oneLiner": "中华人民共和国生态环境部",
+      "eventType": "其他",
+      "keyFacts": [
+        {
+          "fact": "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号",
+          "evidence": "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 1"
+        }
+      ],
+      "professionalAnalysis": "独立专业分析待生成。",
+      "plainLanguage": "已保存原文事实，待配置分析模型后补充逐条解读。",
+      "companyImpact": {
+        "financial": "待分析",
+        "compliance": "待分析",
+        "operations": "待分析",
+        "supplyChain": "待分析",
+        "disclosure": "待分析",
+        "strategy": "待分析"
+      },
+      "affectedIndustries": [],
+      "affectedCompanyProfile": [],
+      "actions": [],
+      "monitoring": [],
+      "analystJudgement": "待分析",
+      "confidence": "低",
+      "gaps": [
+        "Independent analysis failed: impactLevel must be 高/中高/中"
+      ],
+      "analysisMethod": "待分析",
+      "analysisStatus": "pending",
+      "analysisAt": "2026-11-23T04:56:49.591256+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "impactLevel": "中",
+      "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
+      "industries": [],
+      "keyPoints": [
+        "版权所有：中华人民共和国生态环境部 | ICP备案编号: 京ICP备05009132号\n网站标识码：bm17000009 | 京公网安备 11040102700072号"
+      ],
+      "actionsLegacy": [],
+      "watchItems": []
+    },
+    {
+      "id": "f692b8f06a1a34c0",
+      "title": "HKFRS 18 Navigator Issue 9: From theory to practice",
+      "datePublished": "2026-11-23",
+      "jurisdiction": "香港",
+      "authority": "香港会计师公会",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "财务准则",
+      "legalStatus": "动态",
+      "originalUrl": "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/9navig18.pdf",
+      "linkVerified": true,
+      "contentHash": "d42ffc6fd4294f86bb981d45351165bbdc41cf37a6fa435cf49256e63ab99432",
+      "collectedAt": "2026-11-23T04:56:49.591256+00:00",
+      "oneLiner": "香港会计师公会发布HKFRS 18 Navigator Issue 9，但原文未披露具体内容。",
+      "eventType": "准则动态",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "香港会计师公会发布HKFRS 18 Navigator Issue 9",
+          "evidence": "title: HKFRS 18 Navigator Issue 9: From theory to practice"
+        },
+        {
+          "fact": "发布日期为2026年11月23日",
+          "evidence": "publishedDate: 2026-11-23"
+        },
+        {
+          "fact": "原文未披露具体正文内容",
+          "evidence": "article body和description为空"
+        }
+      ],
+      "professionalAnalysis": "原文未披露具体正文内容。仅从元数据可知，该文件为香港会计师公会（HKICPA）针对HKFRS 18（财务报表列报）发布的第9期导航指南，主题为“从理论到实践”。由于缺乏正文，无法分析其具体实务指导机制、适用范围及与既有规则的关系。当前阶段为准则动态发布，主要不确定性在于具体实务操作细节、关键时间节点及受影响的具体报表项目均原文未披露。企业需获取完整PDF文件以评估其对财务报表列报的实际影响。",
+      "plainLanguage": "香港会计师公会发布了关于HKFRS 18（财务报表列报）的第9期实务导航指南。但由于提供的原文没有具体内容，无法得知指南中关于如何将理论应用于实务的具体建议和规定。",
+      "companyImpact": {
+        "financial": "原文未披露",
+        "compliance": "原文未披露",
+        "operations": "原文未披露",
+        "supplyChain": "不构成直接影响",
+        "disclosure": "原文未披露",
+        "strategy": "不构成直接影响"
+      },
+      "affectedIndustries": [
+        "原文未披露"
+      ],
+      "affectedCompanyProfile": [
+        "原文未披露"
+      ],
+      "actions": [
+        "财务部/会计政策部｜待定：获取HKFRS 18 Navigator Issue 9完整PDF文件并研读；产出：HKFRS 18实务指南研读报告及影响评估"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "HKFRS 18正式生效及后续实务指南更新",
+          "whyItMatters": "原文未披露具体生效日期，需关注准则正式生效时间以确保合规"
+        }
+      ],
+      "analystJudgement": "分析师判断：由于原文缺失正文内容，无法评估HKFRS 18 Navigator Issue 9对港股上市公司财务报表列报的具体实务影响。建议企业尽快获取完整文件，重点关注利润表结构变化、管理层业绩指标披露等核心实务问题的指导，以提前规划财务系统升级和信息披露调整。",
+      "confidence": "低",
+      "gaps": [
+        "原文缺失HKFRS 18 Navigator Issue 9的完整正文内容",
+        "原文未披露HKFRS 18的具体生效日期",
+        "原文未披露指南中涉及的具体实务问题和会计处理建议"
+      ],
+      "sources": [
+        "https://www.hkicpa.org.hk/-/media/HKICPA-Website/New-HKICPA/Standards-and-regulation/SSD/06_New-and-major-stds/9navig18.pdf"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-23T04:56:49.591256+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：原文未披露\n合规：原文未披露\n运营：原文未披露\n供应链：不构成直接影响\n披露：原文未披露\n战略：不构成直接影响",
+      "industries": [
+        "原文未披露"
+      ],
+      "keyPoints": [
+        "香港会计师公会发布HKFRS 18 Navigator Issue 9",
+        "发布日期为2026年11月23日",
+        "原文未披露具体正文内容"
+      ],
+      "actionsLegacy": [
+        "财务部/会计政策部｜待定：获取HKFRS 18 Navigator Issue 9完整PDF文件并研读；产出：HKFRS 18实务指南研读报告及影响评估"
+      ],
+      "watchItems": [
+        "待定：HKFRS 18正式生效及后续实务指南更新（原文未披露具体生效日期，需关注准则正式生效时间以确保合规）"
+      ]
+    },
     {
       "id": "fdc7a6d7cd0b6c02",
       "title": "EU bans plastic waste exports to non-OECD countries",
