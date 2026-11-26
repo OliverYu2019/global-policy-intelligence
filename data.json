@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T06:17:35.213101+00:00",
-  "count": 103,
+  "generatedAt": "2026-11-26T06:10:12.418708+00:00",
+  "count": 106,
   "analysis": {
     "mode": "independent-per-article",
     "model": "qwen3.7-plus",
-    "analysedThisRun": 2,
+    "analysedThisRun": 4,
     "reanalysedThisRun": 1,
-    "addedThisRun": 1,
+    "addedThisRun": 3,
     "pendingCount": 1
   },
   "errors": [
@@ -21,11 +21,6 @@
       "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/"
     },
     {
-      "source": "美国司法部反垄断司",
-      "url": "https://www.justice.gov/atr/press-room",
-      "error": "Request failed after 3 attempts: https://www.justice.gov/atr/press-room: 403 Client Error: Forbidden for url: https://www.justice.gov/atr/press-room"
-    },
-    {
       "source": "美国联邦贸易委员会",
       "url": "https://www.ftc.gov/news-events/news/press-releases",
       "error": "Request failed after 3 attempts: https://www.ftc.gov/news-events/news/press-releases: 404 Client Error: Not Found for url: https://www.ftc.gov/news-events/news/press-releases"
@@ -37,6 +32,231 @@
     }
   ],
   "items": [
+    {
+      "id": "1d957ee553fc82bb",
+      "title": "商务部等8部门关于印发《服务贸易发展“十五五”规划》的通知",
+      "datePublished": "2026-11-26",
+      "jurisdiction": "中国",
+      "authority": "商务部",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "热点新闻",
+      "topic": "全球与贸易",
+      "legalStatus": "已通过/发布",
+      "originalUrl": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_6ed41ce4da7e40a4ba7c393a7135c784.html",
+      "linkVerified": true,
+      "contentHash": "1252bdd15caaebe14c0c260c8060b4f82970cd2ce6c01251a0645345afc71e79",
+      "collectedAt": "2026-11-26T06:10:12.418708+00:00",
+      "oneLiner": "商务部等8部门印发《服务贸易发展“十五五”规划》，指导未来五年服务贸易高质量发展与贸易强国建设。",
+      "eventType": "政策文件",
+      "impactLevel": "中高",
+      "keyFacts": [
+        {
+          "fact": "2026年11月26日，商务部等8部门印发《服务贸易发展“十五五”规划》。",
+          "evidence": "2026-11-26...商务部会同相关部门研究编制了《服务贸易发展“十五五”规划》，现予印发"
+        },
+        {
+          "fact": "规划旨在推动服务贸易高质量发展，加快贸易强国建设。",
+          "evidence": "为推动服务贸易高质量发展，加快贸易强国建设"
+        },
+        {
+          "fact": "规划根据《中华人民共和国国民经济和社会发展第十五个五年规划纲要》和商务领域有关规划编制。",
+          "evidence": "根据《中华人民共和国国民经济和社会发展第十五个五年规划纲要》和商务领域有关规划"
+        }
+      ],
+      "professionalAnalysis": "该规划是指导中国“十五五”期间（2026-2030年）服务贸易发展的宏观政策文件。其性质为国家部委联合发布的指导性规划，当前阶段为已发布实施。适用范围涵盖全国服务贸易相关领域。核心机制是通过多部门协同，落实“十五五”规划纲要中关于服务贸易的部署，推动高质量发展。与既有规则的关系是承上启下，在前期基础上进一步深化服务贸易改革开放。主要不确定性在于具体配套细则、地方实施方案及资金、税收等支持政策的落地进度与执行力度。",
+      "plainLanguage": "国家多部门联合发布了未来五年服务贸易发展的“路线图”。这份规划旨在推动服务贸易高质量发展，加快建设贸易强国。各地和相关部门需按照规划要求，结合实际制定具体措施并认真执行，以促进我国服务贸易的进一步开放与繁荣，为企业出海和跨境服务提供政策指引。",
+      "companyImpact": {
+        "financial": "不构成直接影响，但长期可能通过政策补贴、税收优惠带来服务贸易相关业务的收入增长与成本降低。",
+        "compliance": "需关注规划后续细则中涉及的服务贸易合规要求、数据跨境流动、外资准入等具体监管导向。",
+        "operations": "指导企业优化服务贸易业务布局，提升服务质量、数字化水平及国际化运营能力。",
+        "supplyChain": "推动服务供应链的国际化布局，加强与国际服务供应商、渠道商的合作与协同。",
+        "disclosure": "在ESG或年报中可披露响应国家服务贸易战略的举措、跨境业务进展及成效。",
+        "strategy": "为企业制定“十五五”期间的服务贸易出海、跨境服务布局及市场准入提供宏观战略方向。"
+      },
+      "affectedIndustries": [
+        "数字贸易",
+        "文化贸易",
+        "金融服务",
+        "运输物流",
+        "知识产权服务",
+        "旅游服务",
+        "专业技术服务"
+      ],
+      "affectedCompanyProfile": [
+        "从事跨境服务贸易的企业",
+        "开展数字出口与数据跨境业务的企业",
+        "涉及文化出海、国际物流、跨境金融及技术服务的企业"
+      ],
+      "actions": [
+        "战略发展部｜2026-12-31：研读《服务贸易发展“十五五”规划》全文，结合公司现状制定“十五五”服务贸易业务发展战略。；产出：《公司“十五五”服务贸易发展战略规划报告》",
+        "合规法务部｜2027-03-31：跟踪规划配套细则，梳理服务贸易、数据跨境、外资准入等领域的合规要求，评估现有业务合规风险。；产出：《服务贸易业务合规风险评估与应对方案》",
+        "财务资金部｜2027-06-30：关注并对接地方政府及相关部门出台的配套财政、税收、金融支持政策，申请相关补贴与优惠。；产出：《服务贸易相关政策补贴申请台账及资金规划》"
+      ],
+      "monitoring": [
+        {
+          "date": "待定",
+          "milestone": "各地方政府及相关部门出台具体实施方案与配套细则",
+          "whyItMatters": "决定规划目标能否落地及企业能享受的具体政策红利与合规要求。"
+        },
+        {
+          "date": "待定",
+          "milestone": "相关支持政策（如资金、税收、便利化措施）正式发布",
+          "whyItMatters": "直接影响企业开展服务贸易业务的财务成本与运营效率。"
+        }
+      ],
+      "analystJudgement": "【分析师判断】本规划为宏观指导性文件，短期内不会直接创设新的强制性合规义务或改变财务指标，但明确了未来五年服务贸易的政策红利与战略方向。企业应借此契机优化业务结构，特别是在数字贸易、文化出海和高端专业服务领域提前布局，以获取政策先发优势与资源支持。",
+      "confidence": "高",
+      "gaps": [
+        "《服务贸易发展“十五五”规划》的具体正文内容（如发展目标、重点任务、保障措施等）",
+        "各部委及地方政府的具体配套实施细则与时间表",
+        "针对特定服务贸易领域的具体财政、税收及金融支持政策细节"
+      ],
+      "sources": [
+        "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_6ed41ce4da7e40a4ba7c393a7135c784.html"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-26T06:10:12.418708+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：不构成直接影响，但长期可能通过政策补贴、税收优惠带来服务贸易相关业务的收入增长与成本降低。\n合规：需关注规划后续细则中涉及的服务贸易合规要求、数据跨境流动、外资准入等具体监管导向。\n运营：指导企业优化服务贸易业务布局，提升服务质量、数字化水平及国际化运营能力。\n供应链：推动服务供应链的国际化布局，加强与国际服务供应商、渠道商的合作与协同。\n披露：在ESG或年报中可披露响应国家服务贸易战略的举措、跨境业务进展及成效。\n战略：为企业制定“十五五”期间的服务贸易出海、跨境服务布局及市场准入提供宏观战略方向。",
+      "industries": [
+        "数字贸易",
+        "文化贸易",
+        "金融服务",
+        "运输物流",
+        "知识产权服务",
+        "旅游服务",
+        "专业技术服务"
+      ],
+      "keyPoints": [
+        "2026年11月26日，商务部等8部门印发《服务贸易发展“十五五”规划》。",
+        "规划旨在推动服务贸易高质量发展，加快贸易强国建设。",
+        "规划根据《中华人民共和国国民经济和社会发展第十五个五年规划纲要》和商务领域有关规划编制。"
+      ],
+      "actionsLegacy": [
+        "战略发展部｜2026-12-31：研读《服务贸易发展“十五五”规划》全文，结合公司现状制定“十五五”服务贸易业务发展战略。；产出：《公司“十五五”服务贸易发展战略规划报告》",
+        "合规法务部｜2027-03-31：跟踪规划配套细则，梳理服务贸易、数据跨境、外资准入等领域的合规要求，评估现有业务合规风险。；产出：《服务贸易业务合规风险评估与应对方案》",
+        "财务资金部｜2027-06-30：关注并对接地方政府及相关部门出台的配套财政、税收、金融支持政策，申请相关补贴与优惠。；产出：《服务贸易相关政策补贴申请台账及资金规划》"
+      ],
+      "watchItems": [
+        "待定：各地方政府及相关部门出台具体实施方案与配套细则（决定规划目标能否落地及企业能享受的具体政策红利与合规要求。）",
+        "待定：相关支持政策（如资金、税收、便利化措施）正式发布（直接影响企业开展服务贸易业务的财务成本与运营效率。）"
+      ]
+    },
+    {
+      "id": "3869855ab81abfbf",
+      "title": "EU extends digital transition for waste shipment documents",
+      "datePublished": "2026-11-25",
+      "jurisdiction": "欧盟",
+      "authority": "欧盟委员会环境总司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "废弃物",
+      "legalStatus": "已生效/即将生效",
+      "originalUrl": "https://environment.ec.europa.eu/news/eu-extends-digital-transition-waste-shipment-documents-2026-11-25_en",
+      "linkVerified": true,
+      "contentHash": "33f654deff921be86d7a6c4ae0caca2e63a2ca6847a8e29fbdc360d3705d0239",
+      "collectedAt": "2026-11-26T06:10:12.418708+00:00",
+      "oneLiner": "欧盟将绿色清单废弃物运输文件强制使用DIWASS系统的过渡期延长8个月至2027年9月1日。",
+      "eventType": "会议决定",
+      "impactLevel": "中",
+      "keyFacts": [
+        {
+          "fact": "绿色清单废弃物DIWASS强制使用日期延至2027年9月1日。",
+          "evidence": "extend DIWASS transition for green-listed waste until 1 September 2027"
+        },
+        {
+          "fact": "需事先同意的废弃物自5月21日起已强制使用DIWASS。",
+          "evidence": "Since 21 May, DIWASS for shipments needing prior consent is mandatory"
+        },
+        {
+          "fact": "延期仅适用于非危险废物（绿色清单）的Annex VII文件。",
+          "evidence": "Extension only concerns non-hazardous waste (Annex VII) shipments"
+        },
+        {
+          "fact": "DIWASS相关数字模块于11月15日上线。",
+          "evidence": "Digital module for these shipments became available on 15 November"
+        }
+      ],
+      "professionalAnalysis": "本次调整属于欧盟《废弃物运输条例》修订案下的数字化实施过渡期政策微调。当前阶段为延期决定已生效，新强制生效日为2027年9月1日。适用范围严格限定于欧盟成员国间及进出欧盟的非危险废物（绿色清单）运输的Annex VII文件交换。核心机制是将原定于2027年1月1日强制实施的DIWASS系统提交与处理要求推迟8个月，期间转为自愿使用。与既有规则相比，需事先同意的危险废物等已自5月21日起强制使用DIWASS，本次延期仅针对无需事先批准的绿色清单废弃物。主要不确定性在于企业和系统提供商能否在8个月内完成技术、行政和运营调整，以及各成员国国内系统对接DIWASS的进度差异。",
+      "plainLanguage": "欧盟原本要求从2027年1月1日起，所有非危险废物（绿色清单）的运输文件必须通过数字系统（DIWASS）交换。由于企业和政府准备不足，现在把强制使用的时间推迟了8个月，到2027年9月1日才必须用，之前可以自愿使用。",
+      "companyImpact": {
+        "financial": "增加IT系统对接和数字化改造的资本开支，但延期8个月可缓解短期现金流压力，避免仓促上线导致的额外合规成本。",
+        "compliance": "2027年9月1日前，绿色清单废弃物运输可继续使用纸质Annex VII文件；此后必须通过DIWASS系统提交，否则面临违规风险。",
+        "operations": "物流和关务团队需调整操作流程，适应DIWASS系统的电子文件生成、传输和追踪，需进行员工培训和系统测试。",
+        "supplyChain": "要求供应商和物流服务商同步完成DIWASS系统对接，确保上下游废弃物运输文件的数据一致性和无缝流转。",
+        "disclosure": "废弃物运输数据的数字化将提高透明度，可能影响ESG报告中关于废弃物管理和循环经济的数据披露准确性和可追溯性。",
+        "strategy": "推动企业加速供应链数字化战略，利用DIWASS系统优化废弃物回收和物流路线，提升合规竞争力。"
+      },
+      "affectedIndustries": [
+        "废弃物管理与回收",
+        "物流运输",
+        "制造业",
+        "电子与电气设备"
+      ],
+      "affectedCompanyProfile": [
+        "涉及欧盟境内或跨境非危险废物（绿色清单）运输与回收的企业",
+        "提供废弃物物流与清关服务的第三方公司",
+        "需对接欧盟DIWASS系统的IT与软件服务提供商"
+      ],
+      "actions": [
+        "供应链与物流部/IT部｜2027年6月30日：评估并实施企业内部ERP/物流系统与DIWASS的API对接或数据映射，完成系统联调测试。；产出：DIWASS系统对接技术方案及测试报告",
+        "合规与法务部｜2027年8月1日：梳理涉及欧盟绿色清单废弃物运输的业务清单，更新内部合规手册，明确2027年9月1日后的强制电子申报流程。；产出：绿色清单废弃物DIWASS合规操作指引",
+        "采购与供应商管理部｜2027年5月31日：向第三方物流和废弃物处理供应商发送DIWASS系统对接要求，评估其系统准备情况并纳入合同考核。；产出：供应商DIWASS就绪度评估报告及更新后的服务协议"
+      ],
+      "monitoring": [
+        {
+          "date": "2027年9月1日",
+          "milestone": "DIWASS系统用于Annex VII文件强制生效日。",
+          "whyItMatters": "逾期未通过DIWASS提交绿色清单废弃物文件将面临欧盟及各成员国的执法处罚和运输延误。"
+        },
+        {
+          "date": "待定",
+          "milestone": "欧盟委员会评估DIWASS系统运行及企业准备情况的潜在中期审查。",
+          "whyItMatters": "若系统仍存在重大技术障碍，可能影响最终执行力度或提供进一步指导。"
+        }
+      ],
+      "analystJudgement": "分析师判断：此次延期反映了欧盟在推进环保数字化监管时，充分考虑了产业界的实际落地难度。虽然给予了8个月的缓冲期，但DIWASS全面强制使用的趋势不可逆转。企业应利用此窗口期彻底打通内部系统与DIWASS的数据接口，避免在2027年9月后因系统故障或数据错误导致跨境废弃物运输停滞。",
+      "confidence": "高",
+      "gaps": [
+        "各成员国国内系统对接DIWASS的具体时间表和技术要求",
+        "DIWASS系统API接口的具体技术规范与数据字段要求",
+        "违反DIWASS强制使用规定的具体处罚标准"
+      ],
+      "sources": [
+        "https://environment.ec.europa.eu/news/eu-extends-digital-transition-waste-shipment-documents-2026-11-25_en"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-26T06:10:12.418708+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：增加IT系统对接和数字化改造的资本开支，但延期8个月可缓解短期现金流压力，避免仓促上线导致的额外合规成本。\n合规：2027年9月1日前，绿色清单废弃物运输可继续使用纸质Annex VII文件；此后必须通过DIWASS系统提交，否则面临违规风险。\n运营：物流和关务团队需调整操作流程，适应DIWASS系统的电子文件生成、传输和追踪，需进行员工培训和系统测试。\n供应链：要求供应商和物流服务商同步完成DIWASS系统对接，确保上下游废弃物运输文件的数据一致性和无缝流转。\n披露：废弃物运输数据的数字化将提高透明度，可能影响ESG报告中关于废弃物管理和循环经济的数据披露准确性和可追溯性。\n战略：推动企业加速供应链数字化战略，利用DIWASS系统优化废弃物回收和物流路线，提升合规竞争力。",
+      "industries": [
+        "废弃物管理与回收",
+        "物流运输",
+        "制造业",
+        "电子与电气设备"
+      ],
+      "keyPoints": [
+        "绿色清单废弃物DIWASS强制使用日期延至2027年9月1日。",
+        "需事先同意的废弃物自5月21日起已强制使用DIWASS。",
+        "延期仅适用于非危险废物（绿色清单）的Annex VII文件。",
+        "DIWASS相关数字模块于11月15日上线。"
+      ],
+      "actionsLegacy": [
+        "供应链与物流部/IT部｜2027年6月30日：评估并实施企业内部ERP/物流系统与DIWASS的API对接或数据映射，完成系统联调测试。；产出：DIWASS系统对接技术方案及测试报告",
+        "合规与法务部｜2027年8月1日：梳理涉及欧盟绿色清单废弃物运输的业务清单，更新内部合规手册，明确2027年9月1日后的强制电子申报流程。；产出：绿色清单废弃物DIWASS合规操作指引",
+        "采购与供应商管理部｜2027年5月31日：向第三方物流和废弃物处理供应商发送DIWASS系统对接要求，评估其系统准备情况并纳入合同考核。；产出：供应商DIWASS就绪度评估报告及更新后的服务协议"
+      ],
+      "watchItems": [
+        "2027年9月1日：DIWASS系统用于Annex VII文件强制生效日。（逾期未通过DIWASS提交绿色清单废弃物文件将面临欧盟及各成员国的执法处罚和运输延误。）",
+        "待定：欧盟委员会评估DIWASS系统运行及企业准备情况的潜在中期审查。（若系统仍存在重大技术障碍，可能影响最终执行力度或提供进一步指导。）"
+      ]
+    },
     {
       "id": "5b3507102b5b9811",
       "title": "Representatives of European regions and local communities gather in Dublin to accelerate adaptation to climate change",
@@ -150,6 +370,124 @@
       ]
     },
     {
+      "id": "12e087c6a9657700",
+      "title": "Chinese Tech Giant Huawei and Subsidiaries Convicted of Sanctions Violations, Fraud, Conspiracy to Steal Trade Secrets, and Money Laundering",
+      "datePublished": "2026-11-24",
+      "jurisdiction": "美国",
+      "authority": "美国司法部反垄断司",
+      "sourceType": "official",
+      "sourceTier": "S",
+      "section": "政策法规",
+      "topic": "供应链安全",
+      "legalStatus": "执法/诉讼",
+      "originalUrl": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
+      "linkVerified": true,
+      "contentHash": "2c83eef7bb9ae8f6891b17128c51637a6f87cd55a40a732a73505b4156a964c6",
+      "collectedAt": "2026-11-26T06:10:12.418708+00:00",
+      "oneLiner": "美司法部宣布华为及三家子公司被陪审团裁定违反对伊制裁、银行欺诈、洗钱及窃取商业秘密等罪名成立，量刑定于2027年9月。",
+      "eventType": "法院裁决",
+      "impactLevel": "高",
+      "keyFacts": [
+        {
+          "fact": "华为及三家子公司被纽约东区联邦陪审团裁定多项罪名成立。",
+          "evidence": "A federal jury in the Eastern District of New York returned guilty verdicts against Huawei Technologies and three of its subsidiaries."
+        },
+        {
+          "fact": "定罪罪名包括违反IEEPA、电信和银行欺诈、洗钱共谋及窃取商业秘密共谋等。",
+          "evidence": "The jury convicted Huawei and three subsidiaries of conspiracy to steal trade secrets... substantive violations of IEEPA, and money laundering conspiracy."
+        },
+        {
+          "fact": "华为通过“Skycom”名义在伊朗开展业务，并向银行撒谎以获取数十亿美元及美元清算服务。",
+          "evidence": "Huawei conducted its business in Iran under the name “Skycom.” Huawei lied about its activities in Iran to banks to obtain billions of U.S. dollars..."
+        },
+        {
+          "fact": "量刑听证会定于2027年9月14日举行，被告将面临刑事罚款、没收和赔偿。",
+          "evidence": "Sentencing has been set for Sept. 14, 2027. the defendants face financial penalties including criminal fines, forfeiture, and restitution."
+        },
+        {
+          "fact": "涉案子公司包括华为设备（中国）、Futurewei（美国）和华为设备美国公司。",
+          "evidence": "including Chinese subsidiary Huawei Device Co. Ltd. and U.S. subsidiaries Futurewei Technologies Inc. and Huawei Device USA Inc."
+        }
+      ],
+      "professionalAnalysis": "本案为美国司法部针对华为及其子公司长期涉嫌违反出口管制与制裁、金融欺诈及知识产权盗窃的刑事审判结果。当前阶段为陪审团已作出有罪裁决，等待法官最终量刑。核心机制在于通过IEEPA及银行欺诈等联邦重罪条款，对利用美国金融系统进行违规交易及窃取商业秘密的行为进行长臂管辖与刑事打击。适用范围涵盖华为及其指定的中美子公司。与既有规则相比，此案标志着美国执法机构对跨国科技企业合规底线的实质性司法穿透，不仅追究实体责任，更通过没收和赔偿剥夺非法所得。主要不确定性在于2027年9月量刑阶段法官裁定的具体罚款金额、没收资产规模及是否附加其他合规监管条件，这将直接决定其财务冲击与后续运营限制。",
+      "plainLanguage": "美国陪审团经过三个月审理，认定华为及其三家子公司犯有违反对伊朗制裁、欺骗银行、洗钱和窃取美国公司商业秘密等多项重罪。法院将于2027年9月进行量刑，华为将面临巨额罚款、资产没收和赔偿。这表明美国正通过刑事手段严厉打击利用美国金融系统违规及窃取技术的行为。",
+      "companyImpact": {
+        "financial": "面临刑事罚款、资产没收（forfeiture）和赔偿（restitution），具体金额待2027年9月量刑确定，可能导致重大现金流出和预计负债增加。",
+        "compliance": "被裁定违反IEEPA、银行欺诈及洗钱等联邦重罪，可能触发美国金融机构的合规清退、吊销相关许可，并面临更严格的合规监察或限制。",
+        "operations": "美国子公司（Futurewei, Huawei Device USA）及中国子公司（Huawei Device）涉案，其在美国的研发、运营及人员活动可能受到严格限制或被迫关停。",
+        "supplyChain": "窃取商业秘密的定罪可能导致美国供应商、技术合作伙伴终止合作，增加获取美国核心技术、零部件及软件的合规审查与断供风险。",
+        "disclosure": "作为重大诉讼和定罪事件，需在港股年报及中期报告中详细披露案件进展、预计负债计提情况及对持续经营能力的潜在影响。",
+        "strategy": "刑事定罪严重损害企业声誉，可能导致全球多国市场准入受限、客户流失，迫使企业加速非美供应链重构及业务战略调整。"
+      },
+      "affectedIndustries": [
+        "电信设备制造",
+        "消费电子",
+        "跨国科技研发"
+      ],
+      "affectedCompanyProfile": [
+        "在美拥有研发或运营子公司的中国科技企业",
+        "业务涉及受美国制裁国家（如伊朗）的跨国企业",
+        "高度依赖美国金融清算系统及美元结算的出海企业",
+        "与美国企业存在技术合作或竞争关系的科技公司"
+      ],
+      "actions": [
+        "法务部/合规部｜2026年12月31日：评估陪审团裁决对公司及涉案子公司的直接法律后果，梳理美国金融系统准入及许可资质风险。；产出：《华为案刑事裁决对公司合规与运营影响评估报告》",
+        "财务部｜2027年1月31日：联合外部法律顾问测算可能的刑事罚款、没收及赔偿金额区间，评估是否需要计提预计负债。；产出：《案件财务影响测算及预计负债计提方案》",
+        "业务/供应链管理部｜2026年12月15日：排查与美国供应商、技术合作伙伴的现有合同，评估因定罪触发的终止条款及替代供应链方案。；产出：《美国供应链风险排查及业务连续性计划》",
+        "董事会秘书/信息披露部｜2026年11月30日：评估该重大诉讼裁决结果对港股信息披露的要求，准备相关公告或年报披露草案。；产出：《重大诉讼进展公告草案及披露合规审查表》"
+      ],
+      "monitoring": [
+        {
+          "date": "2027年9月14日",
+          "milestone": "联邦地区法院法官进行量刑听证并作出判决",
+          "whyItMatters": "将确定最终的刑事罚款、没收和赔偿金额，直接决定公司的财务损失规模及后续合规监管条件。"
+        },
+        {
+          "date": "待定",
+          "milestone": "美国财政部OFAC或商务部BIS可能基于刑事定罪追加的行政制裁或实体清单调整",
+          "whyItMatters": "可能进一步限制公司使用美元结算或获取美国技术，扩大对全球供应链和运营的实质性封锁。"
+        }
+      ],
+      "analystJudgement": "分析师判断：此次定罪是美方对华为合规争议的阶段性司法终局，标志着从行政制裁向刑事定罪的重大升级。多项重罪成立已实质性剥夺华为在美子公司的正常运营基础。预计美方将利用没收和罚款机制最大化经济惩罚，并可能联合盟友强化技术封锁。投资者需警惕估值折价及大额资产减值风险。",
+      "confidence": "高",
+      "gaps": [
+        "原文未披露具体的罚款金额上限或没收资产的具体估值",
+        "原文未披露除涉案三家子公司外，华为母公司及其他关联实体是否面临连带限制",
+        "原文未披露定罪后是否会自动触发美国其他行政部门（如OFAC、BIS）的附加制裁"
+      ],
+      "sources": [
+        "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy"
+      ],
+      "analysisMethod": "AI逐条独立分析",
+      "analysisModel": "qwen3.7-plus",
+      "analysisAt": "2026-11-26T06:10:12.418708+00:00",
+      "analysisPromptVersion": "v4-independent-2026-11",
+      "analysisStatus": "complete",
+      "hkImpact": "财务：面临刑事罚款、资产没收（forfeiture）和赔偿（restitution），具体金额待2027年9月量刑确定，可能导致重大现金流出和预计负债增加。\n合规：被裁定违反IEEPA、银行欺诈及洗钱等联邦重罪，可能触发美国金融机构的合规清退、吊销相关许可，并面临更严格的合规监察或限制。\n运营：美国子公司（Futurewei, Huawei Device USA）及中国子公司（Huawei Device）涉案，其在美国的研发、运营及人员活动可能受到严格限制或被迫关停。\n供应链：窃取商业秘密的定罪可能导致美国供应商、技术合作伙伴终止合作，增加获取美国核心技术、零部件及软件的合规审查与断供风险。\n披露：作为重大诉讼和定罪事件，需在港股年报及中期报告中详细披露案件进展、预计负债计提情况及对持续经营能力的潜在影响。\n战略：刑事定罪严重损害企业声誉，可能导致全球多国市场准入受限、客户流失，迫使企业加速非美供应链重构及业务战略调整。",
+      "industries": [
+        "电信设备制造",
+        "消费电子",
+        "跨国科技研发"
+      ],
+      "keyPoints": [
+        "华为及三家子公司被纽约东区联邦陪审团裁定多项罪名成立。",
+        "定罪罪名包括违反IEEPA、电信和银行欺诈、洗钱共谋及窃取商业秘密共谋等。",
+        "华为通过“Skycom”名义在伊朗开展业务，并向银行撒谎以获取数十亿美元及美元清算服务。",
+        "量刑听证会定于2027年9月14日举行，被告将面临刑事罚款、没收和赔偿。",
+        "涉案子公司包括华为设备（中国）、Futurewei（美国）和华为设备美国公司。"
+      ],
+      "actionsLegacy": [
+        "法务部/合规部｜2026年12月31日：评估陪审团裁决对公司及涉案子公司的直接法律后果，梳理美国金融系统准入及许可资质风险。；产出：《华为案刑事裁决对公司合规与运营影响评估报告》",
+        "财务部｜2027年1月31日：联合外部法律顾问测算可能的刑事罚款、没收及赔偿金额区间，评估是否需要计提预计负债。；产出：《案件财务影响测算及预计负债计提方案》",
+        "业务/供应链管理部｜2026年12月15日：排查与美国供应商、技术合作伙伴的现有合同，评估因定罪触发的终止条款及替代供应链方案。；产出：《美国供应链风险排查及业务连续性计划》",
+        "董事会秘书/信息披露部｜2026年11月30日：评估该重大诉讼裁决结果对港股信息披露的要求，准备相关公告或年报披露草案。；产出：《重大诉讼进展公告草案及披露合规审查表》"
+      ],
+      "watchItems": [
+        "2027年9月14日：联邦地区法院法官进行量刑听证并作出判决（将确定最终的刑事罚款、没收和赔偿金额，直接决定公司的财务损失规模及后续合规监管条件。）",
+        "待定：美国财政部OFAC或商务部BIS可能基于刑事定罪追加的行政制裁或实体清单调整（可能进一步限制公司使用美元结算或获取美国技术，扩大对全球供应链和运营的实质性封锁。）"
+      ]
+    },
+    {
       "id": "33e74dfaef28badd",
       "title": "中国代表团出席联合国气候变化安塔利亚大会",
       "datePublished": "2026-11-23",
@@ -163,7 +501,7 @@
       "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261123_1187193.shtml",
       "linkVerified": true,
       "contentHash": "6218447cfd417db8b4f13e5352db1588eeaf93c1d8e246f6e902309dfd241bf9",
-      "collectedAt": "2026-11-25T06:17:35.213101+00:00",
+      "collectedAt": "2026-11-26T06:10:12.418708+00:00",
       "pinned": false,
       "oneLiner": "中华人民共和国生态环境部",
       "eventType": "其他",
@@ -194,7 +532,7 @@
       ],
       "analysisMethod": "待分析",
       "analysisStatus": "pending",
-      "analysisAt": "2026-11-25T06:17:35.213101+00:00",
+      "analysisAt": "2026-11-26T06:10:12.418708+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
       "impactLevel": "中",
       "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
