@@ -1,19 +1,64 @@
 {
-  "generatedAt": "2026-11-27T05:59:32.444747+00:00",
+  "generatedAt": "2026-11-28T05:41:37.725013+00:00",
   "count": 109,
   "analysis": {
     "mode": "independent-per-article",
     "model": "qwen3.7-plus",
-    "analysedThisRun": 4,
+    "analysedThisRun": 1,
     "reanalysedThisRun": 1,
-    "addedThisRun": 3,
+    "addedThisRun": 0,
     "pendingCount": 1
   },
   "errors": [
     {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20241212_HKFRS_S1_S2: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20241212_HKFRS_S1_S2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20240711_Best-CG-and-ESG-Awards_2024 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231129_BCGESGA2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231129_BCGESGA2023 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hkicpa.or"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/20231114_ESG-Assurance-Research-2023: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/20231114_ESG-Assurance-Research-2023 (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Best-Corporate-Governance-n-ESG-Awards-2022 (Caused by ConnectTim"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021-results-announcement (Caused by ConnectT"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/BCG-and-ESG-Awards-2021: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/BCG-and-ESG-Awards-2021 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hki"
+    },
+    {
+      "source": "香港会计师公会",
+      "url": "https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change",
+      "error": "Request failed after 3 attempts: https://www.hkicpa.org.hk/en/News/News-Release/Accountants-taking-on-climate-change: HTTPSConnectionPool(host='www.hkicpa.org.hk', port=443): Max retries exceeded with url: /en/News/News-Release/Accountants-taking-on-climate-change (Caused by ConnectTimeoutError(<HTT"
+    },
+    {
       "source": "欧盟理事会",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/",
       "error": "Request failed after 3 attempts: https://www.consilium.europa.eu/en/press/press-releases/: 403 Client Error: Forbidden for url: https://www.consilium.europa.eu/en/press/press-releases/"
+    },
+    {
+      "source": "美国司法部反垄断司",
+      "url": "https://www.justice.gov/atr/press-room",
+      "error": "Request failed after 3 attempts: https://www.justice.gov/atr/press-room: 403 Client Error: Forbidden for url: https://www.justice.gov/atr/press-room"
     },
     {
       "source": "美国联邦贸易委员会",
@@ -844,7 +889,7 @@
       "originalUrl": "https://www.mee.gov.cn/ywdt/hjywnews/202611/t20261123_1187193.shtml",
       "linkVerified": true,
       "contentHash": "6218447cfd417db8b4f13e5352db1588eeaf93c1d8e246f6e902309dfd241bf9",
-      "collectedAt": "2026-11-27T05:59:32.444747+00:00",
+      "collectedAt": "2026-11-28T05:41:37.725013+00:00",
       "pinned": false,
       "oneLiner": "中华人民共和国生态环境部",
       "eventType": "其他",
@@ -875,7 +920,7 @@
       ],
       "analysisMethod": "待分析",
       "analysisStatus": "pending",
-      "analysisAt": "2026-11-27T05:59:32.444747+00:00",
+      "analysisAt": "2026-11-28T05:41:37.725013+00:00",
       "analysisPromptVersion": "v4-independent-2026-11",
       "impactLevel": "中",
       "hkImpact": "财务：待分析\n合规：待分析\n运营：待分析\n供应链：待分析\n披露：待分析\n战略：待分析",
